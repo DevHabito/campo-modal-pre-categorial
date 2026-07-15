@@ -62,4 +62,4 @@ The project has not derived physical spacetime, calibrated time, physical distan
 
 ## Citation and license
 
-Update `CITATION.cff` with the final GitHub URL and release DOI. No license has been selected; read `LICENSE_PENDING.md` before publishing.
+Please cite the repository release and the specific audit or manuscript used. Software in this repository is licensed under Apache-2.0. Scientific content, documentation, figures, tables, CSV files, JSON result files, reports, and other research outputs are licensed under CC BY 4.0. See `LICENSE.md`, `NOTICE`, and the `LICENSES/` directory.

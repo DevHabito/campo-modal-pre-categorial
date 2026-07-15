@@ -7,8 +7,8 @@ authors:
     given-names: Felipe Gianini
     alias: Felipe G. Romero
 year: 2026
-repository-code: "REPLACE_WITH_GITHUB_REPOSITORY_URL"
-license: "NOASSERTION"
+repository-code: "https://github.com/DevHabito/campo-modal-pre-categorial"
+license: "Apache-2.0 AND CC-BY-4.0"
 abstract: >-
   Reproducible computational audits and formal notes for the Modal Field / RZS
   research programme. The repository separates proofs, exact enumeration,
