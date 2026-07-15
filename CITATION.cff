@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "Modal Field Research: Relational Order, Measure, Refinement, and Coarse-Grained Dynamics"
+message: "Please cite the repository release and the specific audit or manuscript used."
+type: software
+authors:
+  - family-names: Romero
+    given-names: Felipe Gianini
+    alias: Felipe G. Romero
+year: 2026
+repository-code: "REPLACE_WITH_GITHUB_REPOSITORY_URL"
+license: "NOASSERTION"
+abstract: >-
+  Reproducible computational audits and formal notes for the Modal Field / RZS
+  research programme. The repository separates proofs, exact enumeration,
+  synthetic witnesses, failed protocols, and corrected protocols.

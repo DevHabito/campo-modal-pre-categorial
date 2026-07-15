@@ -1,0 +1,500 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=2.35cm]{geometry}
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usepackage{setspace}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{framed}
+
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=black,citecolor=black}
+\setstretch{1.08}
+\setlist[itemize]{topsep=4pt,itemsep=2pt,parsep=0pt,leftmargin=1.4em}
+\setlist[enumerate]{topsep=4pt,itemsep=2pt,parsep=0pt,leftmargin=1.6em}
+\titlespacing*{\section}{0pt}{1.2em}{0.55em}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.35em}
+\titleformat{\section}{\Large\bfseries\sffamily}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\large\bfseries\sffamily}{\thesubsection}{0.7em}{}
+\sloppy
+
+\newcommand{\CMP}{\mathcal{M}}
+\newcommand{\Ui}{U_i}
+\newcommand{\PiM}{P_i}
+\newcommand{\Closure}{\mathcal{C}}
+\newcommand{\Inv}{\mathcal{I}}
+\newcommand{\depends}{\Rightarrow}
+
+\newenvironment{claimbox}{\begin{framed}\small}{\end{framed}}
+\newenvironment{corebox}{\begin{framed}\small\bfseries}{\end{framed}}
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+\vspace*{2.2cm}
+{\Large\sffamily Ensaio conceitual}\par
+\vspace{0.7cm}
+{\Huge\bfseries\sffamily O Campo Modal Pré-Categorial}\par
+\vspace{0.35cm}
+{\LARGE\bfseries\sffamily e o Nascimento de Domínios Autocontidos}\par
+\vspace{1.1cm}
+{\large Uma tese especulativa sobre o ``before'' do tempo, do espaço e da geometria}\par
+\vfill
+{\large Felipe G. Romero}\par
+\vspace{0.4cm}
+{\large 2026}\par
+\vspace*{1.5cm}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section*{Resumo}
+\addcontentsline{toc}{section}{Resumo}
+
+Este ensaio organiza uma tese especulativa sobre a possibilidade de pensar um fundamento anterior não apenas à geometria, mas também ao tempo, ao espaço, à causalidade, aos eventos e às leis físicas. A tese central é que o chamado \emph{before} não deve ser entendido como um passado do universo, nem como um lugar externo onde universos aparecem. Ele deve ser entendido como um campo modal pré-categorial: uma condição atemporal de determinabilidade, anterior à distinção entre aparecer e não aparecer, existir e não existir, dentro e fora, antes e depois.
+
+A partir desse campo modal, não surgiriam coisas dentro de um tempo externo. Em vez disso, algumas possibilidades conseguiriam fechar-se como domínios autocontidos. Um domínio autocontido é uma possibilidade que, ao atingir consistência interna, inaugura o próprio palco no qual espaço, tempo, regularidade, história e geometria fazem sentido. Assim, o universo não teria surgido \emph{em} um antes; ele seria uma possibilidade que produziu internamente o antes e o depois pelos quais agora parece ter começado.
+
+\begin{corebox}
+Tese nuclear: o before não é um lugar onde resultados aparecem. O before é a condição pela qual alguns resultados conseguem criar um lugar, um tempo e um aparecer.
+\end{corebox}
+
+\section{O problema}
+
+A pergunta tradicional é: \emph{como o universo começou?} Mas essa pergunta carrega uma estrutura escondida. Quando perguntamos pelo começo, quase sempre imaginamos um antes, um depois, um evento, uma causa e um palco onde o evento ocorre. Isso já coloca tempo e espaço na explicação da origem do tempo e do espaço.
+
+O problema não é apenas físico. É conceitual. Se o tempo é parte daquilo que deve ser explicado, então não podemos usar um tempo externo para explicar seu nascimento. Se o espaço é parte daquilo que deve ser explicado, então não podemos imaginar um recipiente externo onde o universo aparece. Se leis físicas são internas ao domínio cósmico, então não podemos simplesmente supor uma lei física anterior operando antes da própria física.
+
+O pensamento comum cai em tres armadilhas:
+
+\begin{enumerate}
+    \item imaginar o before como um passado;
+    \item imaginar o fundamento como uma coisa;
+    \item imaginar o nascimento do universo como um evento dentro de um palco já dado.
+\end{enumerate}
+
+Essas três imagens parecem naturais porque nossa experiência é temporal, espacial e causal. Mas talvez elas sejam categorias do \emph{after}, não do fundamento.
+
+\section{A pergunta corrigida}
+
+A pergunta não deve ser:
+
+\begin{quote}
+Como algo surgiu antes do universo?
+\end{quote}
+
+Essa pergunta ainda supoe um antes. A pergunta mais profunda e:
+
+\begin{quote}
+Qual condição torna possível que haja um domínio no qual antes, depois, lugar, evento, permanência e existência determinada façam sentido?
+\end{quote}
+
+Essa pergunta não pede uma causa temporal. Ela pede uma condição de possibilidade.
+
+\begin{claimbox}
+O ponto de partida não é a busca por um primeiro evento, mas a busca pela condição mínima pela qual eventos podem existir.
+\end{claimbox}
+
+\section{Nada absoluto, vazio e campo modal}
+
+E necessário separar tres ideias que costumam se misturar.
+
+\subsection{Nada absoluto}
+
+O nada absoluto não é um vazio escuro, nem um espaço sem coisas. Isso ainda seria espaço. Nada absoluto significaria ausência de tempo, espaço, lei, possibilidade, relação, identidade e diferença. Nesse sentido, ele não é um estado inicial. Ele não pode mudar, não pode gerar, não pode esperar e não pode conter potência.
+
+A expressao
+\[
+\varnothing \to X
+\]
+parece uma transição, mas a própria seta já introduz estrutura. Se há uma transição, já não há nada absoluto. Portanto, o nada absoluto não pode ser origem operacional de nada. Ele é apenas o limite no qual toda explicação perde objeto.
+
+\subsection{Vazio físico}
+
+Um vazio físico ainda pertence a um domínio. Ele pode ter métricas, campos, flutuações, energia de vácuo, coordenadas ou estrutura matemática. Mesmo quando não contém matéria ordinária, ele não é nada absoluto. Ele já é after.
+
+\subsection{Campo modal pré-categorial}
+
+O campo modal pré-categorial não é vazio físico e também não é nada absoluto. Ele é uma hipótese conceitual: uma condição atemporal de determinabilidade. Não é um lugar. Não é uma duração. Não é um objeto. Não é uma lei física. É o mínimo necessário para que possibilidades de determinação possam ser pensadas sem pressupor tempo e espaço.
+
+Representemos esse campo por:
+\[
+\CMP
+\]
+
+Essa notacao não significa que \(\CMP\) sejá um conjunto espacial ou uma entidade física. Ela apenas marca o nível conceitual do qual domínios determinados podem depender.
+
+\section{Definicoes centrais}
+
+\subsection{Before}
+
+O \emph{before} não é o passado do universo. Ele é o nome inadequado, mas útil, para um nível no qual passado, presente e futuro ainda não se aplicam. Ele não vem antes no tempo. Ele é anterior no sentido de dependência: sem ele, não haveria domínio no qual tempo pudesse aparecer.
+
+\subsection{After}
+
+O \emph{after} é qualquer domínio no qual existem distinção, permanência, relação, regularidade e alguma ordem interna. O nosso universo pertence ao after. Nele, há tempo, espaço, história, causalidade e geometria.
+
+\subsection{Possibilidade modal}
+
+Uma possibilidade modal não é uma coisa esperando para existir. É uma forma possível de determinação. Ela não está em um lugar e não aguarda um momento. Ela é uma candidata a fechamento.
+
+\subsection{Fechamento}
+
+Fechamento é a condição pela qual uma possibilidade deixa de ser apenas determinável e passa a constituir um domínio autocontido. Uma possibilidade fecha quando consegue sustentar diferenças internas, invariâncias e regularidades suficientes para formar um interior próprio.
+
+\subsection{Domínio autocontido}
+
+Um domínio autocontido é uma realidade interna. Ele não precisa de um espaço externo para estar situado, porque seu espaço, se existir, é interno. Ele não precisa de um tempo externo para começar, porque seu tempo, se existir, é interno.
+
+\begin{corebox}
+Um universo é uma possibilidade que conseguiu fundar o próprio palco onde sua existência faz sentido.
+\end{corebox}
+
+\section{As propriedades do campo modal}
+
+Quando se diz que o campo modal ``tem propriedades'', isso não deve ser entendido como um objeto que possui atributos físicos. As propriedades do campo modal são condições pré-físicas. Elas não são massa, energia, carga, curvatura, distância ou tempo. Elas são propriedades de possibilidade.
+
+A proposta mínima inclui cinco propriedades modais.
+
+\subsection{Determinabilidade}
+
+Determinabilidade é a possibilidade de que algo possa ser definido de algum modo. Ainda não é uma coisa definida. É a condição para que uma definição possa ocorrer.
+
+\[
+\text{pré-indeterminação} \depends \text{determinável}
+\]
+
+A seta aqui não é temporal. Ela indica dependência conceitual.
+
+\subsection{Excludibilidade}
+
+Para algo ser determinado, ele deve excluir alguma outra coisa. Ser \(A\) implica não ser simplesmente tudo. A primeira determinação envolve uma perda de liberdade: ganhar identidade significa deixar de ser qualquer coisa.
+
+\[
+A \neq \neg A
+\]
+
+Essa expressão ainda é tardia, porque já usa \(A\). Mas ela simboliza a intuição: sem exclusão, não há diferença; sem diferença, não há domínio.
+
+\subsection{Consistencia}
+
+Nem toda possibilidade pode fechar. Algumas possibilidades não são contraditórias no sentido humano comum, mas não possuem coesão suficiente para constituir um domínio. Elas não desaparecem depois; simplesmente não se completam como realidade interna.
+
+\[
+\PiM \not\depends \Ui
+\]
+
+Nesse caso, \(\PiM\) não gera um universo. Ela permanece como possibilidade sem fechamento.
+
+\subsection{Invariancia}
+
+Invariância é a capacidade de uma determinação permanecer reconhecível sob suas próprias relações. Sem invariância mínima, não há identidade. Sem identidade, não há parte. Sem parte, não há história.
+
+\[
+\Inv(\PiM) > 0
+\]
+
+Essa desigualdade não é uma medida física. Ela apenas expressa que um domínio exige alguma estabilidade de identidade.
+
+\subsection{Generatividade}
+
+Uma possibilidade fechada não é apenas um ponto isolado. Ela gera um interior: relações, assimetrias, regularidades, sequências, talvez campos, talvez geometria. A generatividade é a capacidade de um fechamento produzir consequências internas.
+
+\section{Formalizacao mínima}
+
+A tese pode ser organizada em uma forma muito simples.
+
+Seja \(\CMP\) o campo modal pré-categorial. Seja \(\PiM\) uma possibilidade de determinação. Seja \(\Closure\) um operador abstrato de fechamento. Uma possibilidade forma um domínio autocontido \(\Ui\) quando ela é estável sob seu próprio fechamento:
+
+\[
+\Closure(\PiM) = \PiM
+\]
+
+Nesse caso:
+
+\[
+\PiM \depends \Ui
+\]
+
+Mas a seta significa:
+
+\begin{quote}
+\(\Ui\) depende ontologicamente de \(\PiM\), não que \(\PiM\) ocorreu antes de \(\Ui\) no tempo.
+\end{quote}
+
+Uma possibilidade que não satisfaz fechamento não se torna domínio:
+
+\[
+\Closure(\PiM) \neq \PiM \quad \Rightarrow \quad \PiM \nRightarrow \Ui
+\]
+
+Assim, não há necessidade de um seletor externo. A distinção entre possibilidades que fecham e não fecham é dada pela própria autoconsistência.
+
+\section{O nascimento de um universo}
+
+Um universo, nessa tese, não é uma coisa que aparece dentro do campo modal. Essa imagem está errada, porque o campo modal não é um espaço. Um universo também não aparece em um momento do campo modal, porque o campo modal não é temporal.
+
+A formulação correta é:
+
+\begin{quote}
+Um universo é uma possibilidade autoconsistente que, ao fechar-se, inaugura seu próprio regime interno de aparição.
+\end{quote}
+
+Isso significa que tempo e espaço não são recipientes anteriores ao universo. Eles são dimensões internas do domínio fechado. O universo não aparece \emph{em} um palco; ele cria o palco no qual a palavra aparecer passa a ter sentido.
+
+\begin{center}
+\begin{tikzpicture}[node distance=1.6cm,>=latex]
+\node[draw, rounded corners, align=center, minimum width=4.7cm, minimum height=0.9cm] (m) {Campo modal pré-categorial \\ \(\CMP\)};
+\node[draw, rounded corners, align=center, below left=1.3cm and 0.6cm of m, minimum width=3.3cm] (p1) {possibilidade \\ sem fechamento};
+\node[draw, rounded corners, align=center, below right=1.3cm and 0.6cm of m, minimum width=3.3cm] (p2) {possibilidade \\ autoconsistente};
+\node[draw, rounded corners, align=center, below=1.3cm of p2, minimum width=3.7cm] (u) {domínio autocontido \\ \(U_i = T_i,S_i,R_i,L_i\)};
+\draw[->] (m) -- (p1);
+\draw[->] (m) -- (p2);
+\draw[->] (p2) -- (u);
+\draw[->, dashed] (p1) -- ++(0,-0.9) node[below, align=center] {sem mundo interno};
+\end{tikzpicture}
+\end{center}
+
+No diagrama, as setas não são eventos temporais. Elas indicam dependência estrutural.
+
+\section{A inversao decisiva: aparecer exige domínio}
+
+No pensamento comum, primeiro algo aparece, depois ocupa um domínio. Nesta tese, a ordem é invertida:
+
+\begin{quote}
+Algo só pode aparecer quando há um domínio no qual aparecer é uma categoria válida.
+\end{quote}
+
+Logo, o universo não é um resultado que invade o campo modal. Ele é um resultado que cria sua própria condição de manifestação. O campo modal não é violado, penetrado ou ocupado. O universo se auto-delimita a partir de uma possibilidade modal.
+
+A frase decisiva é:
+
+\begin{corebox}
+O before não é um lugar onde resultados aparecem. O before é a condição pela qual alguns resultados conseguem criar um lugar, um tempo e um aparecer.
+\end{corebox}
+
+\section{O problema do ``por que não antes?''}
+
+A pergunta ``por que o universo não começou antes?'' só faz sentido se houver um tempo externo no qual o começo pudesse variar. Mas, nessa tese, o tempo é interno ao domínio fechado. Logo, não existe um antes externo no qual o universo pudesse ter aparecido mais cedo.
+
+Se \(T_i\) é o tempo interno de \(U_i\), então perguntar por que \(U_i\) não surgiu antes de \(T_i\) é confundir o interior do domínio com seu fundamento modal.
+
+\[
+T_i \subset U_i
+\]
+
+O tempo não mede o fechamento de \(U_i\) a partir de fora. Ele é uma das consequências internas do fechamento.
+
+Portanto:
+
+\begin{quote}
+O universo não começou dentro de um tempo anterior. Ele é uma possibilidade que, ao fechar-se, produziu internamente o tempo no qual seu começo pode ser descrito.
+\end{quote}
+
+\section{O problema da ``caixa''}
+
+A mente imagina o universo como algo dentro de uma caixa maior. Mas se a caixa tem tamanho, borda, exterior e interior, ela já é espacial. Se ela foi feita em algum momento, ela já é temporal. Portanto, a caixa não pode ser o fundamento do espaço e do tempo.
+
+O campo modal pré-categorial não é uma caixa. Ele não contém universos como objetos dentro de um recipiente. Ele fundamenta possibilidades de domínio. Cada domínio fechado cria seu próprio interior.
+
+\[
+\CMP \not\supset U_i \quad \text{como recipiente espacial}
+\]
+
+Mas:
+
+\[
+\CMP \depends U_i \quad \text{como condição modal de possibilidade}
+\]
+
+A relação é modal, não espacial.
+
+\section{O problema do ``sempre existiu''}
+
+Dizer que o campo modal ``sempre existiu'' pode confundir. Se ``sempre'' significa duração infinita, então ainda estamos falando de tempo. O campo modal não deve ser pensado como algo que dura infinitamente antes dos universos.
+
+A formulação mais rigorosa e:
+
+\begin{quote}
+O campo modal não começa, não dura e não termina. Ele não está no tempo. Ele é uma condição atemporal de determinabilidade.
+\end{quote}
+
+Assim, ele não espera para gerar universos. Esperar é uma categoria temporal. O campo modal não aguarda. Ele também não decide. Decisão é processo. Ele simplesmente é a condição pela qual possibilidades autoconsistentes podem ter domínio interno.
+
+\section{O que significa dissolução sem tempo?}
+
+Foi dito que algumas possibilidades ``se dissolvem''. Mas, sem tempo externo, dissolução não pode significar aparecer e depois desaparecer. Isso seria temporal.
+
+Dissolver, aqui, significa:
+
+\begin{quote}
+não possuir fechamento suficiente para constituir domínio interno.
+\end{quote}
+
+Uma possibilidade sem fechamento não morre. Ela não chega a ser mundo. Ela não funda um interior onde morte, duração ou desaparecimento façam sentido.
+
+Assim:
+
+\[
+\Closure(P_a) \neq P_a \quad \Rightarrow \quad \text{sem domínio}
+\]
+
+\[
+\Closure(P_b) = P_b \quad \Rightarrow \quad \text{domínio autocontido}
+\]
+
+\section{O after como perda de liberdade}
+
+O campo modal pode ser pensado como liberdade pré-categorial. Mas liberdade total não possui forma. Para algo ser algo, ele precisa deixar de ser qualquer coisa. Portanto, o nascimento de um domínio é também uma perda de liberdade.
+
+\begin{quote}
+Existir é perder infinitas indeterminações para ganhar identidade.
+\end{quote}
+
+O after começa quando uma possibilidade aceita uma forma, uma restrição, uma invariância. Essa restrição não é uma prisão posterior; ela é a condição da própria existência determinada.
+
+\section{Tempo como efeito interno da permanência}
+
+Talvez seja equivocado pensar que primeiro existe tempo e depois algo permanece nele. A tese inverte a ordem:
+
+\begin{quote}
+A permanência mínima de uma determinação é que torna possível uma ordem temporal interna.
+\end{quote}
+
+Se nada permanece como algo, não há antes e depois reconhecíveis. A noção de tempo exige diferença, mas também exige alguma continuidade entre diferenças. Assim, o tempo pode ser visto como expressão interna de invariâncias organizadas.
+
+\[
+\text{invariância} + \text{diferença ordenada} \depends \text{tempo interno}
+\]
+
+Esse tempo interno não precisa existir fora do domínio. Ele é produzido pela estrutura relacional do próprio domínio.
+
+\section{Espaco como efeito interno da relação}
+
+De modo analogo, espaço não precisa ser um recipiente previo. Ele pode ser uma expressão interna de relações estabilizadas entre diferenças. Quando um domínio fecha, suas diferenças internas podem organizar-se em uma estrutura de proximidade, separacao, extensao ou geometria.
+
+\[
+\text{diferenças} + \text{relações invariantes} \depends \text{espaço interno}
+\]
+
+Isso permite pensar a geometria como posterior ao fechamento modal. Geometria não seria o fundamento ultimo. Seria uma linguagem interna de um domínio já estabilizado.
+
+\section{Leis como regularidades do after}
+
+As leis físicas, nessa visao, não precisam existir como comandos externos ao campo modal. Elas podem ser regularidades internas de domínios autocontidos. Cada domínio fechado poderia possuir seu próprio conjunto de regularidades, conforme a maneira pela qual sua possibilidade se estabilizou.
+
+Assim, não se deve dizer:
+
+\begin{quote}
+uma lei física anterior produziu o universo.
+\end{quote}
+
+Melhor dizer:
+
+\begin{quote}
+um domínio autocontido, ao fechar-se, produz internamente regularidades que, para observadores internos, aparecem como leis.
+\end{quote}
+
+\section{Comparação conceitual}
+
+\begin{center}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.28\linewidth} >{\raggedright\arraybackslash}p{0.30\linewidth} >{\raggedright\arraybackslash}p{0.30\linewidth}}
+\toprule
+\textbf{Imagem comum} & \textbf{Problema} & \textbf{Reformulação}\\
+\midrule
+O universo surgiu em um antes & Pressupõe tempo externo & O tempo é interno ao domínio fechado \\
+\addlinespace
+O universo apareceu em algum lugar & Pressupõe espaço externo & O espaço é interno ao domínio fechado \\
+\addlinespace
+O campo modal é uma caixa & Reifica o fundamento como recipiente & O campo modal é condição de possibilidade, não lugar \\
+\addlinespace
+Possibilidades surgem a todo momento & Introduz um relógio externo & Possibilidades possuem ou não fechamento atemporal \\
+\addlinespace
+Algumas possibilidades se dissolvem depois & Introduz sequência temporal externa & Falha de fechamento significa ausência de domínio \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{Objeções e respostas}
+
+\subsection{Objeção 1: o campo modal foi transformado em uma coisa}
+
+Essa é a objeção mais importante. Se o campo modal for tratado como uma coisa, a tese cai no mesmo erro que tenta evitar. A resposta é que \(\CMP\) não deve ser entendido como objeto, substância ou recipiente. Ele é um marcador conceitual para o mínimo de determinabilidade sem o qual nenhum domínio pode ser pensado.
+
+\subsection{Objeção 2: a tese usa linguagem temporal escondida}
+
+Sim. Termos como ``surge'', ``fecha'', ``produz'' e ``gera'' são perigosos. Eles devem ser lidos como metáforas controladas. A linguagem humana é temporal, mas a tese exige que essas palavras sejam reinterpretadas como relações de dependência, não eventos em sequência.
+
+\subsection{Objeção 3: por que o campo modal possui essas propriedades?}
+
+Há três respostas possíveis:
+
+\begin{enumerate}
+    \item fato bruto: ele simplesmente é assim;
+    \item necessidade: qualquer realidade possível exige determinabilidade, consistência e invariância;
+    \item minimalidade: o campo modal não possui propriedades como um objeto; ele é exatamente o conjunto mínimo de condições sem as quais ``propriedade'', ``coisa'' e ``realidade'' não fariam sentido.
+\end{enumerate}
+
+A terceira resposta é a mais forte. Ela evita transformar o campo modal em uma entidade arbitraria.
+
+\subsection{Objeção 4: isso é física?}
+
+Ainda não. Como está formulada aqui, a tese é metafísica conceitual ou filosofia fundamental. Ela pode orientar uma física futura se for convertida em estruturas matemáticas, critérios de fechamento, invariâncias operacionais e previsões. Mas, por si só, ela não deve ser apresentada como resultado empírico.
+
+\subsection{Objeção 5: isso é misticismo?}
+
+Não necessariamente. A tese não introduz vontade, mente cósmica, propósito ou agente externo. Ela apenas troca causalidade temporal por dependência modal e fechamento autoconsistente. O risco místico aparece se o campo modal for tratado como entidade consciente ou como explicação total sem critérios. Por isso, a tese deve permanecer disciplinada: determinabilidade, consistência, invariância, fechamento.
+
+\section{Versao condensada da tese}
+
+\begin{claimbox}
+O campo modal pré-categorial não é nada absoluto, nem vazio físico, nem espaço externo, nem tempo anterior. Ele é uma condição atemporal de determinabilidade. Suas propriedades não são físicas, mas modais: possibilidade de distinção, excludibilidade, consistência, invariância e generatividade. A partir dele, não surgem coisas dentro de um tempo externo. Algumas possibilidades possuem fechamento autoconsistente; quando fecham, tornam-se domínios autocontidos. Cada domínio autocontido inaugura internamente seu próprio tempo, seu próprio espaço, suas regularidades e sua história. O universo que conhecemos seria uma dessas possibilidades estabilizadas.
+\end{claimbox}
+
+\section{Formula final}
+
+A tese pode ser resumida em quatro proposições:
+
+\begin{enumerate}
+    \item O nada absoluto não pode ser origem, pois não contém sequer possibilidade de transição.
+    \item O tempo e o espaço não podem explicar seu próprio fundamento como se fossem externos a si mesmos.
+    \item Deve haver uma condição pré-temporal e pré-espacial de determinabilidade, aqui chamada campo modal pré-categorial.
+    \item Um universo é uma possibilidade modal autoconsistente que, ao fechar-se como domínio, cria internamente o tempo e o espaço nos quais sua existência passa a ser descritível.
+\end{enumerate}
+
+Em forma curta:
+
+\begin{corebox}
+O universo não surgiu dentro de um antes. Ele é uma possibilidade que, ao estabilizar-se, criou internamente o antes e o depois pelos quais agora dizemos que ele começou.
+\end{corebox}
+
+E em forma ainda mais curta:
+
+\begin{corebox}
+Um universo é uma possibilidade que conseguiu fundar o próprio palco.
+\end{corebox}
+
+\section*{Nota final}
+\addcontentsline{toc}{section}{Nota final}
+
+Este texto não pretende fechar a questão da origem. Ele pretende limpar a pergunta. O objetivo é impedir que conceitos do after - tempo, espaço, causa, evento, lei, começo, lugar - sejam projetados indevidamente sobre aquilo que deveria fundamentá-los. A tese resultante é especulativa, mas possui uma virtude: ela evita tanto o nada absoluto quanto a caixa cósmica, tanto o relógio externo quanto o agente místico.
+
+O ponto central permanece:
+
+\begin{quote}
+O before não é um passado. É a condição pela qual um domínio pode possuir passado.
+\end{quote}
+
+\end{document}
