@@ -1,0 +1,5 @@
+n,directed_nonloop_edges,labeled_digraphs,graph_edge_pairs,changed_pairs,reduced_numerator,reduced_denominator,exact_fraction,decimal
+2,2,4,8,8,1,1,1/1,1.0
+3,6,64,384,288,3,4,3/4,0.75
+4,12,4096,49152,24576,1,2,1/2,0.5
+5,20,1048576,20971520,6144000,75,256,75/256,0.29296875

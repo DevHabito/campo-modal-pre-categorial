@@ -1,0 +1,39 @@
+{
+  "audit_id": "NOVELTY_AUDIT_C1",
+  "search_date": "2026-07-15",
+  "claims": {
+    "MF-R007": {
+      "classification": "CLASSICAL_ENUMERATION_FORMULA",
+      "matching_prior_result_found": true
+    },
+    "MF-R008": {
+      "classification": "PROJECT_SPECIFIC_ELEMENTARY_PROPOSITION_NO_MATCH_FOUND",
+      "matching_prior_result_found": false,
+      "novelty_certified": false
+    },
+    "MF-R011": {
+      "classification": "APPARENTLY_UNREPORTED_EXACT_FINITE_STATISTIC_NOVELTY_NOT_CERTIFIED",
+      "matching_prior_result_found": false,
+      "novelty_certified": false
+    }
+  },
+  "edge_flip_values": {
+    "P2": "1/1",
+    "P3": "3/4",
+    "P4": "1/2",
+    "P5": "75/256"
+  },
+  "primary_sources": [
+    "https://arxiv.org/abs/2303.11903",
+    "https://arxiv.org/abs/1206.0550",
+    "https://doi.org/10.4230/LIPIcs.ICALP.2017.42",
+    "https://arxiv.org/abs/1901.03615",
+    "https://doi.org/10.1103/PhysRevE.96.022317",
+    "https://arxiv.org/abs/1904.03248"
+  ],
+  "limitations": [
+    "A literature search cannot prove novelty.",
+    "No categorical first-priority claim is authorized.",
+    "The edge-flip result remains a finite enumeration rather than a general theorem."
+  ]
+}

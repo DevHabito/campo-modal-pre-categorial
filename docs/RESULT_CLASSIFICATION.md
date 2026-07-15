@@ -20,8 +20,8 @@ No item is labeled a definitively new theorem unless a dedicated claim-level lit
 
 ### Strongest candidates for claim-level novelty review
 
-- **MF-R008 — Count of minimum-representative quotient-poset codes**: POTENTIALLY ORIGINAL ELEMENTARY COROLLARY; SEARCH REQUIRED
-- **MF-R011 — Single-edge flip changes the n=5 condensation preorder with probability 75/256**: POTENTIALLY ORIGINAL FINITE STATISTIC
+- **MF-R008 — Count of minimum-representative quotient-poset codes**: PROJECT-SPECIFIC ELEMENTARY ENUMERATION; NO EXACT MATCH FOUND IN C1 SEARCH; PRIORITY NOT CERTIFIED
+- **MF-R011 — Single-edge flip changes the n=5 condensation preorder with probability 75/256**: APPARENTLY UNREPORTED EXACT FINITE SENSITIVITY STATISTIC; NOVELTY NOT CERTIFIED
 - **MF-R036 — No nontrivial continuous cardinal score satisfies both extension stability and full positive-affine invariance**: POTENTIALLY ORIGINAL FORMULATION; HIGH-PRIORITY NOVELTY SEARCH
 - **MF-R047 — Q_lambda(aq+c)=c+a Q_{a lambda}(q)**: POTENTIALLY ORIGINAL EMPHASIS; ALGEBRA ITSELF ELEMENTARY
 - **MF-R048 — Q'_lambda=(1-a) q_bar + a Q_{a lambda}**: POTENTIALLY ORIGINAL AND TECHNICALLY STRONG; NOVELTY SEARCH REQUIRED
@@ -150,7 +150,7 @@ No item is labeled a definitively new theorem unless a dedicated claim-level lit
 
 | ID | Claim | Mathematical status | Novelty status | Evidence | Allowed claim | Forbidden overclaim | Target | Action | Priority |
 |---|---|---|---|---|---|---|---|---|---|
-| MF-R008 | Count of minimum-representative quotient-poset codes | PROVED | POTENTIALLY ORIGINAL ELEMENTARY COROLLARY; SEARCH REQUIRED | COMBINATORIAL_PROOF + EXACT_ENUMERATION | The old 5,234 result exactly counts the declared intermediate code. | Calling 5,234 the number of full labeled condensation structures. | COMBINATORICS | KEEP AS CORRECTIVE PROPOSITION | P0 |
+| MF-R008 | Count of minimum-representative quotient-poset codes | PROVED | PROJECT-SPECIFIC ELEMENTARY ENUMERATION; NO EXACT MATCH FOUND IN C1 SEARCH; PRIORITY NOT CERTIFIED | COMBINATORIAL_PROOF + EXACT_ENUMERATION | The project defines a minimum-representative quotient-poset code and derives its exact shifted-binomial count. | A definitively first or deep general enumeration theorem. | COMBINATORICS | KEEP AS A NAMED CORRECTIVE PROPOSITION; EMPHASIZE INFORMATION LOSS AND FIBERS | P0 |
 
 ## Encoding non-injectivity
 
@@ -168,7 +168,7 @@ No item is labeled a definitively new theorem unless a dedicated claim-level lit
 
 | ID | Claim | Mathematical status | Novelty status | Evidence | Allowed claim | Forbidden overclaim | Target | Action | Priority |
 |---|---|---|---|---|---|---|---|---|---|
-| MF-R007 | Count of full labeled condensation preorders | PROVED | LIKELY CLASSICAL ENUMERATION OF FINITE PREORDERS | COMBINATORIAL_PROOF + EXACT_ENUMERATION | The formula and the n=5 count are correct for full labeled reachability preorders. | Presenting the formula as novel before checking finite-preorder literature. | COMBINATORICS | KEEP, BUT ATTRIBUTE IF PRIOR FORMULA FOUND | P0 |
+| MF-R007 | Count of full labeled condensation preorders | PROVED | CLASSICAL ENUMERATION FORMULA; PROJECT CONTRIBUTION IS INDEPENDENT REPRODUCTION AND CORRECTIVE APPLICATION | COMBINATORIAL_PROOF + EXACT_ENUMERATION | The classical formula is independently rederived and exhaustively reproduced at n=5, and it is used to diagnose the earlier 5,234 encoding ambiguity. | A new formula for labeled preorders, a new value 6,942, or discovery of the preorder/topology correspondence. | COMBINATORICS | ATTRIBUTE AS CLASSICAL BACKGROUND; RETAIN THE CORRECTION, REPRODUCTION, AND CODE-COMPARISON RESULT | P0 |
 
 ## Exact n=5 counts
 
@@ -360,7 +360,7 @@ No item is labeled a definitively new theorem unless a dedicated claim-level lit
 
 | ID | Claim | Mathematical status | Novelty status | Evidence | Allowed claim | Forbidden overclaim | Target | Action | Priority |
 |---|---|---|---|---|---|---|---|---|---|
-| MF-R011 | Single-edge flip changes the n=5 condensation preorder with probability 75/256 | EXACT_FINITE_COMPUTATION | POTENTIALLY ORIGINAL FINITE STATISTIC | EXACT_ENUMERATION | The fraction is exactly 75/256 for the declared finite ensemble. | A general formula, limiting probability, or universal robustness constant. | COMBINATORICS | KEEP AS OPEN-PROBLEM MOTIVATION | P0 |
+| MF-R011 | Single-edge flip changes the n=5 condensation preorder with probability 75/256 | EXACT_FINITE_COMPUTATION | APPARENTLY UNREPORTED EXACT FINITE SENSITIVITY STATISTIC; NOVELTY NOT CERTIFIED | EXACT_ENUMERATION | For the explicitly defined uniform graph-edge ensemble, exhaustive enumeration yields P2=1, P3=3/4, P4=1/2, and P5=75/256. | A general law, asymptotic theorem, universal constant, or categorical first-ever claim. | COMBINATORICS | KEEP AS EXACT ENUMERATION AND OPEN-PROBLEM MOTIVATION | P0 |
 
 ## Projective branch fractions
 

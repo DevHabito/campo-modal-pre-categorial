@@ -1,0 +1,63 @@
+{
+  "audit_id": "C1_EDGE_FLIP_SMALL_N",
+  "definition": "P_n is the fraction of ordered graph-edge pairs (G,e) for which toggling e changes the full reflexive reachability preorder.",
+  "ensemble": "Uniform loopless labeled digraphs on n vertices and uniform directed non-loop edge toggle.",
+  "rows": [
+    {
+      "n": 2,
+      "directed_nonloop_edges": 2,
+      "labeled_digraphs": 4,
+      "graph_edge_pairs": 8,
+      "changed_pairs": 8,
+      "reduced_numerator": 1,
+      "reduced_denominator": 1,
+      "exact_fraction": "1/1",
+      "decimal": 1.0
+    },
+    {
+      "n": 3,
+      "directed_nonloop_edges": 6,
+      "labeled_digraphs": 64,
+      "graph_edge_pairs": 384,
+      "changed_pairs": 288,
+      "reduced_numerator": 3,
+      "reduced_denominator": 4,
+      "exact_fraction": "3/4",
+      "decimal": 0.75
+    },
+    {
+      "n": 4,
+      "directed_nonloop_edges": 12,
+      "labeled_digraphs": 4096,
+      "graph_edge_pairs": 49152,
+      "changed_pairs": 24576,
+      "reduced_numerator": 1,
+      "reduced_denominator": 2,
+      "exact_fraction": "1/2",
+      "decimal": 0.5
+    },
+    {
+      "n": 5,
+      "directed_nonloop_edges": 20,
+      "labeled_digraphs": 1048576,
+      "graph_edge_pairs": 20971520,
+      "changed_pairs": 6144000,
+      "reduced_numerator": 75,
+      "reduced_denominator": 256,
+      "exact_fraction": "75/256",
+      "decimal": 0.29296875
+    }
+  ],
+  "gates": {
+    "G1_P_2_matches_expected": true,
+    "G2_P_3_matches_expected": true,
+    "G3_P_4_matches_expected": true,
+    "G4_P_5_matches_expected": true
+  },
+  "verdict": "PASS_EXACT_SMALL_N_EDGE_FLIP_SEQUENCE",
+  "limitations": [
+    "No general formula is proved.",
+    "No asymptotic claim is made.",
+    "The enumeration stops at n=5 because the graph space has size 2^(n(n-1))."
+  ]
+}
