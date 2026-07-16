@@ -1,0 +1,103 @@
+{
+  "artifact_id": "M1_FORMAL_MANUSCRIPT_SPLIT_AND_CLAIM_FREEZE",
+  "source_claim_count": 69,
+  "combinatorics": {
+    "main_claims": [
+      "MF-R005",
+      "MF-R006",
+      "MF-R007",
+      "MF-R008",
+      "MF-R009",
+      "MF-R010",
+      "MF-R011"
+    ],
+    "supplement_claims": [
+      "MF-R001"
+    ],
+    "future_ordinal_claims": [
+      "MF-R012",
+      "MF-R013",
+      "MF-R014",
+      "MF-R015"
+    ],
+    "status": "BLUEPRINT_FROZEN_SCIENTIFIC_CORE_NOT_YET_SUBMISSION_READY",
+    "blocking_gate": "STRUCTURAL_RESULT_FOR_P_N"
+  },
+  "foundational": {
+    "main_claims": [
+      "MF-R023",
+      "MF-R024",
+      "MF-R025",
+      "MF-R028",
+      "MF-R029",
+      "MF-R031",
+      "MF-R032",
+      "MF-R033",
+      "MF-R034",
+      "MF-R035",
+      "MF-R036",
+      "MF-R037",
+      "MF-R039",
+      "MF-R040",
+      "MF-R041",
+      "MF-R042",
+      "MF-R043",
+      "MF-R044",
+      "MF-R045",
+      "MF-R046",
+      "MF-R047",
+      "MF-R048",
+      "MF-R049",
+      "MF-R050",
+      "MF-R058",
+      "MF-R059",
+      "MF-R061",
+      "MF-R062",
+      "MF-R063",
+      "MF-R067",
+      "MF-R068",
+      "MF-R069"
+    ],
+    "appendix_claims": [
+      "MF-R026",
+      "MF-R027",
+      "MF-R038",
+      "MF-R051",
+      "MF-R056",
+      "MF-R060"
+    ],
+    "supplement_claims": [
+      "MF-R052",
+      "MF-R053",
+      "MF-R054",
+      "MF-R055",
+      "MF-R057"
+    ],
+    "status": "CLAIM_SET_FROZEN_READY_FOR_FIRST_INTEGRATED_DRAFT",
+    "strongest_project_result": "MF-R049"
+  },
+  "future_geometry_claims": [
+    "MF-R030",
+    "MF-R064",
+    "MF-R065",
+    "MF-R066"
+  ],
+  "repository_only_claims": [
+    "MF-R002",
+    "MF-R003",
+    "MF-R004",
+    "MF-R016",
+    "MF-R017",
+    "MF-R018",
+    "MF-R019",
+    "MF-R020",
+    "MF-R021",
+    "MF-R022"
+  ],
+  "freeze_rules": [
+    "No audit-number narrative in manuscript main text.",
+    "Classical claims require attribution.",
+    "No physical promotion beyond the explicit boundary.",
+    "Changes to claim ownership require an explicit freeze amendment."
+  ]
+}

@@ -33,9 +33,11 @@ Both exact counts are independently reproduced by exhaustive enumeration and clo
 
 - `audits/` — scripts and exact/seeded outputs, including failed and corrective versions;
 - `article/` — preserved manuscripts and erratum notice;
+- `manuscripts/` — frozen blueprints and claim maps for the combinatorics and foundational manuscripts;
 - `protocols/` — frozen reproducibility contracts for canonical audits;
 - `docs/AUDIT_INDEX.md` — audit-by-audit index;
 - `docs/CANONICAL_VERSIONS.md` — which version should be treated as canonical;
+- `docs/MANUSCRIPT_SPLIT.md` — formal article split and readiness decision;
 - `docs/RESULT_CLASSIFICATION.md` — claim-level classification by evidence, novelty, allowed wording, and manuscript destination;
 - `docs/novelty/` — claim-level novelty audits C1 and C2, including safe manuscript wording and exact supporting witnesses;
 - `docs/SCIENTIFIC_STATUS.md` — established results and explicit nonclaims;
