@@ -156,8 +156,8 @@ The mass of a cylinder determined by a finite path is the product of its branch
 fractions. These finite-dimensional cylinder probabilities are consistent:
 the mass of a parent cylinder equals the sum of the masses of its child
 cylinders. Under the standard extension theorem, the consistent family
-determines a probability measure on the infinite path space
-[@Daniell1918; @Kolmogorov1933].
+determines a probability measure on the infinite path space by the standard
+extension theorem [@Kolmogorov1933].
 
 This construction separates two concepts that are easily conflated:
 terminality and atomicity.
@@ -219,7 +219,7 @@ significance here is restrictive rather than generative: projective
 consistency determines how supplied weights must combine, but it does not
 select the weights.
 
-An important example is
+A principal example used later is
 
 \[
 W_\lambda(A)
@@ -228,12 +228,11 @@ W_\lambda(A)
 \mu_\ell e^{-\lambda q_\ell}.
 \]
 
-The weight is additive, and the fractions
-\(W_\lambda(B)/W_\lambda(A)\) are exactly projective. The sufficient subtree
-message is the partition sum \(W_\lambda\), or equivalently the pair consisting
-of total mass and the associated exponential effective score. Replacing the
-subtree partition sum by the exponential of a subtree mean is generally not
-additive.
+It is additive, so the ratios
+\(W_\lambda(B)/W_\lambda(A)\) are projective. Section 6 develops the associated
+effective score and proves its exact static aggregation. The present section
+uses the example only to show that projectivity acts on additive weights, not
+on an arbitrarily chosen summary such as the exponential of a subtree mean.
 
 ## 5.6 What measure consistency does not determine
 

@@ -1,10 +1,10 @@
-# Foundational Manuscript Technical Body — F2
+# Foundational Manuscript Technical Body — F3
 
 
 **Working title:** *Informational Requirements for Pre-Categorical Relational Models: Identifiability, Measure, Dynamic Closure, and Coarse-Graining*
 
 
-**Status:** Sections 2–9 are integrated. Introduction, final scope/conclusion, appendices, abstract, and final reference verification remain.
+**Status:** Integrated and mathematically reviewed Sections 2–9.
 
 
 # 2. Order-Only Identifiability
@@ -469,6 +469,12 @@ assigning meaning to the common row offset.
 The kernel is not derived from the relational primitives. It is one declared
 coupling. Its value is to make the inferential contract explicit.
 
+Throughout this article, \(\beta\) denotes the strength of a declared
+transition kernel, while \(\lambda\) denotes the parameter of the exponential
+aggregation transform. They may be set equal in a model that intentionally
+uses one exponential law for both purposes, but no such identification is
+assumed by notation alone.
+
 ## 4.2 Gauge and raw-scale degeneracy
 
 For any source-dependent shift \(c_i\),
@@ -927,8 +933,8 @@ The mass of a cylinder determined by a finite path is the product of its branch
 fractions. These finite-dimensional cylinder probabilities are consistent:
 the mass of a parent cylinder equals the sum of the masses of its child
 cylinders. Under the standard extension theorem, the consistent family
-determines a probability measure on the infinite path space
-[@Daniell1918; @Kolmogorov1933].
+determines a probability measure on the infinite path space by the standard
+extension theorem [@Kolmogorov1933].
 
 This construction separates two concepts that are easily conflated:
 terminality and atomicity.
@@ -990,7 +996,7 @@ significance here is restrictive rather than generative: projective
 consistency determines how supplied weights must combine, but it does not
 select the weights.
 
-An important example is
+A principal example used later is
 
 \[
 W_\lambda(A)
@@ -999,12 +1005,11 @@ W_\lambda(A)
 \mu_\ell e^{-\lambda q_\ell}.
 \]
 
-The weight is additive, and the fractions
-\(W_\lambda(B)/W_\lambda(A)\) are exactly projective. The sufficient subtree
-message is the partition sum \(W_\lambda\), or equivalently the pair consisting
-of total mass and the associated exponential effective score. Replacing the
-subtree partition sum by the exponential of a subtree mean is generally not
-additive.
+It is additive, so the ratios
+\(W_\lambda(B)/W_\lambda(A)\) are projective. Section 6 develops the associated
+effective score and proves its exact static aggregation. The present section
+uses the example only to show that projectivity acts on additive weights, not
+on an arbitrarily chosen summary such as the exponential of a subtree mean.
 
 ## 5.6 What measure consistency does not determine
 
@@ -1314,18 +1319,27 @@ This distinction motivates Section 7:
 
 ## 7.1 Exponential effective score
 
-Let \(q_1,\ldots,q_m\in\mathbb R\) carry positive normalized masses
-\(\mu_1,\ldots,\mu_m\), with \(\sum_i\mu_i=1\). For
-\(\lambda\ne0\), define
+Let \(q_1,\ldots,q_m\in\mathbb R\) carry positive masses
+\(\mu_1,\ldots,\mu_m\), and set
+
+\[
+M=\sum_i\mu_i.
+\]
+
+For \(\lambda\ne0\), define
 
 \[
 Q_\lambda(q,\mu)
 =
 -\frac1\lambda
 \log\left(
+\frac1M
 \sum_{i=1}^{m}\mu_i e^{-\lambda q_i}
 \right).
 \]
+
+Only the normalized weights \(\mu_i/M\) enter the score. Multiplying every
+mass by one common positive constant leaves \(Q_\lambda\) unchanged.
 
 Up to sign conventions, this is the exponential certainty equivalent or
 entropic transform familiar from exponential utility and convex risk
@@ -1359,7 +1373,7 @@ Consider the deterministic update
 \[
 q_i'
 =
-\bar q+a(q_i-\bar q),
+\bar q_\mu+a(q_i-\bar q_\mu),
 \qquad
 0<a<1,
 \]
@@ -1367,13 +1381,13 @@ q_i'
 where
 
 \[
-\bar q=\sum_i\mu_i q_i.
+\bar q_\mu=\frac1M\sum_i\mu_i q_i.
 \]
 
 Equivalently,
 
 \[
-q_i'=(1-a)\bar q+aq_i.
+q_i'=(1-a)\bar q_\mu+aq_i.
 \]
 
 **Proposition 7.1 (transport identity).**  
@@ -1382,11 +1396,11 @@ Under this update,
 \[
 Q_\lambda(q',\mu)
 =
-(1-a)\bar q+aQ_{a\lambda}(q,\mu).
+(1-a)\bar q_\mu+aQ_{a\lambda}(q,\mu).
 \]
 
 **Proof.** Apply affine covariance with scale \(a\) and shift
-\(c=(1-a)\bar q\). \(\square\)
+\(c=(1-a)\bar q_\mu\). \(\square\)
 
 The proposition is exact, but it is not an independent new transform theorem.
 It is a model-specific dynamical corollary of classical affine covariance.
@@ -1518,7 +1532,7 @@ Q_{\log2}'(p^-).
 On the unrestricted class of finite marked distributions, the macrostate
 
 \[
-(\bar q,Q_\lambda)
+(\bar q_\mu,Q_\lambda)
 \]
 
 does not generally determine the next \(Q_\lambda\) under the centered affine
@@ -1567,7 +1581,7 @@ The update admits a precise hierarchy of closure statements.
 
 ### One fixed score
 
-A single \(Q_\lambda\), even together with \(\bar q\), is not generally closed,
+A single \(Q_\lambda\), even together with \(\bar q_\mu\), is not generally closed,
 as Proposition 7.2 shows.
 
 ### The full transform curve
@@ -1583,7 +1597,7 @@ then the deterministic contraction is closed:
 \[
 Q_\lambda'
 =
-(1-a)\bar q+aQ_{a\lambda}.
+(1-a)\bar q_\mu+aQ_{a\lambda}.
 \]
 
 The update acts by a shift of value and a rescaling of the curve's argument.
@@ -1597,7 +1611,7 @@ transformations preserve Gaussianity, and for a Gaussian distribution
 \[
 Q_\lambda
 =
-\bar q-\frac{\lambda}{2}\sigma^2.
+\bar q_\mu-\frac{\lambda}{2}\sigma^2.
 \]
 
 In that restricted family, mean and variance determine the whole curve.
@@ -1698,63 +1712,28 @@ weighted arithmetic mean and log-sum-exp means.
 This characterization does not select one universal mean. It leaves at least
 two distinct families because they preserve different structures.
 
-## 8.3 Exact static sufficiency for the exponential observable
+## 8.3 Static messages depend on the observable
 
-Fix \(\lambda\) and define microscopic weights
-
-\[
-w_i=\mu_i e^{-\lambda q_i}.
-\]
-
-For a block \(B\), the exact block message is the additive partition sum
+Section 6 proved that the pair
 
 \[
-W_B
-=
-\sum_{i\in B}\mu_i e^{-\lambda q_i}.
+(M_B,Q_\lambda(B))
 \]
 
-Equivalently, the block can transmit
+is an exact hierarchical message for the exponential weight
+\(W_\lambda(B)\). By contrast, the weighted arithmetic mean is exact for the
+first moment. Neither message is universally sufficient.
 
-\[
-\mu_B=\sum_{i\in B}\mu_i
-\]
+The distinction can be stated without repeating the aggregation proof. If two
+blocks have the same first moment but different exponential weight, an
+arithmetic-mean message preserves the first target and loses the second. If
+they have the same \(Q_\lambda\) but different means or different
+\(Q_\eta\) for \(\eta\ne\lambda\), the exponential message preserves only the
+declared transform value.
 
-and
-
-\[
-Q_B
-=
--\frac1\lambda
-\log\left(\frac{W_B}{\mu_B}\right).
-\]
-
-Then
-
-\[
-W_B=\mu_Be^{-\lambda Q_B}.
-\]
-
-**Proposition 8.1 (exponential-observable sufficiency).**  
-For any hierarchy of partitions, carrying \((\mu_B,Q_B)\) at every block
-reconstructs the global exponential partition sum exactly.
-
-**Proof.** Additivity gives
-
-\[
-W_A=\sum_{B\subseteq A}W_B
-=
-\sum_{B\subseteq A}\mu_Be^{-\lambda Q_B}.
-\]
-
-Applying the definition of \(Q_A\) recovers the same value obtained by direct
-microscopic aggregation. The argument is independent of grouping order.
-\(\square\)
-
-The proposition is exact for the declared exponential observable. Replacing
-\(Q_B\) with the arithmetic mean, median, or minimum generally changes
-\(W_A\). Conversely, the exponential score is not the exact message for every
-other target. This is the sense in which sufficiency is observable-relative.
+Appendix D gives an exact example showing that total mass plus weighted median
+is not a closed hierarchical message. Robustness, cardinality, and
+decomposability are therefore separate properties.
 
 ## 8.4 Dynamic aggregation and source occupancy
 
@@ -1845,7 +1824,7 @@ K^{\mathrm{macro}}_{AB}
 \frac{F_{AB}}{\pi_A}.
 \]
 
-**Proposition 8.2 (exact occupancy-weighted aggregation).**  
+**Proposition 8.1 (exact occupancy-weighted aggregation).**  
 The macro kernel above equals direct microscopic aggregation with the
 conditional occupancy
 

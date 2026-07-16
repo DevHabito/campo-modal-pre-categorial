@@ -1,6 +1,7 @@
 {
-  "artifact_id": "F2_FOUNDATIONAL_MANUSCRIPT_TECHNICAL_BODY",
-  "completed_sections": [
+  "artifact_id": "F3_INTEGRATED_REVIEW_AND_MANUSCRIPT_COMPLETION",
+  "main_sections": [
+    "01_introduction.md",
     "02_order_identifiability.md",
     "03_quantitative_structure_q.md",
     "04_operational_kernels.md",
@@ -8,28 +9,37 @@
     "06_static_aggregation.md",
     "07_dynamic_nonclosure.md",
     "08_coarse_graining.md",
-    "09_informational_architecture.md"
+    "09_informational_architecture.md",
+    "10_scope_and_conclusion.md"
   ],
-  "word_counts": {
+  "appendices": [
+    "APPENDIX_A_equivariance_and_calibration.md",
+    "APPENDIX_B_refinement_boundary.md",
+    "APPENDIX_C_restricted_closure_and_domain.md",
+    "APPENDIX_D_median_nonclosure.md"
+  ],
+  "abstract_words": 241,
+  "section_word_counts": {
+    "01_introduction.md": 739,
     "02_order_identifiability.md": 966,
     "03_quantitative_structure_q.md": 1067,
-    "04_operational_kernels.md": 1405,
-    "05_measure_and_refinement.md": 1277,
+    "04_operational_kernels.md": 1453,
+    "05_measure_and_refinement.md": 1283,
     "06_static_aggregation.md": 898,
-    "07_dynamic_nonclosure.md": 1021,
-    "08_coarse_graining.md": 939,
-    "09_informational_architecture.md": 1286
+    "07_dynamic_nonclosure.md": 1054,
+    "08_coarse_graining.md": 901,
+    "09_informational_architecture.md": 1286,
+    "10_scope_and_conclusion.md": 652,
+    "APPENDIX_A_equivariance_and_calibration.md": 296,
+    "APPENDIX_B_refinement_boundary.md": 292,
+    "APPENDIX_C_restricted_closure_and_domain.md": 272,
+    "APPENDIX_D_median_nonclosure.md": 248
   },
-  "total_technical_body_words": 8859,
-  "claims_traced": 32,
-  "working_references": 15,
-  "readiness": "TECHNICAL_BODY_INTEGRATED_NOT_YET_SUBMISSION_READY",
-  "remaining": [
-    "Draft Section 1 introduction.",
-    "Draft Section 10 scope and conclusion.",
-    "Draft appendices and data/code availability.",
-    "Verify exact primary page and theorem references.",
-    "Run integrated mathematical and editorial review.",
-    "Write abstract last."
-  ]
+  "full_manuscript_words": 11875,
+  "claims_traced": 38,
+  "main_claims": 32,
+  "appendix_claims": 6,
+  "references": 14,
+  "reference_location_gates_open": 5,
+  "verdict": "COMPLETE_PRE_SUBMISSION_DRAFT_REFERENCE_AND_EXTERNAL_REVIEW_GATES_OPEN"
 }

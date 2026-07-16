@@ -56,63 +56,28 @@ weighted arithmetic mean and log-sum-exp means.
 This characterization does not select one universal mean. It leaves at least
 two distinct families because they preserve different structures.
 
-## 8.3 Exact static sufficiency for the exponential observable
+## 8.3 Static messages depend on the observable
 
-Fix \(\lambda\) and define microscopic weights
-
-\[
-w_i=\mu_i e^{-\lambda q_i}.
-\]
-
-For a block \(B\), the exact block message is the additive partition sum
+Section 6 proved that the pair
 
 \[
-W_B
-=
-\sum_{i\in B}\mu_i e^{-\lambda q_i}.
+(M_B,Q_\lambda(B))
 \]
 
-Equivalently, the block can transmit
+is an exact hierarchical message for the exponential weight
+\(W_\lambda(B)\). By contrast, the weighted arithmetic mean is exact for the
+first moment. Neither message is universally sufficient.
 
-\[
-\mu_B=\sum_{i\in B}\mu_i
-\]
+The distinction can be stated without repeating the aggregation proof. If two
+blocks have the same first moment but different exponential weight, an
+arithmetic-mean message preserves the first target and loses the second. If
+they have the same \(Q_\lambda\) but different means or different
+\(Q_\eta\) for \(\eta\ne\lambda\), the exponential message preserves only the
+declared transform value.
 
-and
-
-\[
-Q_B
-=
--\frac1\lambda
-\log\left(\frac{W_B}{\mu_B}\right).
-\]
-
-Then
-
-\[
-W_B=\mu_Be^{-\lambda Q_B}.
-\]
-
-**Proposition 8.1 (exponential-observable sufficiency).**  
-For any hierarchy of partitions, carrying \((\mu_B,Q_B)\) at every block
-reconstructs the global exponential partition sum exactly.
-
-**Proof.** Additivity gives
-
-\[
-W_A=\sum_{B\subseteq A}W_B
-=
-\sum_{B\subseteq A}\mu_Be^{-\lambda Q_B}.
-\]
-
-Applying the definition of \(Q_A\) recovers the same value obtained by direct
-microscopic aggregation. The argument is independent of grouping order.
-\(\square\)
-
-The proposition is exact for the declared exponential observable. Replacing
-\(Q_B\) with the arithmetic mean, median, or minimum generally changes
-\(W_A\). Conversely, the exponential score is not the exact message for every
-other target. This is the sense in which sufficiency is observable-relative.
+Appendix D gives an exact example showing that total mass plus weighted median
+is not a closed hierarchical message. Robustness, cardinality, and
+decomposability are therefore separate properties.
 
 ## 8.4 Dynamic aggregation and source occupancy
 
@@ -203,7 +168,7 @@ K^{\mathrm{macro}}_{AB}
 \frac{F_{AB}}{\pi_A}.
 \]
 
-**Proposition 8.2 (exact occupancy-weighted aggregation).**  
+**Proposition 8.1 (exact occupancy-weighted aggregation).**  
 The macro kernel above equals direct microscopic aggregation with the
 conditional occupancy
 

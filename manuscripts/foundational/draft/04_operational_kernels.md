@@ -32,6 +32,12 @@ assigning meaning to the common row offset.
 The kernel is not derived from the relational primitives. It is one declared
 coupling. Its value is to make the inferential contract explicit.
 
+Throughout this article, \(\beta\) denotes the strength of a declared
+transition kernel, while \(\lambda\) denotes the parameter of the exponential
+aggregation transform. They may be set equal in a model that intentionally
+uses one exponential law for both purposes, but no such identification is
+assumed by notation alone.
+
 ## 4.2 Gauge and raw-scale degeneracy
 
 For any source-dependent shift \(c_i\),

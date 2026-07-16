@@ -2,18 +2,27 @@
 
 ## 7.1 Exponential effective score
 
-Let \(q_1,\ldots,q_m\in\mathbb R\) carry positive normalized masses
-\(\mu_1,\ldots,\mu_m\), with \(\sum_i\mu_i=1\). For
-\(\lambda\ne0\), define
+Let \(q_1,\ldots,q_m\in\mathbb R\) carry positive masses
+\(\mu_1,\ldots,\mu_m\), and set
+
+\[
+M=\sum_i\mu_i.
+\]
+
+For \(\lambda\ne0\), define
 
 \[
 Q_\lambda(q,\mu)
 =
 -\frac1\lambda
 \log\left(
+\frac1M
 \sum_{i=1}^{m}\mu_i e^{-\lambda q_i}
 \right).
 \]
+
+Only the normalized weights \(\mu_i/M\) enter the score. Multiplying every
+mass by one common positive constant leaves \(Q_\lambda\) unchanged.
 
 Up to sign conventions, this is the exponential certainty equivalent or
 entropic transform familiar from exponential utility and convex risk
@@ -47,7 +56,7 @@ Consider the deterministic update
 \[
 q_i'
 =
-\bar q+a(q_i-\bar q),
+\bar q_\mu+a(q_i-\bar q_\mu),
 \qquad
 0<a<1,
 \]
@@ -55,13 +64,13 @@ q_i'
 where
 
 \[
-\bar q=\sum_i\mu_i q_i.
+\bar q_\mu=\frac1M\sum_i\mu_i q_i.
 \]
 
 Equivalently,
 
 \[
-q_i'=(1-a)\bar q+aq_i.
+q_i'=(1-a)\bar q_\mu+aq_i.
 \]
 
 **Proposition 7.1 (transport identity).**  
@@ -70,11 +79,11 @@ Under this update,
 \[
 Q_\lambda(q',\mu)
 =
-(1-a)\bar q+aQ_{a\lambda}(q,\mu).
+(1-a)\bar q_\mu+aQ_{a\lambda}(q,\mu).
 \]
 
 **Proof.** Apply affine covariance with scale \(a\) and shift
-\(c=(1-a)\bar q\). \(\square\)
+\(c=(1-a)\bar q_\mu\). \(\square\)
 
 The proposition is exact, but it is not an independent new transform theorem.
 It is a model-specific dynamical corollary of classical affine covariance.
@@ -206,7 +215,7 @@ Q_{\log2}'(p^-).
 On the unrestricted class of finite marked distributions, the macrostate
 
 \[
-(\bar q,Q_\lambda)
+(\bar q_\mu,Q_\lambda)
 \]
 
 does not generally determine the next \(Q_\lambda\) under the centered affine
@@ -255,7 +264,7 @@ The update admits a precise hierarchy of closure statements.
 
 ### One fixed score
 
-A single \(Q_\lambda\), even together with \(\bar q\), is not generally closed,
+A single \(Q_\lambda\), even together with \(\bar q_\mu\), is not generally closed,
 as Proposition 7.2 shows.
 
 ### The full transform curve
@@ -271,7 +280,7 @@ then the deterministic contraction is closed:
 \[
 Q_\lambda'
 =
-(1-a)\bar q+aQ_{a\lambda}.
+(1-a)\bar q_\mu+aQ_{a\lambda}.
 \]
 
 The update acts by a shift of value and a rescaling of the curve's argument.
@@ -285,7 +294,7 @@ transformations preserve Gaussianity, and for a Gaussian distribution
 \[
 Q_\lambda
 =
-\bar q-\frac{\lambda}{2}\sigma^2.
+\bar q_\mu-\frac{\lambda}{2}\sigma^2.
 \]
 
 In that restricted family, mean and variance determine the whole curve.

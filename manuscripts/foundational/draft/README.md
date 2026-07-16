@@ -1,37 +1,27 @@
-# F2 — Foundational Manuscript Technical Body
+# F3 — Integrated Foundational Manuscript
 
-F2 extends the F1 core with the three missing technical bridges and integrates
-Sections 2–9 in manuscript order.
+F3 converts the F2 technical body into a complete pre-submission manuscript.
 
-## Integrated body
+## Manuscript files
 
-- `TECHNICAL_BODY.md`
-- `CORE_DRAFT.md`
+- `FULL_MANUSCRIPT.md`
+- `PRE_SUBMISSION_MANUSCRIPT.md`
+- `ABSTRACT.md`
+- Sections `01_...` through `10_...`
+- Appendices A–D
+- `DATA_CODE_AVAILABILITY.md`
+- `AUTHOR_DECLARATIONS.md`
 
-## Section files
+## Review and traceability
 
-- `02_order_identifiability.md`
-- `03_quantitative_structure_q.md`
-- `04_operational_kernels.md`
-- `05_measure_and_refinement.md`
-- `06_static_aggregation.md`
-- `07_dynamic_nonclosure.md`
-- `08_coarse_graining.md`
-- `09_informational_architecture.md`
-
-## Editorial support
-
+- `INTEGRATED_REVIEW_REPORT.md`
 - `CLAIM_TRACEABILITY.csv`
-- `REFERENCES_WORKING.bib`
-- `REFERENCE_VERIFICATION.csv`
-- `PROVENANCE_NOTES.md`
-- `STYLE_AND_CLAIM_RULES.md`
-- `TRANSITION_PLAN.md`
-- `F2_CHANGELOG.md`
+- `REFERENCE_AUDIT.csv`
+- `REFERENCES_VERIFIED.bib`
 - `DRAFT_STATUS.md`
+- `F3_CHANGELOG.md`
 
 ## Status
 
-All 32 main claims frozen in M1 now have a primary location in the technical
-body. The article still requires integrated review, introduction, conclusion,
-appendices, data/code availability, final reference verification, and abstract.
+The scientific body is complete. Five exact book theorem/page locations and
+an independent specialist review remain open before submission.

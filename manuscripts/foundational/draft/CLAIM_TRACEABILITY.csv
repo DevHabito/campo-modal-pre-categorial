@@ -1,33 +1,39 @@
-claim_id,section_file,location,result_label,provenance,citation_keys,classification,safe_claim
-MF-R023,02_order_identifiability.md,Lemma 2.1,monotone invariance,A18.2,Sklar1959;KrantzEtAl1971,CLASSICAL_BACKGROUND,Order unchanged by coordinatewise strictly increasing maps
-MF-R024,02_order_identifiability.md,Proposition 2.2,copula sufficiency,A19,Sklar1959,ATTRIBUTED_COROLLARY,Order law depends at most on the copula under stated assumptions
-MF-R025,02_order_identifiability.md,Proposition 2.3,fiberwise identifiability,A18.2;A19,KrantzEtAl1971,FRAMEWORK_COROLLARY,Non-order information is necessary for non-fiber-constant targets
-MF-R028,03_quantitative_structure_q.md,Proposition 3.1,informative-mark criterion,A23,,FRAMEWORK_CONDITIONAL_RESULT,q adds information only if its marked law is not determined by R
-MF-R029,03_quantitative_structure_q.md,Proposition 3.2,global-shift quotient,A23,KrantzEtAl1971,DEFINITIONAL_GAUGE_CONTRACT,Contrast-based constructions identify q only modulo a common shift
-MF-R031,04_operational_kernels.md,Section 4.1,exponential log-odds identity,A24.1,Luce1959;McFadden1974,ATTRIBUTED_MODEL_IDENTITY,The declared exponential kernel makes q contrasts observable in log-odds
-MF-R032,04_operational_kernels.md,Lemma 4.1,raw-score degeneracy,A24.1;A27,Luce1959;McFadden1974,STANDARD_PARAMETERIZATION_RESULT,Only score-scale/coupling products are identified before calibration
-MF-R033,04_operational_kernels.md,Proposition 4.2,kernel underdetermination,A25,,EXACT_PROJECT_CONSTRUCTION,Locality and affine invariance admit infinitely many K_f
-MF-R034,04_operational_kernels.md,Proposition 4.3,difference-based exponential selection,A26,Luce1959;McFadden1974,ATTRIBUTED_CLASSICAL_THEOREM,Difference-only continuous odds select the exponential family
-MF-R035,04_operational_kernels.md,Section 4.6,lambda status,A27,Luce1959;McFadden1974,PROJECT_MODEL_STATUS,lambda can be estimable after standardization while remaining underived
-MF-R036,04_operational_kernels.md,Lemma 4.4,context-scale incompatibility,A28,KrantzEtAl1971,ATTRIBUTED_ELEMENTARY_COROLLARY,Nontrivial continuous cardinal differences cannot satisfy all three stated demands
-MF-R037,05_measure_and_refinement.md,Proposition 5.2,clone-refinement invariance,A29.1,,EXACT_PROJECT_RESULT,Base mass removes naive clone-count dependence
-MF-R039,05_measure_and_refinement.md,Proposition 5.1,semantic multiplicity obstruction,A30,,PROJECT_FORMULATION,Extra refinement semantics are required
-MF-R040,05_measure_and_refinement.md,Lemma 5.3,finite additive extension,A31,Daniell1918,CLASSICAL_CONSTRUCTION,Leaf weights uniquely extend additively
-MF-R041,05_measure_and_refinement.md,Section 5.4,projective path measure,A32,Daniell1918;Kolmogorov1933,ATTRIBUTED_EXTENSION,Terminal leaves are not required
-MF-R042,05_measure_and_refinement.md,Examples 5.4–5.5,atomicity versus terminality,A32,Kolmogorov1933,PROJECT_EXAMPLES,Atoms and terminal nodes are distinct concepts
-MF-R043,05_measure_and_refinement.md,Section 5.5,ratio architecture,A33,,CLASSICAL_CONDITIONAL_STRUCTURE,Projectivity gives ratios once W is supplied
-MF-R044,06_static_aggregation.md,Sections 6.1–6.2,q-weighted additive law,A33,Jaynes1957;Csiszar1975,EXACT_FRAMEWORK_APPLICATION,W_lambda is projective for the chosen exponential law
-MF-R045,05_measure_and_refinement.md,Section 5.6,weight underdetermination,A31-A33,,FRAMEWORK_CONSEQUENCE,Consistency does not choose terminal weights
-MF-R046,06_static_aggregation.md,Proposition 6.1,static associativity,A34,Aczel1966;FollmerSchied2002,ATTRIBUTED_CLASSICAL_IDENTITY,Mass plus Q_lambda is an exact static message
-MF-R047,06_static_aggregation.md,Lemma 6.2,affine covariance,A34,FollmerSchied2002,ATTRIBUTED_CLASSICAL_IDENTITY,Q_lambda(aq+c)=c+aQ_{a lambda}
-MF-R048,07_dynamic_nonclosure.md,Proposition 7.1,transport identity,A34,FollmerSchied2002,EXACT_FRAMEWORK_COROLLARY,Centered contraction transports Q to a lambda
-MF-R049,07_dynamic_nonclosure.md,Proposition 7.2,exact nonclosure witness,A34;C2,Kuehn2016;LinDou2021,CENTRAL_PROJECT_COUNTEREXAMPLE,Mean plus one Q value does not close the unrestricted class
-MF-R050,07_dynamic_nonclosure.md,Section 7.4,cumulant hierarchy,A34,Kuehn2016,CLASSICAL_BACKGROUND,Higher cumulants explain finite-lambda nonclosure
-MF-R058,08_coarse_graining.md,Section 8.2,regular decomposable means,A38.1,Kolmogorov1930;Nagumo1930;Aczel1966,ATTRIBUTED_CHARACTERIZATION,Arithmetic and exponential families survive stated regularity
-MF-R059,08_coarse_graining.md,Proposition 8.1,exponential sufficiency,A38.1,,EXACT_FRAMEWORK_IDENTITY,Mass and Q preserve the exponential observable
-MF-R061,08_coarse_graining.md,Section 8.4,occupancy obstruction,A38.1,KemenySnell1960,ATTRIBUTED_MARKOV_FACT,Macro kernel needs occupancy unless lumpable
-MF-R062,08_coarse_graining.md,Proposition 8.2,flow aggregation,A38.1,KemenySnell1960,EXACT_CONSTRUCTION,Joint flow aggregates exactly
-MF-R063,08_coarse_graining.md,Section 8.6,observable-relative principle,A34;A38.1,,FRAMEWORK_SYNTHESIS,Exact summaries are relative to preservation contracts
-MF-R067,09_informational_architecture.md,Sections 9.1–9.9,provisional architecture,A18-A38.1,,CENTRAL_SYNTHESIS,"R,q,mu,K,pi are relatively sufficient for the studied operations"
-MF-R068,09_informational_architecture.md,Section 9.8,obstruction map,A18-A38.1,,FRAMEWORK_SYNTHESIS,Separate classical and project-specific obstructions
-MF-R069,09_informational_architecture.md,Section 9.10,physical boundary,whole programme,,MANDATORY_NONCLAIM,"No spacetime, gravity, calibration, or empirical mapping is derived"
+claim_id,section_file,location,result_label,provenance,citation_keys,classification,safe_claim,role,review_status
+MF-R023,02_order_identifiability.md,Lemma 2.1,monotone invariance,A18.2,Sklar1959;KrantzEtAl1971,CLASSICAL_BACKGROUND,Order unchanged by coordinatewise strictly increasing maps,MAIN,F3_REVIEWED
+MF-R024,02_order_identifiability.md,Proposition 2.2,copula sufficiency,A19,Sklar1959,ATTRIBUTED_COROLLARY,Order law depends at most on the copula under stated assumptions,MAIN,F3_REVIEWED
+MF-R025,02_order_identifiability.md,Proposition 2.3,fiberwise identifiability,A18.2;A19,KrantzEtAl1971,FRAMEWORK_COROLLARY,Non-order information is necessary for non-fiber-constant targets,MAIN,F3_REVIEWED
+MF-R028,03_quantitative_structure_q.md,Proposition 3.1,informative-mark criterion,A23,,FRAMEWORK_CONDITIONAL_RESULT,q adds information only if its marked law is not determined by R,MAIN,F3_REVIEWED
+MF-R029,03_quantitative_structure_q.md,Proposition 3.2,global-shift quotient,A23,KrantzEtAl1971,DEFINITIONAL_GAUGE_CONTRACT,Contrast-based constructions identify q only modulo a common shift,MAIN,F3_REVIEWED
+MF-R031,04_operational_kernels.md,Section 4.1,exponential log-odds identity,A24.1,Luce1959;McFadden1974,ATTRIBUTED_MODEL_IDENTITY,The declared exponential kernel makes q contrasts observable in log-odds,MAIN,F3_REVIEWED
+MF-R032,04_operational_kernels.md,Lemma 4.1,raw-score degeneracy,A24.1;A27,Luce1959;McFadden1974,STANDARD_PARAMETERIZATION_RESULT,Only score-scale/coupling products are identified before calibration,MAIN,F3_REVIEWED
+MF-R033,04_operational_kernels.md,Proposition 4.2,kernel underdetermination,A25,,EXACT_PROJECT_CONSTRUCTION,Locality and affine invariance admit infinitely many K_f,MAIN,F3_REVIEWED
+MF-R034,04_operational_kernels.md,Proposition 4.3,difference-based exponential selection,A26,Luce1959;McFadden1974,ATTRIBUTED_CLASSICAL_THEOREM,Difference-only continuous odds select the exponential family,MAIN,F3_REVIEWED
+MF-R035,04_operational_kernels.md,Section 4.6,lambda status,A27,Luce1959;McFadden1974,PROJECT_MODEL_STATUS,lambda can be estimable after standardization while remaining underived,MAIN,F3_REVIEWED
+MF-R036,04_operational_kernels.md,Lemma 4.4,context-scale incompatibility,A28,KrantzEtAl1971,ATTRIBUTED_ELEMENTARY_COROLLARY,Nontrivial continuous cardinal differences cannot satisfy all three stated demands,MAIN,F3_REVIEWED
+MF-R037,05_measure_and_refinement.md,Proposition 5.2,clone-refinement invariance,A29.1,,EXACT_PROJECT_RESULT,Base mass removes naive clone-count dependence,MAIN,F3_REVIEWED
+MF-R039,05_measure_and_refinement.md,Proposition 5.1,semantic multiplicity obstruction,A30,,PROJECT_FORMULATION,Extra refinement semantics are required,MAIN,F3_REVIEWED
+MF-R040,05_measure_and_refinement.md,Lemma 5.3,finite additive extension,A31,Daniell1918,CLASSICAL_CONSTRUCTION,Leaf weights uniquely extend additively,MAIN,F3_REVIEWED
+MF-R041,05_measure_and_refinement.md,Section 5.4,projective path measure,A32,Daniell1918;Kolmogorov1933,ATTRIBUTED_EXTENSION,Terminal leaves are not required,MAIN,F3_REVIEWED
+MF-R042,05_measure_and_refinement.md,Examples 5.4–5.5,atomicity versus terminality,A32,Kolmogorov1933,PROJECT_EXAMPLES,Atoms and terminal nodes are distinct concepts,MAIN,F3_REVIEWED
+MF-R043,05_measure_and_refinement.md,Section 5.5,ratio architecture,A33,,CLASSICAL_CONDITIONAL_STRUCTURE,Projectivity gives ratios once W is supplied,MAIN,F3_REVIEWED
+MF-R044,06_static_aggregation.md,Sections 6.1–6.2,q-weighted additive law,A33,Jaynes1957;Csiszar1975,EXACT_FRAMEWORK_APPLICATION,W_lambda is projective for the chosen exponential law,MAIN,F3_REVIEWED
+MF-R045,05_measure_and_refinement.md,Section 5.6,weight underdetermination,A31-A33,,FRAMEWORK_CONSEQUENCE,Consistency does not choose terminal weights,MAIN,F3_REVIEWED
+MF-R046,06_static_aggregation.md,Proposition 6.1,static associativity,A34,Aczel1966;FollmerSchied2002,ATTRIBUTED_CLASSICAL_IDENTITY,Mass plus Q_lambda is an exact static message,MAIN,F3_REVIEWED
+MF-R047,06_static_aggregation.md,Lemma 6.2,affine covariance,A34,FollmerSchied2002,ATTRIBUTED_CLASSICAL_IDENTITY,Q_lambda(aq+c)=c+aQ_{a lambda},MAIN,F3_REVIEWED
+MF-R048,07_dynamic_nonclosure.md,Proposition 7.1,transport identity,A34,FollmerSchied2002,EXACT_FRAMEWORK_COROLLARY,"For the declared mass-normalized centered contraction, Q'_lambda=(1-a)q_bar_mu+aQ_{a lambda}.",MAIN,F3_REVIEWED
+MF-R049,07_dynamic_nonclosure.md,Proposition 7.2,exact nonclosure witness,A34;C2,Kuehn2016;LinDou2021,CENTRAL_PROJECT_COUNTEREXAMPLE,Mass-normalized mean plus one Q value does not close the unrestricted finite class.,MAIN,F3_REVIEWED
+MF-R050,07_dynamic_nonclosure.md,Section 7.4,cumulant hierarchy,A34,Kuehn2016,CLASSICAL_BACKGROUND,Higher cumulants explain finite-lambda nonclosure,MAIN,F3_REVIEWED
+MF-R058,08_coarse_graining.md,Section 8.2,regular decomposable means,A38.1,Kolmogorov1930;Nagumo1930;Aczel1966,ATTRIBUTED_CHARACTERIZATION,Arithmetic and exponential families survive stated regularity,MAIN,F3_REVIEWED
+MF-R059,06_static_aggregation.md;08_coarse_graining.md,Proposition 6.1; Section 8.3,exponential sufficiency,A38.1,,EXACT_FRAMEWORK_IDENTITY,Mass and Q preserve the exponential observable,MAIN,F3_REVIEWED
+MF-R061,08_coarse_graining.md,Section 8.4,occupancy obstruction,A38.1,KemenySnell1960,ATTRIBUTED_MARKOV_FACT,Macro kernel needs occupancy unless lumpable,MAIN,F3_REVIEWED
+MF-R062,08_coarse_graining.md,Proposition 8.1,flow aggregation,A38.1,KemenySnell1960,EXACT_CONSTRUCTION,Joint flow aggregates exactly,MAIN,F3_REVIEWED
+MF-R063,08_coarse_graining.md,Section 8.6,observable-relative principle,A34;A38.1,,FRAMEWORK_SYNTHESIS,Exact summaries are relative to preservation contracts,MAIN,F3_REVIEWED
+MF-R067,09_informational_architecture.md,Sections 9.1–9.9,provisional architecture,A18-A38.1,,CENTRAL_SYNTHESIS,"R,q,mu,K,pi are relatively sufficient for the studied operations",MAIN,F3_REVIEWED
+MF-R068,09_informational_architecture.md,Section 9.8,obstruction map,A18-A38.1,,FRAMEWORK_SYNTHESIS,Separate classical and project-specific obstructions,MAIN,F3_REVIEWED
+MF-R069,09_informational_architecture.md,Section 9.10,physical boundary,whole programme,,MANDATORY_NONCLAIM,"No spacetime, gravity, calibration, or empirical mapping is derived",MAIN,F3_REVIEWED
+MF-R026,APPENDIX_A_equivariance_and_calibration.md,Proposition A.1,equivariant evolution,A20;A21,,APPENDIX_EQUIVARIANCE_BACKGROUND,Endogenous equivariant evolution preserves the targeted observational equivalence under stated assumptions.,APPENDIX,F3_REVIEWED
+MF-R027,APPENDIX_A_equivariance_and_calibration.md,Proposition A.2,calibration witness,A22,,APPENDIX_CONSTRUCTIVE_WITNESS,An externally calibrated non-invariant mark can separate an otherwise equivariant orbit.,APPENDIX,F3_REVIEWED
+MF-R038,APPENDIX_B_refinement_boundary.md,Proposition B.1,standardization boundary,A29.1,,APPENDIX_BOUNDARY_OBSTRUCTION,Weighted standardization is nonuniform near zero variance and undefined at the boundary.,APPENDIX,F3_REVIEWED
+MF-R051,APPENDIX_C_restricted_closure_and_domain.md,Proposition C.1,Gaussian restricted closure,A35,Kuehn2016,APPENDIX_CONDITIONAL_CLASSICAL_RESULT,Mean and variance close exactly only inside the stated Gaussian invariant family.,APPENDIX,F3_REVIEWED
+MF-R056,APPENDIX_C_restricted_closure_and_domain.md,Proposition C.2,exponential-moment domain,A37.1,LinDou2021,APPENDIX_DOMAIN_WARNING,Finite variance does not guarantee a finite exponential effective score.,APPENDIX,F3_REVIEWED
+MF-R060,APPENDIX_D_median_nonclosure.md,Proposition D.1,median nondecomposability,A38.1,,APPENDIX_EXACT_COUNTEREXAMPLE,Total mass plus weighted median is not an exact hierarchical message.,APPENDIX,F3_REVIEWED
