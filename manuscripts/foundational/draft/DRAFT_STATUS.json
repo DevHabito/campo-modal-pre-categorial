@@ -1,0 +1,21 @@
+{
+  "artifact_id": "F1_FOUNDATIONAL_MANUSCRIPT_CORE_DRAFT",
+  "completed_sections": [
+    "02_order_identifiability.md",
+    "05_measure_and_refinement.md",
+    "07_dynamic_nonclosure.md",
+    "08_coarse_graining.md",
+    "09_informational_architecture.md"
+  ],
+  "word_counts": {
+    "02_order_identifiability.md": 966,
+    "05_measure_and_refinement.md": 1277,
+    "07_dynamic_nonclosure.md": 1021,
+    "08_coarse_graining.md": 939,
+    "09_informational_architecture.md": 1286
+  },
+  "total_core_words": 5489,
+  "claims_traced": 22,
+  "working_references": 14,
+  "readiness": "CORE_ARGUMENT_DRAFTED_NOT_YET_SUBMISSION_READY"
+}

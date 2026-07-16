@@ -1,0 +1,23 @@
+claim_id,section_file,location,result_label,provenance,citation_keys,classification,safe_claim
+MF-R023,02_order_identifiability.md,Lemma 2.1,monotone invariance,A18.2,Sklar1959;KrantzEtAl1971,CLASSICAL_BACKGROUND,Order unchanged by coordinatewise strictly increasing maps
+MF-R024,02_order_identifiability.md,Proposition 2.2,copula sufficiency,A19,Sklar1959,ATTRIBUTED_COROLLARY,Order law depends at most on copula under stated assumptions
+MF-R025,02_order_identifiability.md,Proposition 2.3,fiberwise identifiability,A18.2;A19,KrantzEtAl1971,FRAMEWORK_COROLLARY,Non-order information is necessary for non-fiber-constant targets
+MF-R037,05_measure_and_refinement.md,Proposition 5.2,clone-refinement invariance,A29.1,,EXACT_PROJECT_RESULT,Base mass removes naive clone-count dependence
+MF-R039,05_measure_and_refinement.md,Proposition 5.1,semantic multiplicity obstruction,A30,,PROJECT_FORMULATION,Extra refinement semantics are required
+MF-R040,05_measure_and_refinement.md,Lemma 5.3,finite additive extension,A31,Daniell1918,CLASSICAL_CONSTRUCTION,Leaf weights uniquely extend additively
+MF-R041,05_measure_and_refinement.md,Section 5.4,projective path measure,A32,Daniell1918;Kolmogorov1933,ATTRIBUTED_EXTENSION,Terminal leaves are not required
+MF-R042,05_measure_and_refinement.md,Examples 5.4–5.5,atomicity vs terminality,A32,Kolmogorov1933,PROJECT_EXAMPLES,Atoms and terminal nodes are distinct concepts
+MF-R043,05_measure_and_refinement.md,Section 5.5,ratio architecture,A33,,CLASSICAL_CONDITIONAL_STRUCTURE,Projectivity gives ratios once W is supplied
+MF-R044,05_measure_and_refinement.md,Section 5.5,q-weighted additive law,A33,Csiszar1975,EXACT_FRAMEWORK_APPLICATION,W_lambda is projective for the chosen exponential law
+MF-R045,05_measure_and_refinement.md,Section 5.6,weight underdetermination,A31-A33,,FRAMEWORK_CONSEQUENCE,Consistency does not choose terminal weights
+MF-R048,07_dynamic_nonclosure.md,Proposition 7.1,transport identity,A34,FollmerSchied2002,EXACT_FRAMEWORK_COROLLARY,Centered contraction transports Q to a lambda
+MF-R049,07_dynamic_nonclosure.md,Proposition 7.2,exact nonclosure witness,A34;C2,Kuehn2016;LinDou2021,CENTRAL_PROJECT_COUNTEREXAMPLE,Mean plus one Q value does not close the unrestricted class
+MF-R050,07_dynamic_nonclosure.md,Section 7.4,cumulant hierarchy,A34,Kuehn2016,CLASSICAL_BACKGROUND,Higher cumulants explain finite-lambda nonclosure
+MF-R058,08_coarse_graining.md,Section 8.2,regular decomposable means,A38.1,Kolmogorov1930;Nagumo1930;Aczel1966,ATTRIBUTED_CHARACTERIZATION,Arithmetic and exponential families survive stated regularity
+MF-R059,08_coarse_graining.md,Proposition 8.1,exponential sufficiency,A38.1,,EXACT_FRAMEWORK_IDENTITY,Mass and Q preserve the exponential observable
+MF-R061,08_coarse_graining.md,Section 8.4,occupancy obstruction,A38.1,KemenySnell1960,ATTRIBUTED_MARKOV_FACT,Macro kernel needs occupancy unless lumpable
+MF-R062,08_coarse_graining.md,Proposition 8.2,flow aggregation,A38.1,KemenySnell1960,EXACT_CONSTRUCTION,Joint flow aggregates exactly
+MF-R063,08_coarse_graining.md,Section 8.6,observable-relative principle,A34;A38.1,,FRAMEWORK_SYNTHESIS,Exact summaries are relative to preservation contracts
+MF-R067,09_informational_architecture.md,Sections 9.1–9.9,provisional architecture,A18-A38.1,,CENTRAL_SYNTHESIS,"R,q,mu,K,pi are relatively sufficient for studied operations"
+MF-R068,09_informational_architecture.md,Section 9.8,obstruction map,A18-A38.1,,FRAMEWORK_SYNTHESIS,Separate classical and project-specific obstructions
+MF-R069,09_informational_architecture.md,Section 9.10,physical boundary,whole programme,,MANDATORY_NONCLAIM,"No spacetime, gravity, calibration, or empirical mapping derived"
