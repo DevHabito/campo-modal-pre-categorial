@@ -1,21 +1,35 @@
 {
-  "artifact_id": "F1_FOUNDATIONAL_MANUSCRIPT_CORE_DRAFT",
+  "artifact_id": "F2_FOUNDATIONAL_MANUSCRIPT_TECHNICAL_BODY",
   "completed_sections": [
     "02_order_identifiability.md",
+    "03_quantitative_structure_q.md",
+    "04_operational_kernels.md",
     "05_measure_and_refinement.md",
+    "06_static_aggregation.md",
     "07_dynamic_nonclosure.md",
     "08_coarse_graining.md",
     "09_informational_architecture.md"
   ],
   "word_counts": {
     "02_order_identifiability.md": 966,
+    "03_quantitative_structure_q.md": 1067,
+    "04_operational_kernels.md": 1405,
     "05_measure_and_refinement.md": 1277,
+    "06_static_aggregation.md": 898,
     "07_dynamic_nonclosure.md": 1021,
     "08_coarse_graining.md": 939,
     "09_informational_architecture.md": 1286
   },
-  "total_core_words": 5489,
-  "claims_traced": 22,
-  "working_references": 14,
-  "readiness": "CORE_ARGUMENT_DRAFTED_NOT_YET_SUBMISSION_READY"
+  "total_technical_body_words": 8859,
+  "claims_traced": 32,
+  "working_references": 15,
+  "readiness": "TECHNICAL_BODY_INTEGRATED_NOT_YET_SUBMISSION_READY",
+  "remaining": [
+    "Draft Section 1 introduction.",
+    "Draft Section 10 scope and conclusion.",
+    "Draft appendices and data/code availability.",
+    "Verify exact primary page and theorem references.",
+    "Run integrated mathematical and editorial review.",
+    "Write abstract last."
+  ]
 }

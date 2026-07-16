@@ -13,3 +13,11 @@
 9. Keep computational audits in provenance/data availability, not in the
    mathematical narrative.
 10. Write the abstract only after the complete body exists.
+
+11. State explicitly that IIA alone does not select the exponential family.
+12. Distinguish raw-scale degeneracy from standardized-parameter
+    identifiability.
+13. Treat maximum entropy as conditional on a supplied reference measure and
+    constraint.
+14. Use \(eta\) for a raw-score kernel when useful and \(\lambda\) for the
+    transform/standardized family, explaining any identification.

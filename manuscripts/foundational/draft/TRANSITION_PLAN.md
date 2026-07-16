@@ -1,25 +1,40 @@
-# Transition Plan for the Missing Sections
+# Transition Plan After F2
 
-## Section 3 — Additional Quantitative Structure q
+## Integrated review before new prose
 
-Bridge from Section 2 by stating that the order-only obstruction motivates,
-but does not derive, a separate cardinal mark. Define global shift redundancy
-and distinguish relative contrasts from calibrated scale.
+Before writing the introduction, perform one pass for:
 
-## Section 4 — Operational Kernels and Parameter Status
+- duplicated definitions of \(W_\lambda\) and \(Q_\lambda\);
+- consistency of normalization conventions for \(\mu\);
+- consistent use of \(eta\) versus \(\lambda\);
+- exact assumptions attached to every theorem and lemma;
+- distinction among classical results, direct corollaries, and project-specific
+  counterexamples;
+- consistency of the words “identifiable,” “estimable,” “derived,” and
+  “operational.”
 
-Introduce the exponential kernel as a classical candidate, establish the
-raw-scale/coupling degeneracy, show kernel underdetermination, attribute the
-Luce/IIA selection theorem, and end with the context–scale lemma.
+## Section 1 — Introduction
 
-## Section 6 — Static Exponential Aggregation
-
-Develop \(W_\lambda\) and \(Q_\lambda\) as exact static messages. This section
-must end with the question that opens Section 7: does static sufficiency imply
-dynamic closure? The answer is no.
+Write only after the integrated review. The introduction should present one
+question: which informational structures are required before a relational
+model can support cardinal, measure-theoretic, transition, and coarse-grained
+operations?
 
 ## Section 10 — Scope and Conclusion
 
-Condense the physical boundary already stated in Section 9.10, summarize the
-obstruction-driven architecture, and list testable open bridges without
-promoting the framework to physics.
+Summarize the obstruction-driven architecture, state relative minimality, and
+end with the missing empirical and physical bridges. Do not introduce new
+claims in the conclusion.
+
+## Appendices
+
+- equivariance and calibration;
+- singular refinement boundary;
+- Gaussian restricted-family closure;
+- transform-domain warning;
+- median nonclosure;
+- reproducibility and claim traceability.
+
+## Abstract
+
+Write last, from the final reviewed body.

@@ -8,8 +8,9 @@ Kolmogorov1933,PRIMARY_MONOGRAPH,METADATA_CHECKED,Use a standard English edition
 Kolmogorov1930,PRIMARY_ARTICLE,METADATA_CHECKED,Verify journal abbreviation,Section 8
 Nagumo1930,PRIMARY_ARTICLE,METADATA_CHECKED,Verify DOI formatting,Section 8
 Aczel1966,PRIMARY_MONOGRAPH,METADATA_CHECKED,Identify exact theorem/page for translation covariance,Section 8
-FollmerSchied2002,PRIMARY_ARTICLE,PARTIAL,Verify DOI and exact entropic-risk passage,Section 7
+FollmerSchied2002,PRIMARY_ARTICLE,METADATA_CHECKED,Confirm exact entropic-risk passage and sign convention,Section 7
 Kuehn2016,REVIEW,METADATA_CHECKED,"Use only for context, not theorem priority",Section 7
 LinDou2021,PRIMARY_ARTICLE,METADATA_CHECKED,Confirm volume/issue/pages,Section 7
 KemenySnell1960,PRIMARY_MONOGRAPH,METADATA_CHECKED,Identify exact lumpability chapter/page,Section 8
 Csiszar1975,PRIMARY_ARTICLE,METADATA_CHECKED,Use if relative-entropy derivation enters Section 6,Future Section 6
+Jaynes1957,PRIMARY_ARTICLE,METADATA_CHECKED,Confirm exact passage used for the maximum-entropy derivation,Sections 4 and 6

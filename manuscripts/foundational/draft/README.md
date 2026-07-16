@@ -1,13 +1,20 @@
-# F1 — Foundational Manuscript Core Draft
+# F2 — Foundational Manuscript Technical Body
 
-This package converts the M1 blueprint into continuous manuscript prose for
-the five sections that carry the central argument.
+F2 extends the F1 core with the three missing technical bridges and integrates
+Sections 2–9 in manuscript order.
 
-## Main files
+## Integrated body
 
+- `TECHNICAL_BODY.md`
 - `CORE_DRAFT.md`
+
+## Section files
+
 - `02_order_identifiability.md`
+- `03_quantitative_structure_q.md`
+- `04_operational_kernels.md`
 - `05_measure_and_refinement.md`
+- `06_static_aggregation.md`
 - `07_dynamic_nonclosure.md`
 - `08_coarse_graining.md`
 - `09_informational_architecture.md`
@@ -20,10 +27,11 @@ the five sections that carry the central argument.
 - `PROVENANCE_NOTES.md`
 - `STYLE_AND_CLAIM_RULES.md`
 - `TRANSITION_PLAN.md`
+- `F2_CHANGELOG.md`
 - `DRAFT_STATUS.md`
 
 ## Status
 
-The core mathematical argument is drafted. The manuscript still requires
-Sections 3, 4, and 6, citation verification, integrated review, introduction,
-abstract, and conclusion.
+All 32 main claims frozen in M1 now have a primary location in the technical
+body. The article still requires integrated review, introduction, conclusion,
+appendices, data/code availability, final reference verification, and abstract.
