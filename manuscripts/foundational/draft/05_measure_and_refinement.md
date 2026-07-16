@@ -153,11 +153,12 @@ to its children \(B\), with
 \]
 
 The mass of a cylinder determined by a finite path is the product of its branch
-fractions. These finite-dimensional cylinder probabilities are consistent:
-the mass of a parent cylinder equals the sum of the masses of its child
-cylinders. Under the standard extension theorem, the consistent family
-determines a probability measure on the infinite path space by the standard
-extension theorem [@Kolmogorov1933].
+fractions. These cylinder probabilities are consistent: the mass of a parent
+cylinder equals the sum of the masses of its child cylinders. Because a
+finitely branching rooted tree has a countable cylinder algebra and its path
+space carries the standard cylinder sigma-algebra, the consistent premeasure
+extends to a probability measure on the infinite path space
+[@Kolmogorov1933].
 
 This construction separates two concepts that are easily conflated:
 terminality and atomicity.

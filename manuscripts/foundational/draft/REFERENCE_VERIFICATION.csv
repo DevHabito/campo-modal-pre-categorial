@@ -1,15 +1,16 @@
 citation_key,source_type,verification_status,remaining_status,verified_metadata,editorial_note,used_in
-Sklar1959,PRIMARY_ARTICLE,METADATA_VERIFIED,ORIGINAL_TEXT_NOT_REINSPECTED,8:229-231,"Original bibliographic record located; theorem use is standard, but an exact page-level reread remains advisable.",Section 2
-KrantzEtAl1971,FOUNDATIONAL_MONOGRAPH,METADATA_VERIFIED,THEOREM_LOCATION_PENDING,"Vol. I, 577 pages",Book metadata and edition verified; exact interval-scale chapter/page not frozen.,Sections 2 and 4
-Luce1959,PRIMARY_MONOGRAPH,METADATA_VERIFIED,THEOREM_LOCATION_PENDING,153 pages,Book metadata verified; exact axiom/page should be added in journal formatting.,Section 4
-McFadden1974,PRIMARY_CHAPTER,PRIMARY_COPY_AND_METADATA_VERIFIED,COMPLETE,pp. 105-142,Author-hosted Berkeley copy and chapter metadata located.,Section 4
-Kolmogorov1933,PRIMARY_MONOGRAPH,PUBLISHER_METADATA_VERIFIED,THEOREM_LOCATION_PENDING,62 pages; DOI verified,Springer metadata verified; exact extension-theorem location should be cited by chapter/page if required.,Section 5
-Kolmogorov1930,PRIMARY_ARTICLE,METADATA_VERIFIED,ORIGINAL_TEXT_NOT_REINSPECTED,12:388-391,Bibliographic metadata verified; original theorem text not reread in F3.,Section 8
-Nagumo1930,PRIMARY_ARTICLE,PRIMARY_PAGE_VERIFIED,COMPLETE,7:71-79; DOI verified,J-STAGE primary article page located.,Section 8
-Aczel1966,PRIMARY_MONOGRAPH,PUBLISHER_METADATA_VERIFIED,THEOREM_LOCATION_PENDING,Vol. 19; 1966,Elsevier metadata verified; exact characterization theorem/page remains pending.,Section 8
-FollmerSchied2002,PRIMARY_ARTICLE,DOI_AND_METADATA_VERIFIED,SIGN_CONVENTION_CHECKED_IN_MANUSCRIPT,6(4):429-447,Metadata and DOI verified; manuscript explicitly states sign-convention dependence.,Sections 6 and 7
-Kuehn2016,PEER_REVIEWED_REVIEW,DOI_AND_ARXIV_VERIFIED,COMPLETE,pp. 253-271,"Chapter DOI, pages, and arXiv version verified; used only as closure context.",Section 7
-LinDou2021,PRIMARY_ARTICLE,PUBLISHER_AND_ARXIV_VERIFIED,COMPLETE,55(2):367-385,"Publisher metadata, DOI, and arXiv version verified.",Section 7
-KemenySnell1960,PRIMARY_MONOGRAPH,METADATA_VERIFIED,CHAPTER_PAGE_PENDING,210 pages,Original-edition metadata verified; exact lumpability location remains pending.,Section 8
-Csiszar1975,PRIMARY_ARTICLE,DOI_AND_METADATA_VERIFIED,COMPLETE,3(1):146-158,Project Euclid/IMS DOI metadata verified.,Sections 4 and 6
-Jaynes1957,PRIMARY_ARTICLE,DOI_AND_METADATA_VERIFIED,COMPLETE,106(4):620-630,Physical Review DOI and pages verified.,Sections 4 and 6
+Sklar1959,PRIMARY_ARTICLE,METADATA_VERIFIED,ORIGINAL_TEXT_NOT_REINSPECTED,8:229–231,Standard theorem attribution; not one of the five F4 book-location gates.,Section 2
+KrantzEtAl1971,FOUNDATIONAL_MONOGRAPH,METADATA_VERIFIED,COMPLETE_FOR_GENERAL_BACKGROUND,"Volume I, 1971",Retained for general measurement background; no longer carries the F4 context–scale location gate.,Sections 2 and 3
+LuceEtAl1990,FOUNDATIONAL_MONOGRAPH,EXACT_CHAPTER_SECTION_RANGE_VERIFIED,COMPLETE,"Chapter 20 §§20.1–20.2, pp.108–119; Chapter 22 §§22.1–22.3, pp.267–291","Exact source for scale types, permissible transformations, invariance, and meaningfulness.",Section 4
+Luce1959,PRIMARY_MONOGRAPH,EXACT_SECTION_PAGE_RANGE_VERIFIED,COMPLETE,Choice Axiom pp.5–15; Ratio Scale pp.20–28; Existence Theorem p.23,F4 exact-location gate closed.,Section 4
+McFadden1974,PRIMARY_CHAPTER,PRIMARY_COPY_AND_METADATA_VERIFIED,COMPLETE,pp.105–142,Author-hosted copy and metadata verified.,Section 4
+Kolmogorov1933,PRIMARY_MONOGRAPH,EXACT_CHAPTER_SECTION_RANGE_VERIFIED,COMPLETE,"English translation, Chapter III §4, pp.27–32",Cylinder-set/path-space extension location closed; manuscript assumptions tightened.,Section 5
+Kolmogorov1930,PRIMARY_ARTICLE,METADATA_VERIFIED,ORIGINAL_TEXT_NOT_REINSPECTED,12:388–391,Primary mean-characterization source; not a book-location gate.,Section 8
+Nagumo1930,PRIMARY_ARTICLE,PRIMARY_PAGE_VERIFIED,COMPLETE,7:71–79; DOI verified,Primary exact citation for the quasi-arithmetic mean characterization.,Section 8
+Aczel1966,PRIMARY_MONOGRAPH,SECTION_RANGE_VERIFIED,EXACT_THEOREM_LOCATION_OPEN,"Section 5.3, pp.234–245",Weighted-mean section verified; exact theorem/page for the translation-covariant classification not inferred.,Section 8
+FollmerSchied2002,PRIMARY_ARTICLE,DOI_AND_METADATA_VERIFIED,COMPLETE,6(4):429–447,Sign convention is stated explicitly in the manuscript.,Sections 6 and 7
+Kuehn2016,PEER_REVIEWED_REVIEW,DOI_AND_ARXIV_VERIFIED,COMPLETE,pp.253–271,"Used as closure context, not theorem priority.",Section 7
+LinDou2021,PRIMARY_ARTICLE,PUBLISHER_AND_ARXIV_VERIFIED,COMPLETE,55(2):367–385,Transform-uniqueness metadata verified.,Section 7
+KemenySnell1960,PRIMARY_MONOGRAPH,EXACT_THEOREM_NUMBER_AND_PAGE_VERIFIED,COMPLETE,"Chapter VI §6.3; Theorem 6.3.2, p.124",F4 exact-location gate closed.,Section 8
+Csiszar1975,PRIMARY_ARTICLE,DOI_AND_METADATA_VERIFIED,COMPLETE,3(1):146–158,Relative-entropy source.,Sections 4 and 6
+Jaynes1957,PRIMARY_ARTICLE,DOI_AND_METADATA_VERIFIED,COMPLETE,106(4):620–630,Maximum-entropy source.,Sections 4 and 6

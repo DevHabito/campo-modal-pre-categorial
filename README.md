@@ -34,7 +34,8 @@ Both exact counts are independently reproduced by exhaustive enumeration and clo
 - `audits/` — scripts and exact/seeded outputs, including failed and corrective versions;
 - `article/` — preserved manuscripts and erratum notice;
 - `manuscripts/` — frozen blueprints and claim maps for the combinatorics and foundational manuscripts;
-- `manuscripts/foundational/draft/` — F3 complete pre-submission manuscript, integrated review, appendices, verified references, and claim traceability;
+- `manuscripts/foundational/draft/` — F4 reference-reviewed pre-submission manuscript, reference closure report, appendices, and claim traceability;
+- `manuscripts/foundational/review/` — F4 anonymous review copy, mathematical audit targets, claim checklist, reviewer forms, independence policy, and internal adversarial review;
 - `protocols/` — frozen reproducibility contracts for canonical audits;
 - `docs/AUDIT_INDEX.md` — audit-by-audit index;
 - `docs/CANONICAL_VERSIONS.md` — which version should be treated as canonical;

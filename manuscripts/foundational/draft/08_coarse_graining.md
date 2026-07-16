@@ -40,9 +40,10 @@ f^{-1}\left(
 where \(f\) is continuous and strictly monotone. Such means are hierarchically
 decomposable when each block transmits its total mass and its block mean.
 
-Classical characterization results associated with Kolmogorov, Nagumo, and
-Aczél show how regularity, decomposability, and invariance assumptions restrict
-the generator [@Kolmogorov1930; @Nagumo1930; @Aczel1966]. In the
+Classical characterization results of Kolmogorov and Nagumo, with later
+functional-equation treatments by Aczél, show how regularity,
+decomposability, and invariance assumptions restrict the generator
+[@Kolmogorov1930; @Nagumo1930; @Aczel1966]. In the
 translation-covariant class relevant here,
 
 \[

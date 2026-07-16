@@ -1,8 +1,182 @@
-# Foundational Manuscript Technical Body — F4
+# Informational Requirements for Pre-Categorical Relational Models:
+# Identifiability, Measure, Dynamic Closure, and Coarse-Graining
 
+**Anonymous review copy**
 
-**Status:** Sections 2–9 with F4 reference and domain corrections.
+Repository and author-identifying material are withheld in this copy. The
+reviewer should assess the mathematics and scope independently.
 
+# Abstract
+
+Relational models are often asked to support cardinal comparison, refinement,
+transition, and coarse-graining even when their primitive data contain only a
+relation. We study which additional informational structures are required for
+those operations. Order-only observations are invariant under broad
+monotone recalibrations and therefore do not identify latent marginal scales
+or densities. An additional mark \(q\) can supply relative cardinal
+information only when its marked law and observable coupling are not
+determined by the relation. Additive mass \(\mu\) is required to distinguish
+conservative refinement from representational cloning, while locality and
+symmetry alone leave the transition kernel \(K\) underdetermined. For the
+exponential observable, the block message consisting of total mass and
+
+\[
+Q_\lambda
+=
+-\lambda^{-1}\log
+\left(
+\frac{\sum_i\mu_i e^{-\lambda q_i}}
+{\sum_i\mu_i}
+\right)
+\]
+
+aggregates exactly. Under the centered contraction
+\(q_i'=\bar q_\mu+a(q_i-\bar q_\mu)\), however,
+
+\[
+Q_\lambda'
+=
+(1-a)\bar q_\mu+aQ_{a\lambda}.
+\]
+
+We give an exact four-point counterexample showing that equal mean and equal
+\(Q_\lambda\) do not determine the next score on the unrestricted finite
+class. Thus exact static sufficiency does not imply dynamic autonomy. For
+Markov coarse-graining, a microscopic kernel and a partition do not generally
+determine a macro kernel without source occupancy \(\pi\) or lumpability;
+joint flow aggregates exactly when occupancy is supplied. These obstructions
+motivate the provisional informational architecture
+\((R,q,\mu,K,\pi)\). The construction is formal and does not derive physical
+spacetime, calibration, or a fundamental dynamics.
+
+# 1. Introduction
+
+Relational models often begin with a sparse primitive: a set of entities and a
+relation among them. From that starting point, one may wish to define cardinal
+comparisons, assign multiplicities, specify transition probabilities, or
+construct macroscopic descriptions. These operations are not interchangeable.
+Each requires information that may or may not be present in the original
+relation.
+
+This article studies that dependency problem. The question is not whether one
+particular relational model is physically correct. It is:
+
+> Which informational structures must be supplied before a relational
+> description can support the quantitative and dynamical operations assigned
+> to it?
+
+The method is obstruction-driven. A new component is introduced only after an
+invariance argument, identifiability result, underdetermination construction,
+or closure counterexample shows that the previous representation is
+insufficient for a declared operation. The resulting inventory is
+
+\[
+\mathcal M=(R,q,\mu,K,\pi),
+\]
+
+where \(R\) is relational or ordinal structure, \(q\) is an additional
+cardinal mark, \(\mu\) is additive mass, \(K\) is a conditional transition
+kernel, and \(\pi\) is source occupancy for dynamic aggregation. This tuple is
+a provisional informational architecture. It is not asserted to be a unique
+ontology or a derivation of physical spacetime.
+
+The first obstruction concerns order-only identifiability. Strict
+coordinatewise monotone transformations can preserve an induced finite order
+while changing latent marginal scales and densities. Under continuous
+marginals, the law of a coordinatewise order depends at most on the copula,
+not on the marginal calibrations. Consequently, a deterministic order-only
+estimator cannot recover targets that vary inside the same
+order-equivalence class.
+
+A separate mark \(q\) can add cardinal information only when its marked law is
+not itself determined by \(R\). Operational meaning additionally requires a
+declared observation kernel sensitive to gauge-invariant \(q\)-contrasts.
+Locality, relabeling equivariance, and positive-affine standardization do not
+select a unique kernel: an infinite family remains. Classical
+difference-based odds and maximum-entropy arguments can select an exponential
+family under stronger assumptions, but they do not determine a unique
+physical coupling strength.
+
+Multiplicity creates a second obstruction. Relation plus marks cannot
+distinguish a descriptive refinement from the addition of ontically distinct
+copies when both generate the same marked representation. An additive mass
+\(\mu\) supplies the missing refinement semantics. Once masses are supplied,
+conservative cloning, finite regrouping, and projective branch fractions can
+be handled exactly; consistency constrains how weights combine but not which
+weights should be used.
+
+For a fixed parameter \(\lambda\), the additive exponential weight
+
+\[
+W_\lambda(B)=\sum_{i\in B}\mu_i e^{-\lambda q_i}
+\]
+
+admits the exact block message
+
+\[
+(M_B,Q_\lambda(B)),
+\qquad
+M_B=\sum_{i\in B}\mu_i,
+\]
+
+where
+
+\[
+Q_\lambda(B)
+=
+-\lambda^{-1}
+\log\left(
+\frac{W_\lambda(B)}{M_B}
+\right).
+\]
+
+This is classical log-sum-exp algebra applied to the present architecture.
+Its exact static associativity does not imply autonomous macrodynamics. Under
+the centered contraction
+
+\[
+q_i'=\bar q_\mu+a(q_i-\bar q_\mu),
+\]
+
+affine covariance gives
+
+\[
+Q_\lambda'
+=
+(1-a)\bar q_\mu+aQ_{a\lambda}.
+\]
+
+The article provides an exact four-point counterexample showing that two
+finite distributions can have the same mass-normalized mean and the same
+\(Q_\lambda\), yet different \(Q_{a\lambda}\) and therefore different next
+\(Q_\lambda\). Thus one fixed-\(\lambda\) score is not a generally closed
+dynamic state.
+
+A third distinction appears in coarse-graining. The exact message depends on
+the observable to be preserved. Arithmetic means preserve first moments;
+exponential scores preserve exponential weights; other targets require other
+messages. For Markov dynamics, a microscopic kernel and a partition do not
+generally determine a unique macro kernel without source occupancy or a
+lumpability condition. Carrying the joint flow
+\(F_{ij}=\pi_iK_{ij}\) restores exact aggregation.
+
+The contribution is therefore a structured separation of informational roles.
+Several ingredients are classical: copula invariance, measurement-scale
+arguments, exponential choice models, additive measure extension,
+quasi-arithmetic means, and Markov lumpability. The project-specific value
+lies in the obstruction map that organizes them, the explicit separation of
+static sufficiency from dynamic autonomy, and the exact nonclosure witness for
+the chosen centered contraction.
+
+The article proceeds as follows. Section 2 establishes the order-only
+identifiability limit. Sections 3 and 4 introduce \(q\), its gauge contract,
+and the status of operational kernels and their parameters. Section 5 treats
+measure, multiplicity, and refinement. Sections 6 and 7 separate exact static
+aggregation from dynamic closure. Section 8 develops observable-relative
+coarse-graining and occupancy-weighted flow aggregation. Section 9 assembles
+the provisional architecture. Section 10 states the scope, contribution, and
+open bridges. Appendices record equivariance, boundary cases, restricted
+closure, transform-domain conditions, and a nondecomposable median example.
 
 # 2. Order-Only Identifiability
 
@@ -173,7 +347,9 @@ orders, so order-only statistical procedures cannot consistently distinguish
 those marginal models.
 
 This is an identifiability statement, not a universal impossibility claim.
-The obstruction can be removed by enriching the observation. Examples include
+The distinction between qualitative structure, numerical representation, and
+admissible recalibration is standard in representational measurement theory
+[@KrantzEtAl1971]. The obstruction can be removed by enriching the observation. Examples include
 a calibrated coordinate, an independently specified measure, physically
 distinguished marks, repeated observations containing non-order data, or a
 dynamical rule whose observables are not invariant under the same
@@ -2127,3 +2303,409 @@ known closures and nonclosures are separated by operation.}
 
 This architecture provides a controlled starting point for further theory. It
 does not complete that theory.
+
+# 10. Scope, Contribution, and Conclusion
+
+## 10.1 What has been established
+
+The article began with a relational representation and asked which additional
+informational structures are required for a specified set of operations. The
+answer is not a universal metaphysical inventory. It is a conditional
+dependency map.
+
+Within the representation classes studied:
+
+1. an order \(R\) does not identify latent quantities that vary under
+   order-preserving recalibration;
+2. a mark \(q\) adds information only when its marked law and observation
+   coupling are not determined by \(R\);
+3. relation plus marks do not fix refinement multiplicity, motivating an
+   additive mass \(\mu\);
+4. symmetry and locality can restrict but do not uniquely determine a
+   transition kernel \(K\);
+5. the exponential score \(Q_\lambda\) is an exact static message for one
+   declared exponential observable;
+6. one fixed-\(\lambda\) score is not generally a closed dynamic state under
+   the centered contraction;
+7. a partitioned microscopic kernel does not generally define a macro kernel
+   without occupancy \(\pi\) or lumpability.
+
+These statements motivate the provisional architecture
+
+\[
+\mathcal M=(R,q,\mu,K,\pi).
+\]
+
+Its relative minimality is operational: removing a component reintroduces at
+least one documented obstruction for the tasks considered. Equivalent
+representations may package the same information differently. For one-step
+dynamics, for example, joint flow can replace the pair \((K,\pi)\).
+
+## 10.2 Contribution hierarchy
+
+The mathematical ingredients have unequal novelty and should be described
+accordingly.
+
+Classical or attributed results include monotone and copula invariance,
+interval-scale arguments, Luce/logit representations, exponential
+certainty-equivalent algebra, additive measure extension, quasi-arithmetic
+mean characterizations, moment-closure background, transform uniqueness, and
+Markov lumpability.
+
+Direct framework corollaries include the operational interpretation of
+\(q\)-contrasts for a declared kernel, the raw-score/coupling degeneracy, exact
+exponential projectivity, and the centered-contraction transport identity.
+
+The strongest self-contained project result is the exact nonclosure
+counterexample: equal mean and equal \(Q_\lambda\) do not determine the next
+\(Q_\lambda\) on the unrestricted finite-distribution class. The broader
+framework-level contribution is the obstruction map that separates the roles
+of relation, mark, mass, transition, and occupancy.
+
+## 10.3 What has not been established
+
+No result in this article derives:
+
+- a physical spacetime or causal structure from the formal relation;
+- a calibrated temporal or spatial metric;
+- curvature, gravity, or matter dynamics;
+- the physical origin or measurement procedure for \(q\);
+- a uniquely preferred mass \(\mu\);
+- a fundamental kernel \(K\);
+- a predicted numerical value of \(\beta\) or \(\lambda\);
+- a physical occupancy law \(\pi\);
+- a universal scalar coarse-graining variable.
+
+The terms “gauge,” “effective score,” and “flow” are used mathematically. They
+do not by themselves establish a corresponding physical field theory.
+
+## 10.4 Open bridges
+
+A physical or empirical extension would require at least four additional
+bridges.
+
+First, an observation map must specify how data determine or constrain
+\(R,q,\mu,K,\pi\). Second, calibration standards must separate
+representation-dependent scale from measurable quantities. Third, proposed
+dynamics must be tested prospectively against alternative kernels,
+distribution families, and null models. Fourth, any geometry constructed from
+the formal variables must be validated independently before receiving a
+spacetime interpretation.
+
+Mathematically, several questions remain open. The minimal sufficient dynamic
+state for broader update classes may be smaller than a full transform curve
+but larger than a single score. Restricted invariant distribution families
+may admit exact finite closure. Approximate closures require error bounds and
+domain conditions. Multi-observable coarse-graining may be formulated through
+vector or measure-valued messages rather than a single scalar.
+
+## 10.5 Conclusion
+
+The principal lesson is methodological. Relational simplicity at the
+microscopic level does not justify silently importing cardinal scale,
+multiplicity, transition law, or occupancy at later stages. Each layer should
+be either derived under explicit assumptions or declared as additional
+information.
+
+The architecture
+
+\[
+(R,q,\mu,K,\pi)
+\]
+
+makes those declarations visible. It identifies where exact constructions are
+available, where classical theorems apply, and where closure fails. That is a
+more limited conclusion than a completed physical theory, but it is also a
+testable and auditable foundation on which further work can be built.
+
+# Appendix A. Equivariance and External Calibration
+
+## A.1 Endogenous equivariance
+
+Let a group \(G\) act on a state space \(\mathcal X\) and observation space
+\(\mathcal Y\). Let \(P(x,\cdot)\) be a Markov transition kernel on
+\(\mathcal X\), and let \(O:\mathcal X\to\mathcal Y\) be an observation map.
+Assume
+
+\[
+P(gx,gA)=P(x,A)
+\]
+
+for every measurable \(A\subseteq\mathcal X\) and every \(g\in G\), and
+
+\[
+O(gx)=gO(x).
+\]
+
+If two initial states differ only by the group action, their evolved laws
+remain related by that action at every finite time.
+
+**Proposition A.1 (equivariant evolution preserves equivalence).**  
+Purely endogenous evolution whose initial law, transition kernel, and
+observation map are equivariant cannot select a preferred representative from
+one group orbit.
+
+**Proof.** The one-step statement follows directly from kernel equivariance.
+Induction gives the same relation for every finite-time law. Applying the
+equivariant observation map preserves the orbit relation in observation space.
+\(\square\)
+
+The result is conditional. Non-equivariant boundary conditions, calibrated
+inputs, asymmetric noise laws, or new observables can break the equivalence.
+
+## A.2 A calibrated witness
+
+Let \(x\) and \(gx\) be observationally equivalent under the original
+relational observation. Introduce an additional mark \(c:\mathcal X\to
+\mathbb R\) satisfying
+
+\[
+c(gx)\ne c(x)
+\]
+
+for at least one pair in the orbit, and suppose \(c\) is externally calibrated
+rather than computed equivariantly from the original relation. Then the
+enriched observation
+
+\[
+\widetilde O(x)=(O(x),c(x))
+\]
+
+distinguishes that pair.
+
+**Proposition A.2 (calibration can break degeneracy).**  
+An additional non-invariant calibrated observable can separate states that are
+indistinguishable under an equivariant order-only observation.
+
+This is a constructive possibility, not a derivation of the required
+calibration. The main text therefore treats calibrated marks as possible
+bridges rather than as consequences of relational dynamics.
+
+# Appendix B. Nondegeneracy Boundary of Weighted Standardization
+
+Let positive masses \(\mu_i\) have total mass
+
+\[
+M=\sum_i\mu_i.
+\]
+
+Define
+
+\[
+\bar q_\mu
+=
+\frac1M\sum_i\mu_iq_i
+\]
+
+and
+
+\[
+s_\mu^2
+=
+\frac1M\sum_i\mu_i(q_i-\bar q_\mu)^2.
+\]
+
+When \(s_\mu>0\), the standardized values are
+
+\[
+z_i=\frac{q_i-\bar q_\mu}{s_\mu}.
+\]
+
+## B.1 Continuity inside the nondegenerate domain
+
+For a fixed context with \(s_\mu>0\), adding a bounded-score alternative of
+mass \(\varepsilon\) changes \(M\), \(\bar q_\mu\), \(s_\mu\), the
+standardized scores, and any continuous normalized positive kernel
+continuously as \(\varepsilon\to0\).
+
+Thus conservative small-mass refinements are stable away from the singular
+boundary.
+
+## B.2 Failure of uniform stability
+
+The convergence is not uniform as the original variance tends to zero. At
+
+\[
+s_\mu=0,
+\]
+
+all marks coincide and the standardized representation is undefined.
+Moreover, an arbitrarily small mass at a separated score can generate
+order-one standardized contrasts.
+
+For example, begin with unit mass at \(q=0\), and add mass
+\(\varepsilon>0\) at \(q=1\). Then
+
+\[
+\bar q_\mu=\frac{\varepsilon}{1+\varepsilon},
+\qquad
+s_\mu^2=\frac{\varepsilon}{(1+\varepsilon)^2}.
+\]
+
+The standardized values are
+
+\[
+z_0=-\sqrt{\varepsilon},
+\qquad
+z_1=\frac{1}{\sqrt{\varepsilon}}.
+\]
+
+Although the added mass tends to zero, its standardized score diverges.
+A nonlinear kernel of \(z\) can therefore change by order one or more near the
+zero-variance boundary.
+
+**Proposition B.1 (standardization boundary).**  
+Weighted standardization is continuous under vanishing bounded mass on every
+domain bounded away from zero variance, but it is undefined at zero variance
+and is not uniformly stable as variance approaches zero.
+
+The consequence is local: standardized contextual kernels require an explicit
+nondegeneracy domain, a regularization rule, or a separate boundary
+definition. It does not imply that all weighted coarse-graining is unstable.
+
+# Appendix C. Restricted Closure and Transform Domain
+
+## C.1 Gaussian invariant-family exception
+
+Consider
+
+\[
+X_{t+1}=b+aX_t+\xi_t,
+\]
+
+where \(X_t\) is Gaussian and \(\xi_t\) is independent Gaussian noise. Then
+\(X_{t+1}\) is Gaussian with
+
+\[
+m_{t+1}=b+am_t,
+\qquad
+v_{t+1}=a^2v_t+v_\xi.
+\]
+
+For a Gaussian law,
+
+\[
+Q_\lambda
+=
+-\lambda^{-1}\log E[e^{-\lambda X}]
+=
+m-\frac{\lambda}{2}v.
+\]
+
+Therefore mean and variance determine the full transform curve inside the
+Gaussian invariant family.
+
+**Proposition C.1 (conditional Gaussian closure).**  
+Mean-variance closure is exact under affine dynamics when both the state and
+independent innovations remain Gaussian.
+
+This exception does not contradict the general nonclosure counterexample.
+It adds an invariant-family assumption that removes the unresolved higher
+cumulants. Non-Gaussian innovations regenerate higher cumulants according to
+
+\[
+\kappa_r(X_{t+1})
+=
+a^r\kappa_r(X_t)+\kappa_r(\xi_t),
+\qquad r\ge2.
+\]
+
+Centering is a linear operation and does not by itself make a non-Gaussian
+innovation law Gaussian.
+
+## C.2 Exponential-moment domain
+
+The existence of a finite variance does not guarantee that
+
+\[
+E[e^{-\lambda X}]
+\]
+
+is finite for nonzero \(\lambda\). Some heavy-tailed distributions have finite
+variance but no moment-generating function away from the origin.
+
+**Proposition C.2 (domain warning).**  
+The score \(Q_\lambda\) is defined only on the side of the origin where the
+corresponding exponential moment is finite. Finite variance alone is
+insufficient.
+
+The manuscript therefore uses finite-support distributions for the exact
+nonclosure witness and states transform-domain assumptions whenever an
+infinite law is discussed. Weak convergence or a central limit theorem also
+does not, by itself, imply convergence of exponential moments; uniform
+integrability or comparable tail control is required.
+
+# Appendix D. A Nondecomposable Median Message
+
+Robustness of a statistic does not imply hierarchical decomposability. Consider
+weighted medians under the convention that the median is the smallest value
+whose cumulative mass reaches at least one half of total mass.
+
+Define two blocks of total mass one:
+
+\[
+A:
+\quad
+0\text{ with mass }\frac35,
+\qquad
+100\text{ with mass }\frac25,
+\]
+
+and
+
+\[
+A':
+\quad
+0\text{ with mass }\frac35,
+\qquad
+1\text{ with mass }\frac25.
+\]
+
+Both blocks have total mass \(1\) and weighted median \(0\). Let a third block
+be
+
+\[
+B:
+\quad
+50\text{ with mass }\frac12.
+\]
+
+For \(A\cup B\), the ordered masses are
+
+\[
+0:\frac35,
+\qquad
+50:\frac12,
+\qquad
+100:\frac25.
+\]
+
+The total mass is \(3/2\), so the half-mass threshold is \(3/4\). The
+cumulative mass at \(0\) is \(3/5<3/4\), while at \(50\) it exceeds the
+threshold. Hence the combined median is \(50\).
+
+For \(A'\cup B\), the ordered masses are
+
+\[
+0:\frac35,
+\qquad
+1:\frac25,
+\qquad
+50:\frac12.
+\]
+
+The cumulative mass first reaches \(3/4\) at \(1\). Hence the combined median
+is \(1\).
+
+**Proposition D.1 (mass plus median is not closed).**  
+Two blocks can have the same total mass and weighted median yet yield different
+global medians when combined with the same third block. Therefore the pair
+“mass plus weighted median” is not an exact hierarchical message.
+
+The result does not rule out mergeable quantile sketches, interval-valued
+summaries, or richer order-statistic messages. It rules out exact closure of
+this particular scalar summary.
+
+# References
+
+A complete bibliography accompanies the review package.

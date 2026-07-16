@@ -1,29 +1,30 @@
-# F3 Manuscript Status
+# F4 Manuscript Status
 
-**Verdict:** `COMPLETE_PRE_SUBMISSION_DRAFT_REFERENCE_AND_EXTERNAL_REVIEW_GATES_OPEN`
+**Verdict:** `REFERENCE_CLOSURE_4_OF_5_EXTERNAL_REVIEW_PACKAGE_READY_NOT_SUBMISSION_READY`
 
 ## Completed
 
-- Abstract: **241 words**
-- Main sections: **10/10**
-- Appendices: **4/4**
-- Full manuscript: **11,875 words**
+- Complete pre-submission manuscript: **11,903 words**
 - Main claims traced: **32/32**
 - Appendix claims traced: **6/6**
-- Bibliographic keys: **14**
-- Missing or unused citation keys: **0**
-- Integrated mathematical review: complete
-- Data/code availability: complete
-- Author declarations: complete
+- Exact book-location gates closed: **4/5**
+- Luce location: closed
+- Measurement scale/meaningfulness location: closed
+- Kolmogorov path-space extension location: closed
+- Kemeny–Snell lumpability location: closed
+- External review package: complete
+- Anonymous review copy: complete
+- Critical claim checklist: complete
+- Internal adversarial review: complete, explicitly non-independent
+- Exact four-point witness verifier: complete
 
 ## Open gates
 
-- Exact book theorem/page locations: **5**
-- Independent specialist review: not yet recorded
-- Venue-specific formatting: not started
+- Aczél exact theorem/page: **open**
+- Independent external mathematical review: **not completed**
+- Venue-specific formatting: **not started**
 
 ## Readiness interpretation
 
-The article is a complete pre-submission manuscript. It is ready for
-independent mathematical review and reference-location completion. It should
-not yet be labeled submission-ready or submitted without those checks.
+The manuscript is ready to be sent to an independent mathematical reviewer.
+It is not submission-ready and no external-review verdict is claimed.

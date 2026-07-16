@@ -1,27 +1,30 @@
-# F3 — Integrated Foundational Manuscript
+# F4 — Reference Closure and Independent Review Package
 
-F3 converts the F2 technical body into a complete pre-submission manuscript.
+F4 closes four of five exact book-location gates and prepares the foundational
+manuscript for independent mathematical review.
 
-## Manuscript files
+## Manuscript
 
 - `FULL_MANUSCRIPT.md`
 - `PRE_SUBMISSION_MANUSCRIPT.md`
-- `ABSTRACT.md`
-- Sections `01_...` through `10_...`
-- Appendices A–D
-- `DATA_CODE_AVAILABILITY.md`
-- `AUTHOR_DECLARATIONS.md`
-
-## Review and traceability
-
-- `INTEGRATED_REVIEW_REPORT.md`
-- `CLAIM_TRACEABILITY.csv`
-- `REFERENCE_AUDIT.csv`
 - `REFERENCES_VERIFIED.bib`
+- `REFERENCE_LOCATIONS.csv`
+- `REFERENCE_CLOSURE_REPORT.md`
 - `DRAFT_STATUS.md`
-- `F3_CHANGELOG.md`
+
+## Review package
+
+See `../review/` for:
+
+- anonymous review copy;
+- reviewer request and guide;
+- mathematical audit targets;
+- critical claim checklist;
+- review form and issue log;
+- independence policy;
+- internal adversarial review.
 
 ## Status
 
-The scientific body is complete. Five exact book theorem/page locations and
-an independent specialist review remain open before submission.
+The manuscript is ready for external review, not for submission. The Aczél
+exact theorem-location gate and independent-review gate remain open.

@@ -167,7 +167,9 @@ orders, so order-only statistical procedures cannot consistently distinguish
 those marginal models.
 
 This is an identifiability statement, not a universal impossibility claim.
-The obstruction can be removed by enriching the observation. Examples include
+The distinction between qualitative structure, numerical representation, and
+admissible recalibration is standard in representational measurement theory
+[@KrantzEtAl1971]. The obstruction can be removed by enriching the observation. Examples include
 a calibrated coordinate, an independently specified measure, physically
 distinguished marks, repeated observations containing non-order data, or a
 dynamical rule whose observables are not invariant under the same

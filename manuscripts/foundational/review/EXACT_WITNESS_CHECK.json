@@ -1,0 +1,18 @@
+{
+  "verdict": "PASS_EXACT_FOUR_POINT_NONCLOSURE_WITNESS",
+  "checks": {
+    "p_plus_normalized": true,
+    "p_minus_normalized": true,
+    "means_equal_3_over_2": true,
+    "fixed_moments_equal_15_over_32": true,
+    "half_parameter_moments_different": true
+  },
+  "mean_plus": "3/2",
+  "mean_minus": "3/2",
+  "fixed_moment_plus": "15/32",
+  "fixed_moment_minus": "15/32",
+  "half_parameter_plus": "0.64105339059327376220042218105242451964241796884422",
+  "half_parameter_minus": "0.63927669529663688110021109052621225982120898442211",
+  "difference_decimal": "0.00177669529663688110021109052621225982120898442211",
+  "difference_exact": "(5*sqrt(2)-7)/40"
+}

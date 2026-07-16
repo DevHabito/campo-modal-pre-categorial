@@ -296,8 +296,8 @@ separations. Continuity at zero and \(h(0)=0\) force both constants to vanish.
 Under the assumptions above, the only continuous cardinal score difference is
 the trivial one.
 
-The lemma is an elementary consequence of standard interval-scale
-invariance [@KrantzEtAl1971]. It does not say that interval-scale differences
+The lemma is an elementary consequence of standard interval-scale and
+meaningfulness arguments [@LuceEtAl1990]. It does not say that interval-scale differences
 are meaningless. Ordinary differences transform covariantly with the unit.
 The incompatibility arises only when one simultaneously demands a nontrivial
 cardinal difference, complete context-extension stability, and numerical

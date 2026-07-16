@@ -3,8 +3,9 @@
 
 **Felipe Gianini Romero**
 
-**Manuscript status:** Complete pre-submission draft. Reference-location and
-external-review gates remain open.
+**Manuscript status:** Complete pre-submission draft. Four of five exact
+book-location gates are closed; the Aczél theorem-location gate and independent
+external-review gate remain open.
 
 # Abstract
 
@@ -347,7 +348,9 @@ orders, so order-only statistical procedures cannot consistently distinguish
 those marginal models.
 
 This is an identifiability statement, not a universal impossibility claim.
-The obstruction can be removed by enriching the observation. Examples include
+The distinction between qualitative structure, numerical representation, and
+admissible recalibration is standard in representational measurement theory
+[@KrantzEtAl1971]. The obstruction can be removed by enriching the observation. Examples include
 a calibrated coordinate, an independently specified measure, physically
 distinguished marks, repeated observations containing non-order data, or a
 dynamical rule whose observables are not invariant under the same
@@ -904,8 +907,8 @@ separations. Continuity at zero and \(h(0)=0\) force both constants to vanish.
 Under the assumptions above, the only continuous cardinal score difference is
 the trivial one.
 
-The lemma is an elementary consequence of standard interval-scale
-invariance [@KrantzEtAl1971]. It does not say that interval-scale differences
+The lemma is an elementary consequence of standard interval-scale and
+meaningfulness arguments [@LuceEtAl1990]. It does not say that interval-scale differences
 are meaningless. Ordinary differences transform covariantly with the unit.
 The incompatibility arises only when one simultaneously demands a nontrivial
 cardinal difference, complete context-extension stability, and numerical
@@ -1101,11 +1104,12 @@ to its children \(B\), with
 \]
 
 The mass of a cylinder determined by a finite path is the product of its branch
-fractions. These finite-dimensional cylinder probabilities are consistent:
-the mass of a parent cylinder equals the sum of the masses of its child
-cylinders. Under the standard extension theorem, the consistent family
-determines a probability measure on the infinite path space by the standard
-extension theorem [@Kolmogorov1933].
+fractions. These cylinder probabilities are consistent: the mass of a parent
+cylinder equals the sum of the masses of its child cylinders. Because a
+finitely branching rooted tree has a countable cylinder algebra and its path
+space carries the standard cylinder sigma-algebra, the consistent premeasure
+extends to a probability measure on the infinite path space
+[@Kolmogorov1933].
 
 This construction separates two concepts that are easily conflated:
 terminality and atomicity.
@@ -1867,9 +1871,10 @@ f^{-1}\left(
 where \(f\) is continuous and strictly monotone. Such means are hierarchically
 decomposable when each block transmits its total mass and its block mean.
 
-Classical characterization results associated with Kolmogorov, Nagumo, and
-Aczél show how regularity, decomposability, and invariance assumptions restrict
-the generator [@Kolmogorov1930; @Nagumo1930; @Aczel1966]. In the
+Classical characterization results of Kolmogorov and Nagumo, with later
+functional-equation treatments by Aczél, show how regularity,
+decomposability, and invariance assumptions restrict the generator
+[@Kolmogorov1930; @Nagumo1930; @Aczel1966]. In the
 translation-covariant class relevant here,
 
 \[

@@ -1,45 +1,14 @@
 {
-  "artifact_id": "F3_INTEGRATED_REVIEW_AND_MANUSCRIPT_COMPLETION",
-  "main_sections": [
-    "01_introduction.md",
-    "02_order_identifiability.md",
-    "03_quantitative_structure_q.md",
-    "04_operational_kernels.md",
-    "05_measure_and_refinement.md",
-    "06_static_aggregation.md",
-    "07_dynamic_nonclosure.md",
-    "08_coarse_graining.md",
-    "09_informational_architecture.md",
-    "10_scope_and_conclusion.md"
-  ],
-  "appendices": [
-    "APPENDIX_A_equivariance_and_calibration.md",
-    "APPENDIX_B_refinement_boundary.md",
-    "APPENDIX_C_restricted_closure_and_domain.md",
-    "APPENDIX_D_median_nonclosure.md"
-  ],
-  "abstract_words": 241,
-  "section_word_counts": {
-    "01_introduction.md": 739,
-    "02_order_identifiability.md": 966,
-    "03_quantitative_structure_q.md": 1067,
-    "04_operational_kernels.md": 1453,
-    "05_measure_and_refinement.md": 1283,
-    "06_static_aggregation.md": 898,
-    "07_dynamic_nonclosure.md": 1054,
-    "08_coarse_graining.md": 901,
-    "09_informational_architecture.md": 1286,
-    "10_scope_and_conclusion.md": 652,
-    "APPENDIX_A_equivariance_and_calibration.md": 296,
-    "APPENDIX_B_refinement_boundary.md": 292,
-    "APPENDIX_C_restricted_closure_and_domain.md": 272,
-    "APPENDIX_D_median_nonclosure.md": 248
-  },
-  "full_manuscript_words": 11875,
-  "claims_traced": 38,
+  "artifact_id": "F4_REFERENCE_CLOSURE_AND_INDEPENDENT_REVIEW_PACKAGE",
+  "manuscript_words": 11903,
   "main_claims": 32,
   "appendix_claims": 6,
-  "references": 14,
-  "reference_location_gates_open": 5,
-  "verdict": "COMPLETE_PRE_SUBMISSION_DRAFT_REFERENCE_AND_EXTERNAL_REVIEW_GATES_OPEN"
+  "exact_reference_gates_total": 5,
+  "exact_reference_gates_closed": 4,
+  "exact_reference_gates_open": 1,
+  "open_reference_gate": "Aczel1966 exact theorem/page",
+  "external_review_package": "READY",
+  "independent_external_review": "NOT_COMPLETED",
+  "internal_adversarial_review": "COMPLETED_NOT_INDEPENDENT",
+  "verdict": "REFERENCE_CLOSURE_4_OF_5_EXTERNAL_REVIEW_PACKAGE_READY_NOT_SUBMISSION_READY"
 }
