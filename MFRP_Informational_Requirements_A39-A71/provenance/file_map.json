@@ -1,0 +1,693 @@
+{
+  "scope": "MFRP audit sequence A39-A71",
+  "files": [
+    {
+      "repository_path": "audits/a39_sharp_prediction_interval_audit.py",
+      "source_or_derivation": "a39_sharp_prediction_interval_audit.py"
+    },
+    {
+      "repository_path": "audits/a40_monotone_refinement_audit.py",
+      "source_or_derivation": "a40_monotone_refinement_audit.py"
+    },
+    {
+      "repository_path": "audits/a41_robust_interval_data_audit.py",
+      "source_or_derivation": "a41_robust_interval_data_audit.py"
+    },
+    {
+      "repository_path": "audits/a42_finite_budget_design_audit.py",
+      "source_or_derivation": "a42_finite_budget_design_audit.py"
+    },
+    {
+      "repository_path": "audits/a43_direct_q_minimax_design_audit.py",
+      "source_or_derivation": "a43_direct_q_minimax_design_audit.py"
+    },
+    {
+      "repository_path": "audits/a44_continuous_parameter_audit.py",
+      "source_or_derivation": "a44_continuous_parameter_audit.py"
+    },
+    {
+      "repository_path": "audits/a45_positive_noise_phase_diagram_audit.py",
+      "source_or_derivation": "a45_positive_noise_phase_diagram_audit.py"
+    },
+    {
+      "repository_path": "audits/a46_noise_separation_boundary_layer_audit.py",
+      "source_or_derivation": "a46_noise_separation_boundary_layer_audit.py"
+    },
+    {
+      "repository_path": "audits/a47_global_noise_separation_phase_diagram_audit.py",
+      "source_or_derivation": "a47_global_noise_separation_phase_diagram_audit.py"
+    },
+    {
+      "repository_path": "audits/a48_target_inclusion_degeneracy_audit.py",
+      "source_or_derivation": "a48_target_inclusion_degeneracy_audit.py"
+    },
+    {
+      "repository_path": "audits/a49_expanded_anchor_catalogue_audit.py",
+      "source_or_derivation": "a49_expanded_anchor_catalogue_audit.py"
+    },
+    {
+      "repository_path": "audits/a50_continuous_first_anchor_audit.py",
+      "source_or_derivation": "a50_continuous_first_anchor_audit.py"
+    },
+    {
+      "repository_path": "audits/a51_target_exclusion_distance_audit.py",
+      "source_or_derivation": "a51_target_exclusion_distance_audit.py"
+    },
+    {
+      "repository_path": "audits/a52_continuous_second_anchor_audit.py",
+      "source_or_derivation": "a52_continuous_second_anchor_audit.py"
+    },
+    {
+      "repository_path": "audits/a53_coupled_second_third_anchor_audit.py",
+      "source_or_derivation": "a53_coupled_second_third_anchor_audit.py"
+    },
+    {
+      "repository_path": "audits/a54_universal_continuum_witness_audit.py",
+      "source_or_derivation": "a54_universal_continuum_witness_audit.py"
+    },
+    {
+      "repository_path": "audits/a55_finite_cap_implementability_audit.py",
+      "source_or_derivation": "a55_finite_cap_implementability_audit.py"
+    },
+    {
+      "repository_path": "audits/a56_cost_regularized_finite_cap_audit.py",
+      "source_or_derivation": "a56_cost_regularized_finite_cap_audit.py"
+    },
+    {
+      "repository_path": "audits/a57_heteroscedastic_third_channel_audit.py",
+      "source_or_derivation": "a57_heteroscedastic_third_channel_audit.py"
+    },
+    {
+      "repository_path": "audits/a58_independent_three_channel_error_audit.py",
+      "source_or_derivation": "a58_independent_three_channel_error_audit.py"
+    },
+    {
+      "repository_path": "audits/a59_correlated_ellipsoidal_calibration_audit.py",
+      "source_or_derivation": "a59_correlated_ellipsoidal_calibration_audit.py"
+    },
+    {
+      "repository_path": "audits/a60_general_covariance_matrix_audit.py",
+      "source_or_derivation": "a60_general_covariance_matrix_audit.py"
+    },
+    {
+      "repository_path": "audits/a61_spectral_covariance_uncertainty_audit.py",
+      "source_or_derivation": "a61_spectral_covariance_uncertainty_audit.py"
+    },
+    {
+      "repository_path": "audits/a62_bootstrap_spectral_protocol_audit.py",
+      "source_or_derivation": "a62_bootstrap_spectral_protocol_audit.py"
+    },
+    {
+      "repository_path": "audits/a63_structural_generalization_audit.py",
+      "source_or_derivation": "a63_structural_generalization_audit.py"
+    },
+    {
+      "repository_path": "audits/a63_structural_generalization_exact_helpers.py",
+      "source_or_derivation": "a63_structural_generalization_exact_helpers.py"
+    },
+    {
+      "repository_path": "audits/a64_scale_normalized_boundary_pair_audit.py",
+      "source_or_derivation": "a64_scale_normalized_boundary_pair_audit.py"
+    },
+    {
+      "repository_path": "audits/a64_scale_normalized_boundary_pair_exact_helpers.py",
+      "source_or_derivation": "a64_scale_normalized_boundary_pair_exact_helpers.py"
+    },
+    {
+      "repository_path": "audits/a65_continuous_first_anchor_audit.py",
+      "source_or_derivation": "a65_continuous_first_anchor_audit.py"
+    },
+    {
+      "repository_path": "audits/a66_exact_global_phase_audit.py",
+      "source_or_derivation": "a66_exact_global_phase_audit.py"
+    },
+    {
+      "repository_path": "audits/a67_central_mean_support_family_audit.py",
+      "source_or_derivation": "a67_central_mean_support_family_audit.py"
+    },
+    {
+      "repository_path": "audits/a68_dual_envelope_channel_value_audit.py",
+      "source_or_derivation": "a68_dual_envelope_channel_value_audit.py"
+    },
+    {
+      "repository_path": "audits/a69_cramer_chebyshev_reduction_audit.py",
+      "source_or_derivation": "a69_cramer_chebyshev_reduction_audit.py"
+    },
+    {
+      "repository_path": "audits/a70_signed_q_schur_dominance_audit.py",
+      "source_or_derivation": "a70_signed_q_schur_dominance_audit.py"
+    },
+    {
+      "repository_path": "audits/a71_orientation_bifurcation_audit.py",
+      "source_or_derivation": "a71_orientation_bifurcation_audit.py"
+    },
+    {
+      "repository_path": "audits/validate_finite_grid_nonclosure.py",
+      "source_or_derivation": "validate_finite_grid_nonclosure.py"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_bootstrap_spectral_protocol.md",
+      "source_or_derivation": "MFRP_next_step_bootstrap_spectral_protocol.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_central_mean_support_family.md",
+      "source_or_derivation": "MFRP_next_step_central_mean_support_family.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_continuous_first_anchor.md",
+      "source_or_derivation": "MFRP_next_step_continuous_first_anchor.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_continuous_first_anchor_stress.md",
+      "source_or_derivation": "MFRP_next_step_continuous_first_anchor_stress.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_continuous_parameter_audit.md",
+      "source_or_derivation": "MFRP_next_step_continuous_parameter_audit.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_continuous_second_anchor.md",
+      "source_or_derivation": "MFRP_next_step_continuous_second_anchor.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_correlated_ellipsoidal_calibration.md",
+      "source_or_derivation": "MFRP_next_step_correlated_ellipsoidal_calibration.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_cost_regularized_finite_cap.md",
+      "source_or_derivation": "MFRP_next_step_cost_regularized_finite_cap.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_coupled_second_third_anchor.md",
+      "source_or_derivation": "MFRP_next_step_coupled_second_third_anchor.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_cramer_chebyshev_reduction.md",
+      "source_or_derivation": "MFRP_next_step_cramer_chebyshev_reduction.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_direct_q_minimax_design.md",
+      "source_or_derivation": "MFRP_next_step_direct_q_minimax_design.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_dual_envelope_channel_value.md",
+      "source_or_derivation": "MFRP_next_step_dual_envelope_channel_value.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_exact_global_phase_theorems.md",
+      "source_or_derivation": "MFRP_next_step_exact_global_phase_theorems.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_expanded_anchor_catalogue.md",
+      "source_or_derivation": "MFRP_next_step_expanded_anchor_catalogue.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_finite_budget_design.md",
+      "source_or_derivation": "MFRP_next_step_finite_budget_design.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_finite_cap_implementability.md",
+      "source_or_derivation": "MFRP_next_step_finite_cap_implementability.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_finite_grid_nonclosure.md",
+      "source_or_derivation": "MFRP_next_step_finite_grid_nonclosure.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_general_covariance_matrix.md",
+      "source_or_derivation": "MFRP_next_step_general_covariance_matrix.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_global_noise_separation_phase_diagram.md",
+      "source_or_derivation": "MFRP_next_step_global_noise_separation_phase_diagram.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_heteroscedastic_third_channel.md",
+      "source_or_derivation": "MFRP_next_step_heteroscedastic_third_channel.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_independent_three_channel_error.md",
+      "source_or_derivation": "MFRP_next_step_independent_three_channel_error.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_monotone_refinement.md",
+      "source_or_derivation": "MFRP_next_step_monotone_refinement.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_noise_separation_boundary_layer.md",
+      "source_or_derivation": "MFRP_next_step_noise_separation_boundary_layer.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_orientation_bifurcation.md",
+      "source_or_derivation": "MFRP_next_step_orientation_bifurcation.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_positive_noise_phase_diagram.md",
+      "source_or_derivation": "MFRP_next_step_positive_noise_phase_diagram.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_robust_interval_data.md",
+      "source_or_derivation": "MFRP_next_step_robust_interval_data.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_scale_normalized_boundary_pair.md",
+      "source_or_derivation": "MFRP_next_step_scale_normalized_boundary_pair.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_sharp_prediction_intervals.md",
+      "source_or_derivation": "MFRP_next_step_sharp_prediction_intervals.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_signed_q_schur_dominance.md",
+      "source_or_derivation": "MFRP_next_step_signed_q_schur_dominance.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_spectral_covariance_uncertainty.md",
+      "source_or_derivation": "MFRP_next_step_spectral_covariance_uncertainty.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_structural_generalization.md",
+      "source_or_derivation": "MFRP_next_step_structural_generalization.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_target_exclusion_distance.md",
+      "source_or_derivation": "MFRP_next_step_target_exclusion_distance.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_target_inclusion_degeneracy.md",
+      "source_or_derivation": "MFRP_next_step_target_inclusion_degeneracy.md"
+    },
+    {
+      "repository_path": "docs/technical_notes/MFRP_next_step_universal_continuum_witness.md",
+      "source_or_derivation": "MFRP_next_step_universal_continuum_witness.md"
+    },
+    {
+      "repository_path": "figures/a47_global_phase_diagram.png",
+      "source_or_derivation": "a47_global_phase_diagram.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a51_target_exclusion_distance_risk.png",
+      "source_or_derivation": "a51_target_exclusion_distance_risk.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a52_continuous_second_anchor_risk.png",
+      "source_or_derivation": "a52_continuous_second_anchor_risk.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a53_coupled_anchor_risk_curves.png",
+      "source_or_derivation": "a53_coupled_anchor_risk_curves.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a54_universal_continuum_witness_band.png",
+      "source_or_derivation": "a54_universal_continuum_witness_band.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a55_finite_cap_absolute_convergence.png",
+      "source_or_derivation": "a55_finite_cap_absolute_convergence.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a55_finite_cap_relative_convergence.png",
+      "source_or_derivation": "a55_finite_cap_relative_convergence.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a56_break_even_costs.png",
+      "source_or_derivation": "a56_break_even_costs.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a56_cost_selected_cap_policy.png",
+      "source_or_derivation": "a56_cost_selected_cap_policy.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a56_risk_complexity_frontier.png",
+      "source_or_derivation": "a56_risk_complexity_frontier.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a57_allowed_noise_increase.png",
+      "source_or_derivation": "a57_allowed_noise_increase.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a57_upgrade_threshold_map.png",
+      "source_or_derivation": "a57_upgrade_threshold_map.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a58_channel_sensitivity_priority.png",
+      "source_or_derivation": "a58_channel_sensitivity_priority.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a58_individual_error_impacts.png",
+      "source_or_derivation": "a58_individual_error_impacts.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a59_exact_vs_linear_correlation.png",
+      "source_or_derivation": "a59_exact_vs_linear_correlation.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a59_risk_vs_correlation.png",
+      "source_or_derivation": "a59_risk_vs_correlation.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a59_worst_direction_vs_correlation.png",
+      "source_or_derivation": "a59_worst_direction_vs_correlation.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a60_covariance_contributions.png",
+      "source_or_derivation": "a60_covariance_contributions.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a60_general_covariance_risks.png",
+      "source_or_derivation": "a60_general_covariance_risks.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a60_general_covariance_worst_vectors.png",
+      "source_or_derivation": "a60_general_covariance_worst_vectors.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a61_covariance_uncertainty_premium.png",
+      "source_or_derivation": "a61_covariance_uncertainty_premium.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a61_spectral_risk_interval.png",
+      "source_or_derivation": "a61_spectral_risk_interval.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a61_worst_vector_vs_tau.png",
+      "source_or_derivation": "a61_worst_vector_vs_tau.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a62_bootstrap_coverage_validation.png",
+      "source_or_derivation": "a62_bootstrap_coverage_validation.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a62_contract_availability.png",
+      "source_or_derivation": "a62_contract_availability.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a62_required_inflation_factors.png",
+      "source_or_derivation": "a62_required_inflation_factors.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a63_noisy_anchor_atlas.png",
+      "source_or_derivation": "a63_noisy_anchor_atlas.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a63_noisy_third_anchor_offsets.png",
+      "source_or_derivation": "a63_noisy_third_anchor_offsets.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a63_risk_vs_support_size.png",
+      "source_or_derivation": "a63_risk_vs_support_size.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a64_boundary_pair_counts.png",
+      "source_or_derivation": "a64_boundary_pair_counts.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a64_normalized_third_anchor_offsets.png",
+      "source_or_derivation": "a64_normalized_third_anchor_offsets.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a64_target_translation_alignment.png",
+      "source_or_derivation": "a64_target_translation_alignment.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a65_boundary_sensitivity_distribution.png",
+      "source_or_derivation": "a65_boundary_sensitivity_distribution.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a65_continuous_grid_margins.png",
+      "source_or_derivation": "a65_continuous_grid_margins.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a65_local_certificate_coverage.png",
+      "source_or_derivation": "a65_local_certificate_coverage.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a65_representative_first_anchor_curves.png",
+      "source_or_derivation": "a65_representative_first_anchor_curves.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a66_canonical_global_monotonicity.png",
+      "source_or_derivation": "a66_canonical_global_monotonicity.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a66_canonical_phase_map.png",
+      "source_or_derivation": "a66_canonical_phase_map.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a66_degenerate_global_monotonicity.png",
+      "source_or_derivation": "a66_degenerate_global_monotonicity.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a67_risk_vs_support_size.png",
+      "source_or_derivation": "a67_risk_vs_support_size.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a67_support_family_phase_counts.png",
+      "source_or_derivation": "a67_support_family_phase_counts.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a67_support_family_risk_curves.png",
+      "source_or_derivation": "a67_support_family_risk_curves.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a67_support_family_transition_map.png",
+      "source_or_derivation": "a67_support_family_transition_map.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a68_dual_channel_activity.png",
+      "source_or_derivation": "a68_dual_channel_activity.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a68_first_channel_removal_risk.png",
+      "source_or_derivation": "a68_first_channel_removal_risk.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a68_first_channel_value_multiplier.png",
+      "source_or_derivation": "a68_first_channel_value_multiplier.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a69_contact_signature_counts.png",
+      "source_or_derivation": "a69_contact_signature_counts.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a69_cramer_orientation_map.png",
+      "source_or_derivation": "a69_cramer_orientation_map.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a69_numerator_flip_margins.png",
+      "source_or_derivation": "a69_numerator_flip_margins.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a69_order_only_counterexample.png",
+      "source_or_derivation": "a69_order_only_counterexample.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a70_minor_class_counts.png",
+      "source_or_derivation": "a70_minor_class_counts.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a70_phase_dominance_ratios.png",
+      "source_or_derivation": "a70_phase_dominance_ratios.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a70_signed_term_counts.png",
+      "source_or_derivation": "a70_signed_term_counts.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a70_weakest_dominance_phase.png",
+      "source_or_derivation": "a70_weakest_dominance_phase.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a71_M10_exact_catalogue_top10.png",
+      "source_or_derivation": "a71_M10_exact_catalogue_top10.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a71_M10_global_risk_curve.png",
+      "source_or_derivation": "a71_M10_global_risk_curve.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a71_M10_phase_map.png",
+      "source_or_derivation": "a71_M10_phase_map.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "figures/a71_weak_signature_bifurcation.png",
+      "source_or_derivation": "a71_weak_signature_bifurcation.png (regenerated in English from JSON)"
+    },
+    {
+      "repository_path": "paper/MFRP-TR-2026-01_Informational_Requirements_v1.1.pdf",
+      "source_or_derivation": "MFRP_TR_2026_01_Informational_Requirements(3).pdf"
+    },
+    {
+      "repository_path": "results/a39_sharp_prediction_interval_results.json",
+      "source_or_derivation": "a39_sharp_prediction_interval_results.json"
+    },
+    {
+      "repository_path": "results/a40_monotone_refinement_results.json",
+      "source_or_derivation": "a40_monotone_refinement_results.json"
+    },
+    {
+      "repository_path": "results/a41_robust_interval_data_results.json",
+      "source_or_derivation": "a41_robust_interval_data_results.json"
+    },
+    {
+      "repository_path": "results/a42_finite_budget_design_results.json",
+      "source_or_derivation": "a42_finite_budget_design_results.json"
+    },
+    {
+      "repository_path": "results/a43_direct_q_minimax_design_results.json",
+      "source_or_derivation": "a43_direct_q_minimax_design_results.json"
+    },
+    {
+      "repository_path": "results/a44_continuous_parameter_results.json",
+      "source_or_derivation": "a44_continuous_parameter_results.json"
+    },
+    {
+      "repository_path": "results/a45_positive_noise_phase_diagram_results.json",
+      "source_or_derivation": "a45_positive_noise_phase_diagram_results.json"
+    },
+    {
+      "repository_path": "results/a46_noise_separation_boundary_layer_results.json",
+      "source_or_derivation": "a46_noise_separation_boundary_layer_results.json"
+    },
+    {
+      "repository_path": "results/a47_global_noise_separation_phase_diagram_results.json",
+      "source_or_derivation": "a47_global_noise_separation_phase_diagram_results.json"
+    },
+    {
+      "repository_path": "results/a48_target_inclusion_degeneracy_results.json",
+      "source_or_derivation": "a48_target_inclusion_degeneracy_results.json"
+    },
+    {
+      "repository_path": "results/a49_expanded_target_excluding_anchor_catalogue_results.json",
+      "source_or_derivation": "a49_expanded_target_excluding_anchor_catalogue_results.json"
+    },
+    {
+      "repository_path": "results/a50_continuous_first_anchor_results.json",
+      "source_or_derivation": "a50_continuous_first_anchor_results.json"
+    },
+    {
+      "repository_path": "results/a51_target_exclusion_distance_results.json",
+      "source_or_derivation": "a51_target_exclusion_distance_results.json"
+    },
+    {
+      "repository_path": "results/a52_continuous_second_anchor_results.json",
+      "source_or_derivation": "a52_continuous_second_anchor_results.json"
+    },
+    {
+      "repository_path": "results/a53_coupled_second_third_anchor_results.json",
+      "source_or_derivation": "a53_coupled_second_third_anchor_results.json"
+    },
+    {
+      "repository_path": "results/a54_universal_continuum_witness_results.json",
+      "source_or_derivation": "a54_universal_continuum_witness_results.json"
+    },
+    {
+      "repository_path": "results/a55_finite_cap_implementability_results.json",
+      "source_or_derivation": "a55_finite_cap_implementability_results.json"
+    },
+    {
+      "repository_path": "results/a56_cost_regularized_finite_cap_results.json",
+      "source_or_derivation": "a56_cost_regularized_finite_cap_results.json"
+    },
+    {
+      "repository_path": "results/a57_heteroscedastic_third_channel_results.json",
+      "source_or_derivation": "a57_heteroscedastic_third_channel_results.json"
+    },
+    {
+      "repository_path": "results/a58_independent_three_channel_error_results.json",
+      "source_or_derivation": "a58_independent_three_channel_error_results.json"
+    },
+    {
+      "repository_path": "results/a59_correlated_ellipsoidal_calibration_results.json",
+      "source_or_derivation": "a59_correlated_ellipsoidal_calibration_results.json"
+    },
+    {
+      "repository_path": "results/a60_general_covariance_matrix_results.json",
+      "source_or_derivation": "a60_general_covariance_matrix_results.json"
+    },
+    {
+      "repository_path": "results/a61_spectral_covariance_uncertainty_results.json",
+      "source_or_derivation": "a61_spectral_covariance_uncertainty_results.json"
+    },
+    {
+      "repository_path": "results/a62_bootstrap_spectral_protocol_results.json",
+      "source_or_derivation": "a62_bootstrap_spectral_protocol_results.json"
+    },
+    {
+      "repository_path": "results/a63_structural_generalization_results.json",
+      "source_or_derivation": "a63_structural_generalization_results.json"
+    },
+    {
+      "repository_path": "results/a64_scale_normalized_boundary_pair_results.json",
+      "source_or_derivation": "a64_scale_normalized_boundary_pair_results.json"
+    },
+    {
+      "repository_path": "results/a65_continuous_first_anchor_results.json",
+      "source_or_derivation": "a65_continuous_first_anchor_results.json"
+    },
+    {
+      "repository_path": "results/a65_continuous_first_anchor_summary.json",
+      "source_or_derivation": "a65_continuous_first_anchor_summary.json"
+    },
+    {
+      "repository_path": "results/a66_exact_global_phase_results.json",
+      "source_or_derivation": "a66_exact_global_phase_results.json"
+    },
+    {
+      "repository_path": "results/a66_exact_global_phase_summary.json",
+      "source_or_derivation": "a66_exact_global_phase_summary.json"
+    },
+    {
+      "repository_path": "results/a67_central_mean_support_family_results.json",
+      "source_or_derivation": "a67_central_mean_support_family_results.json"
+    },
+    {
+      "repository_path": "results/a67_central_mean_support_family_summary.json",
+      "source_or_derivation": "a67_central_mean_support_family_summary.json"
+    },
+    {
+      "repository_path": "results/a68_dual_envelope_channel_value_results.json",
+      "source_or_derivation": "a68_dual_envelope_channel_value_results.json"
+    },
+    {
+      "repository_path": "results/a68_dual_envelope_channel_value_summary.json",
+      "source_or_derivation": "a68_dual_envelope_channel_value_summary.json"
+    },
+    {
+      "repository_path": "results/a69_cramer_chebyshev_reduction_results.json",
+      "source_or_derivation": "a69_cramer_chebyshev_reduction_results.json"
+    },
+    {
+      "repository_path": "results/a69_cramer_chebyshev_reduction_summary.json",
+      "source_or_derivation": "a69_cramer_chebyshev_reduction_summary.json"
+    },
+    {
+      "repository_path": "results/a70_signed_q_schur_dominance_results.json",
+      "source_or_derivation": "a70_signed_q_schur_dominance_results.json"
+    },
+    {
+      "repository_path": "results/a70_signed_q_schur_dominance_summary.json",
+      "source_or_derivation": "a70_signed_q_schur_dominance_summary.json"
+    },
+    {
+      "repository_path": "results/a71_orientation_bifurcation_results.json",
+      "source_or_derivation": "a71_orientation_bifurcation_results.json"
+    },
+    {
+      "repository_path": "results/a71_orientation_bifurcation_summary.json",
+      "source_or_derivation": "a71_orientation_bifurcation_summary.json"
+    },
+    {
+      "repository_path": "templates/a60_covariance_input_template.json",
+      "source_or_derivation": "a60_covariance_input_template.json"
+    },
+    {
+      "repository_path": "templates/a61_covariance_confidence_set_template.json",
+      "source_or_derivation": "a61_covariance_confidence_set_template.json"
+    },
+    {
+      "repository_path": "templates/a62_bootstrap_protocol_template.json",
+      "source_or_derivation": "a62_bootstrap_protocol_template.json"
+    }
+  ]
+}

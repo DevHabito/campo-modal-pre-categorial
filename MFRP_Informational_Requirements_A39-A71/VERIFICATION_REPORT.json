@@ -1,0 +1,220 @@
+{
+  "generated_on": "2026-07-21",
+  "status": "PASS",
+  "scope": "English GitHub-ready MFRP audit archive A39-A71",
+  "checks": {
+    "main_audits": 33,
+    "audit_range": "A39-A71",
+    "pass_verdicts": 33,
+    "total_top_level_gates": 399,
+    "passing_top_level_gates": 399,
+    "audit_python_files": 36,
+    "result_json_files": 40,
+    "technical_notes": 34,
+    "english_png_figures": 58,
+    "integrity_unit_tests": "5/5 PASS",
+    "python_compilation": "PASS",
+    "common_portuguese_term_scan": "NO MATCHES in repository text files"
+  },
+  "audits": [
+    {
+      "audit": 39,
+      "verdict": "PASS_SHARP_OMITTED_TRANSFORM_AND_FUTURE_SCORE_INTERVAL",
+      "gates_passed": 10,
+      "gate_count": 10
+    },
+    {
+      "audit": 40,
+      "verdict": "PASS_MONOTONE_REFINEMENT_THEOREM_WITH_EXACT_FINITE_GRID_OBSTRUCTION",
+      "gates_passed": 10,
+      "gate_count": 10
+    },
+    {
+      "audit": 41,
+      "verdict": "PASS_ROBUST_DUAL_STABILITY_WITH_EXACT_STRUCTURAL_NOISE_DECOMPOSITION",
+      "gates_passed": 21,
+      "gate_count": 21
+    },
+    {
+      "audit": 42,
+      "verdict": "PASS_FINITE_CATALOGUE_MINIMAX_DESIGN_WITH_NOISE_DEPENDENT_OPTIMUM",
+      "gates_passed": 10,
+      "gate_count": 10
+    },
+    {
+      "audit": 43,
+      "verdict": "PASS_DIRECT_Q_MINIMAX_DESIGN_WITH_EXACT_FRACTIONAL_CERTIFICATES",
+      "gates_passed": 11,
+      "gate_count": 11
+    },
+    {
+      "audit": 44,
+      "verdict": "PASS_CONTINUOUS_PARAMETER_SINGULAR_LIMIT_AND_COMPACTIFIED_NOISY_OPTIMUM",
+      "gates_passed": 31,
+      "gate_count": 31
+    },
+    {
+      "audit": 45,
+      "verdict": "PASS_COMPLETE_POSITIVE_NOISE_PHASE_DIAGRAM_AND_HARD_CAP_RULE",
+      "gates_passed": 21,
+      "gate_count": 21
+    },
+    {
+      "audit": 46,
+      "verdict": "PASS_NOISE_SEPARATION_BOUNDARY_LAYER_AND_LOCAL_BIFURCATION_SKELETON",
+      "gates_passed": 20,
+      "gate_count": 20
+    },
+    {
+      "audit": 47,
+      "verdict": "PASS_COMPLETE_GLOBAL_NOISE_SEPARATION_PHASE_DIAGRAM",
+      "gates_passed": 7,
+      "gate_count": 7
+    },
+    {
+      "audit": 48,
+      "verdict": "PASS_TARGET_INCLUSION_DEGENERACY_AND_HONEST_ANCHOR_CONTRACT",
+      "gates_passed": 18,
+      "gate_count": 18
+    },
+    {
+      "audit": 49,
+      "verdict": "PASS_EXPANDED_TARGET_EXCLUDING_ANCHOR_CATALOGUE",
+      "gates_passed": 14,
+      "gate_count": 14
+    },
+    {
+      "audit": 50,
+      "verdict": "PASS_CONTINUOUS_FIRST_ANCHOR_BOUNDARY_OPTIMALITY",
+      "gates_passed": 14,
+      "gate_count": 14
+    },
+    {
+      "audit": 51,
+      "verdict": "PASS_TARGET_EXCLUSION_DISTANCE_BOUNDARY_LAW",
+      "gates_passed": 25,
+      "gate_count": 25
+    },
+    {
+      "audit": 52,
+      "verdict": "PASS_CONTINUOUS_SECOND_ANCHOR_INTERIOR_OPTIMUM",
+      "gates_passed": 19,
+      "gate_count": 19
+    },
+    {
+      "audit": 53,
+      "verdict": "PASS_COUPLED_ANCHOR_COORDINATEWISE_GLOBAL_CERTIFICATE",
+      "gates_passed": 6,
+      "gate_count": 6
+    },
+    {
+      "audit": 54,
+      "verdict": "PASS_UNIVERSAL_CONTINUUM_WITNESS_AND_COMPLETE_GLOBAL_ANCHOR_OPTIMUM",
+      "gates_passed": 8,
+      "gate_count": 8
+    },
+    {
+      "audit": 55,
+      "verdict": "PASS_FINITE_CAP_IMPLEMENTABILITY_AND_EXPONENTIAL_CONVERGENCE",
+      "gates_passed": 12,
+      "gate_count": 12
+    },
+    {
+      "audit": 56,
+      "verdict": "PASS_COST_REGULARIZED_FINITE_CAP_POLICY_AND_DIMINISHING_RETURNS",
+      "gates_passed": 7,
+      "gate_count": 7
+    },
+    {
+      "audit": 57,
+      "verdict": "PASS_HETEROSCEDASTIC_THIRD_CHANNEL_THRESHOLD_POLICY",
+      "gates_passed": 13,
+      "gate_count": 13
+    },
+    {
+      "audit": 58,
+      "verdict": "PASS_INDEPENDENT_THREE_CHANNEL_ERROR_VECTOR_AND_CALIBRATION_PRIORITY",
+      "gates_passed": 9,
+      "gate_count": 9
+    },
+    {
+      "audit": 59,
+      "verdict": "PASS_EXACT_CORRELATED_ELLIPSOIDAL_CALIBRATION_RISK",
+      "gates_passed": 7,
+      "gate_count": 7
+    },
+    {
+      "audit": 60,
+      "verdict": "PASS_GENERAL_COVARIANCE_MATRIX_ROBUST_CALIBRATION_THEOREM",
+      "gates_passed": 7,
+      "gate_count": 7
+    },
+    {
+      "audit": 61,
+      "verdict": "PASS_SPECTRAL_COVARIANCE_ESTIMATION_UNCERTAINTY",
+      "gates_passed": 10,
+      "gate_count": 10
+    },
+    {
+      "audit": 62,
+      "verdict": "PASS_MODEL_CONDITIONAL_BOOTSTRAP_SPECTRAL_PROTOCOL_RAW_BOOTSTRAP_REJECTED",
+      "gates_passed": 10,
+      "gate_count": 10
+    },
+    {
+      "audit": 63,
+      "verdict": "PASS_GENERAL_FINITE_SUPPORT_NONIDENTIFIABILITY_AND_CROSS_CONTRACT_ATLAS",
+      "gates_passed": 13,
+      "gate_count": 13
+    },
+    {
+      "audit": 64,
+      "verdict": "PASS_SCALE_NORMALIZED_NOISE_AND_BOUNDARY_PAIR_STRESS_ATLAS",
+      "gates_passed": 10,
+      "gate_count": 10
+    },
+    {
+      "audit": 65,
+      "verdict": "PASS_CONTINUOUS_FIRST_ANCHOR_STRESS_AND_EXACT_LOCAL_SENSITIVITY",
+      "gates_passed": 9,
+      "gate_count": 9
+    },
+    {
+      "audit": 66,
+      "verdict": "PASS_EXACT_GLOBAL_CONTINUOUS_PHASE_THEOREMS",
+      "gates_passed": 5,
+      "gate_count": 5
+    },
+    {
+      "audit": 67,
+      "verdict": "PASS_EXACT_CENTRAL_MEAN_SUPPORT_SIZE_FAMILY_THEOREM",
+      "gates_passed": 6,
+      "gate_count": 6
+    },
+    {
+      "audit": 68,
+      "verdict": "PASS_DUAL_ENVELOPE_AND_EXACT_FIRST_CHANNEL_VALUE",
+      "gates_passed": 7,
+      "gate_count": 7
+    },
+    {
+      "audit": 69,
+      "verdict": "PASS_CRAMER_REDUCTION_WITH_TOTAL_POSITIVITY_OBSTRUCTION",
+      "gates_passed": 10,
+      "gate_count": 10
+    },
+    {
+      "audit": 70,
+      "verdict": "PASS_SIGNED_Q_SCHUR_ARITHMETIC_GRID_DOMINANCE",
+      "gates_passed": 9,
+      "gate_count": 9
+    },
+    {
+      "audit": 71,
+      "verdict": "PASS_ORIENTATION_BIFURCATION_AND_ACTIVE_SET_PROTECTION",
+      "gates_passed": 10,
+      "gate_count": 10
+    }
+  ],
+  "note": "The original raw provenance archive is separate because original legacy PNG labels were in Portuguese. The GitHub-ready archive contains regenerated English figures."
+}
