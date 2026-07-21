@@ -1,0 +1,1145 @@
+[
+  {
+    "repository_path": "audits/a39_sharp_prediction_interval_audit.py",
+    "source_or_derivation": "a39_sharp_prediction_interval_audit.py"
+  },
+  {
+    "repository_path": "audits/a40_monotone_refinement_audit.py",
+    "source_or_derivation": "a40_monotone_refinement_audit.py"
+  },
+  {
+    "repository_path": "audits/a41_robust_interval_data_audit.py",
+    "source_or_derivation": "a41_robust_interval_data_audit.py"
+  },
+  {
+    "repository_path": "audits/a42_finite_budget_design_audit.py",
+    "source_or_derivation": "a42_finite_budget_design_audit.py"
+  },
+  {
+    "repository_path": "audits/a43_direct_q_minimax_design_audit.py",
+    "source_or_derivation": "a43_direct_q_minimax_design_audit.py"
+  },
+  {
+    "repository_path": "audits/a44_continuous_parameter_audit.py",
+    "source_or_derivation": "a44_continuous_parameter_audit.py"
+  },
+  {
+    "repository_path": "audits/a45_positive_noise_phase_diagram_audit.py",
+    "source_or_derivation": "a45_positive_noise_phase_diagram_audit.py"
+  },
+  {
+    "repository_path": "audits/a46_noise_separation_boundary_layer_audit.py",
+    "source_or_derivation": "a46_noise_separation_boundary_layer_audit.py"
+  },
+  {
+    "repository_path": "audits/a47_global_noise_separation_phase_diagram_audit.py",
+    "source_or_derivation": "a47_global_noise_separation_phase_diagram_audit.py"
+  },
+  {
+    "repository_path": "audits/a48_target_inclusion_degeneracy_audit.py",
+    "source_or_derivation": "a48_target_inclusion_degeneracy_audit.py"
+  },
+  {
+    "repository_path": "audits/a49_expanded_anchor_catalogue_audit.py",
+    "source_or_derivation": "a49_expanded_anchor_catalogue_audit.py"
+  },
+  {
+    "repository_path": "audits/a50_continuous_first_anchor_audit.py",
+    "source_or_derivation": "a50_continuous_first_anchor_audit.py"
+  },
+  {
+    "repository_path": "audits/a51_target_exclusion_distance_audit.py",
+    "source_or_derivation": "a51_target_exclusion_distance_audit.py"
+  },
+  {
+    "repository_path": "audits/a52_continuous_second_anchor_audit.py",
+    "source_or_derivation": "a52_continuous_second_anchor_audit.py"
+  },
+  {
+    "repository_path": "audits/a53_coupled_second_third_anchor_audit.py",
+    "source_or_derivation": "a53_coupled_second_third_anchor_audit.py"
+  },
+  {
+    "repository_path": "audits/a54_universal_continuum_witness_audit.py",
+    "source_or_derivation": "a54_universal_continuum_witness_audit.py"
+  },
+  {
+    "repository_path": "audits/a55_finite_cap_implementability_audit.py",
+    "source_or_derivation": "a55_finite_cap_implementability_audit.py"
+  },
+  {
+    "repository_path": "audits/a56_cost_regularized_finite_cap_audit.py",
+    "source_or_derivation": "a56_cost_regularized_finite_cap_audit.py"
+  },
+  {
+    "repository_path": "audits/a57_heteroscedastic_third_channel_audit.py",
+    "source_or_derivation": "a57_heteroscedastic_third_channel_audit.py"
+  },
+  {
+    "repository_path": "audits/a58_independent_three_channel_error_audit.py",
+    "source_or_derivation": "a58_independent_three_channel_error_audit.py"
+  },
+  {
+    "repository_path": "audits/a59_correlated_ellipsoidal_calibration_audit.py",
+    "source_or_derivation": "a59_correlated_ellipsoidal_calibration_audit.py"
+  },
+  {
+    "repository_path": "audits/a60_general_covariance_matrix_audit.py",
+    "source_or_derivation": "a60_general_covariance_matrix_audit.py"
+  },
+  {
+    "repository_path": "audits/a61_spectral_covariance_uncertainty_audit.py",
+    "source_or_derivation": "a61_spectral_covariance_uncertainty_audit.py"
+  },
+  {
+    "repository_path": "audits/a62_bootstrap_spectral_protocol_audit.py",
+    "source_or_derivation": "a62_bootstrap_spectral_protocol_audit.py"
+  },
+  {
+    "repository_path": "audits/a63_structural_generalization_audit.py",
+    "source_or_derivation": "a63_structural_generalization_audit.py"
+  },
+  {
+    "repository_path": "audits/a63_structural_generalization_exact_helpers.py",
+    "source_or_derivation": "a63_structural_generalization_exact_helpers.py"
+  },
+  {
+    "repository_path": "audits/a64_scale_normalized_boundary_pair_audit.py",
+    "source_or_derivation": "a64_scale_normalized_boundary_pair_audit.py"
+  },
+  {
+    "repository_path": "audits/a64_scale_normalized_boundary_pair_exact_helpers.py",
+    "source_or_derivation": "a64_scale_normalized_boundary_pair_exact_helpers.py"
+  },
+  {
+    "repository_path": "audits/a65_continuous_first_anchor_audit.py",
+    "source_or_derivation": "a65_continuous_first_anchor_audit.py"
+  },
+  {
+    "repository_path": "audits/a66_exact_global_phase_audit.py",
+    "source_or_derivation": "a66_exact_global_phase_audit.py"
+  },
+  {
+    "repository_path": "audits/a67_central_mean_support_family_audit.py",
+    "source_or_derivation": "a67_central_mean_support_family_audit.py"
+  },
+  {
+    "repository_path": "audits/a68_dual_envelope_channel_value_audit.py",
+    "source_or_derivation": "a68_dual_envelope_channel_value_audit.py"
+  },
+  {
+    "repository_path": "audits/a69_cramer_chebyshev_reduction_audit.py",
+    "source_or_derivation": "a69_cramer_chebyshev_reduction_audit.py"
+  },
+  {
+    "repository_path": "audits/a70_signed_q_schur_dominance_audit.py",
+    "source_or_derivation": "a70_signed_q_schur_dominance_audit.py"
+  },
+  {
+    "repository_path": "audits/a71_orientation_bifurcation_audit.py",
+    "source_or_derivation": "a71_orientation_bifurcation_audit.py"
+  },
+  {
+    "repository_path": "audits/validate_finite_grid_nonclosure.py",
+    "source_or_derivation": "validate_finite_grid_nonclosure.py"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_bootstrap_spectral_protocol.md",
+    "source_or_derivation": "MFRP_next_step_bootstrap_spectral_protocol.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_central_mean_support_family.md",
+    "source_or_derivation": "MFRP_next_step_central_mean_support_family.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_continuous_first_anchor.md",
+    "source_or_derivation": "MFRP_next_step_continuous_first_anchor.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_continuous_first_anchor_stress.md",
+    "source_or_derivation": "MFRP_next_step_continuous_first_anchor_stress.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_continuous_parameter_audit.md",
+    "source_or_derivation": "MFRP_next_step_continuous_parameter_audit.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_continuous_second_anchor.md",
+    "source_or_derivation": "MFRP_next_step_continuous_second_anchor.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_correlated_ellipsoidal_calibration.md",
+    "source_or_derivation": "MFRP_next_step_correlated_ellipsoidal_calibration.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_cost_regularized_finite_cap.md",
+    "source_or_derivation": "MFRP_next_step_cost_regularized_finite_cap.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_coupled_second_third_anchor.md",
+    "source_or_derivation": "MFRP_next_step_coupled_second_third_anchor.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_cramer_chebyshev_reduction.md",
+    "source_or_derivation": "MFRP_next_step_cramer_chebyshev_reduction.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_direct_q_minimax_design.md",
+    "source_or_derivation": "MFRP_next_step_direct_q_minimax_design.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_dual_envelope_channel_value.md",
+    "source_or_derivation": "MFRP_next_step_dual_envelope_channel_value.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_exact_global_phase_theorems.md",
+    "source_or_derivation": "MFRP_next_step_exact_global_phase_theorems.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_expanded_anchor_catalogue.md",
+    "source_or_derivation": "MFRP_next_step_expanded_anchor_catalogue.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_finite_budget_design.md",
+    "source_or_derivation": "MFRP_next_step_finite_budget_design.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_finite_cap_implementability.md",
+    "source_or_derivation": "MFRP_next_step_finite_cap_implementability.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_finite_grid_nonclosure.md",
+    "source_or_derivation": "MFRP_next_step_finite_grid_nonclosure.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_general_covariance_matrix.md",
+    "source_or_derivation": "MFRP_next_step_general_covariance_matrix.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_global_noise_separation_phase_diagram.md",
+    "source_or_derivation": "MFRP_next_step_global_noise_separation_phase_diagram.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_heteroscedastic_third_channel.md",
+    "source_or_derivation": "MFRP_next_step_heteroscedastic_third_channel.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_independent_three_channel_error.md",
+    "source_or_derivation": "MFRP_next_step_independent_three_channel_error.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_monotone_refinement.md",
+    "source_or_derivation": "MFRP_next_step_monotone_refinement.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_noise_separation_boundary_layer.md",
+    "source_or_derivation": "MFRP_next_step_noise_separation_boundary_layer.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_orientation_bifurcation.md",
+    "source_or_derivation": "MFRP_next_step_orientation_bifurcation.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_positive_noise_phase_diagram.md",
+    "source_or_derivation": "MFRP_next_step_positive_noise_phase_diagram.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_robust_interval_data.md",
+    "source_or_derivation": "MFRP_next_step_robust_interval_data.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_scale_normalized_boundary_pair.md",
+    "source_or_derivation": "MFRP_next_step_scale_normalized_boundary_pair.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_sharp_prediction_intervals.md",
+    "source_or_derivation": "MFRP_next_step_sharp_prediction_intervals.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_signed_q_schur_dominance.md",
+    "source_or_derivation": "MFRP_next_step_signed_q_schur_dominance.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_spectral_covariance_uncertainty.md",
+    "source_or_derivation": "MFRP_next_step_spectral_covariance_uncertainty.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_structural_generalization.md",
+    "source_or_derivation": "MFRP_next_step_structural_generalization.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_target_exclusion_distance.md",
+    "source_or_derivation": "MFRP_next_step_target_exclusion_distance.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_target_inclusion_degeneracy.md",
+    "source_or_derivation": "MFRP_next_step_target_inclusion_degeneracy.md"
+  },
+  {
+    "repository_path": "docs/technical_notes/MFRP_next_step_universal_continuum_witness.md",
+    "source_or_derivation": "MFRP_next_step_universal_continuum_witness.md"
+  },
+  {
+    "repository_path": "figures/a47_global_phase_diagram.png",
+    "source_or_derivation": "a47_global_phase_diagram.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a51_target_exclusion_distance_risk.png",
+    "source_or_derivation": "a51_target_exclusion_distance_risk.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a52_continuous_second_anchor_risk.png",
+    "source_or_derivation": "a52_continuous_second_anchor_risk.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a53_coupled_anchor_risk_curves.png",
+    "source_or_derivation": "a53_coupled_anchor_risk_curves.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a54_universal_continuum_witness_band.png",
+    "source_or_derivation": "a54_universal_continuum_witness_band.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a55_finite_cap_absolute_convergence.png",
+    "source_or_derivation": "a55_finite_cap_absolute_convergence.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a55_finite_cap_relative_convergence.png",
+    "source_or_derivation": "a55_finite_cap_relative_convergence.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a56_break_even_costs.png",
+    "source_or_derivation": "a56_break_even_costs.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a56_cost_selected_cap_policy.png",
+    "source_or_derivation": "a56_cost_selected_cap_policy.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a56_risk_complexity_frontier.png",
+    "source_or_derivation": "a56_risk_complexity_frontier.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a57_allowed_noise_increase.png",
+    "source_or_derivation": "a57_allowed_noise_increase.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a57_upgrade_threshold_map.png",
+    "source_or_derivation": "a57_upgrade_threshold_map.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a58_channel_sensitivity_priority.png",
+    "source_or_derivation": "a58_channel_sensitivity_priority.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a58_individual_error_impacts.png",
+    "source_or_derivation": "a58_individual_error_impacts.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a59_exact_vs_linear_correlation.png",
+    "source_or_derivation": "a59_exact_vs_linear_correlation.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a59_risk_vs_correlation.png",
+    "source_or_derivation": "a59_risk_vs_correlation.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a59_worst_direction_vs_correlation.png",
+    "source_or_derivation": "a59_worst_direction_vs_correlation.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a60_covariance_contributions.png",
+    "source_or_derivation": "a60_covariance_contributions.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a60_general_covariance_risks.png",
+    "source_or_derivation": "a60_general_covariance_risks.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a60_general_covariance_worst_vectors.png",
+    "source_or_derivation": "a60_general_covariance_worst_vectors.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a61_covariance_uncertainty_premium.png",
+    "source_or_derivation": "a61_covariance_uncertainty_premium.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a61_spectral_risk_interval.png",
+    "source_or_derivation": "a61_spectral_risk_interval.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a61_worst_vector_vs_tau.png",
+    "source_or_derivation": "a61_worst_vector_vs_tau.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a62_bootstrap_coverage_validation.png",
+    "source_or_derivation": "a62_bootstrap_coverage_validation.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a62_contract_availability.png",
+    "source_or_derivation": "a62_contract_availability.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a62_required_inflation_factors.png",
+    "source_or_derivation": "a62_required_inflation_factors.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a63_noisy_anchor_atlas.png",
+    "source_or_derivation": "a63_noisy_anchor_atlas.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a63_noisy_third_anchor_offsets.png",
+    "source_or_derivation": "a63_noisy_third_anchor_offsets.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a63_risk_vs_support_size.png",
+    "source_or_derivation": "a63_risk_vs_support_size.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a64_boundary_pair_counts.png",
+    "source_or_derivation": "a64_boundary_pair_counts.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a64_normalized_third_anchor_offsets.png",
+    "source_or_derivation": "a64_normalized_third_anchor_offsets.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a64_target_translation_alignment.png",
+    "source_or_derivation": "a64_target_translation_alignment.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a65_boundary_sensitivity_distribution.png",
+    "source_or_derivation": "a65_boundary_sensitivity_distribution.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a65_continuous_grid_margins.png",
+    "source_or_derivation": "a65_continuous_grid_margins.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a65_local_certificate_coverage.png",
+    "source_or_derivation": "a65_local_certificate_coverage.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a65_representative_first_anchor_curves.png",
+    "source_or_derivation": "a65_representative_first_anchor_curves.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a66_canonical_global_monotonicity.png",
+    "source_or_derivation": "a66_canonical_global_monotonicity.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a66_canonical_phase_map.png",
+    "source_or_derivation": "a66_canonical_phase_map.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a66_degenerate_global_monotonicity.png",
+    "source_or_derivation": "a66_degenerate_global_monotonicity.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a67_risk_vs_support_size.png",
+    "source_or_derivation": "a67_risk_vs_support_size.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a67_support_family_phase_counts.png",
+    "source_or_derivation": "a67_support_family_phase_counts.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a67_support_family_risk_curves.png",
+    "source_or_derivation": "a67_support_family_risk_curves.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a67_support_family_transition_map.png",
+    "source_or_derivation": "a67_support_family_transition_map.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a68_dual_channel_activity.png",
+    "source_or_derivation": "a68_dual_channel_activity.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a68_first_channel_removal_risk.png",
+    "source_or_derivation": "a68_first_channel_removal_risk.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a68_first_channel_value_multiplier.png",
+    "source_or_derivation": "a68_first_channel_value_multiplier.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a69_contact_signature_counts.png",
+    "source_or_derivation": "a69_contact_signature_counts.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a69_cramer_orientation_map.png",
+    "source_or_derivation": "a69_cramer_orientation_map.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a69_numerator_flip_margins.png",
+    "source_or_derivation": "a69_numerator_flip_margins.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a69_order_only_counterexample.png",
+    "source_or_derivation": "a69_order_only_counterexample.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a70_minor_class_counts.png",
+    "source_or_derivation": "a70_minor_class_counts.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a70_phase_dominance_ratios.png",
+    "source_or_derivation": "a70_phase_dominance_ratios.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a70_signed_term_counts.png",
+    "source_or_derivation": "a70_signed_term_counts.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a70_weakest_dominance_phase.png",
+    "source_or_derivation": "a70_weakest_dominance_phase.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a71_M10_exact_catalogue_top10.png",
+    "source_or_derivation": "a71_M10_exact_catalogue_top10.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a71_M10_global_risk_curve.png",
+    "source_or_derivation": "a71_M10_global_risk_curve.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a71_M10_phase_map.png",
+    "source_or_derivation": "a71_M10_phase_map.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "figures/a71_weak_signature_bifurcation.png",
+    "source_or_derivation": "a71_weak_signature_bifurcation.png (regenerated in English from JSON)"
+  },
+  {
+    "repository_path": "paper/MFRP-TR-2026-01_Informational_Requirements_v1.1.pdf",
+    "source_or_derivation": "MFRP_TR_2026_01_Informational_Requirements(3).pdf"
+  },
+  {
+    "repository_path": "results/a39_sharp_prediction_interval_results.json",
+    "source_or_derivation": "a39_sharp_prediction_interval_results.json"
+  },
+  {
+    "repository_path": "results/a40_monotone_refinement_results.json",
+    "source_or_derivation": "a40_monotone_refinement_results.json"
+  },
+  {
+    "repository_path": "results/a41_robust_interval_data_results.json",
+    "source_or_derivation": "a41_robust_interval_data_results.json"
+  },
+  {
+    "repository_path": "results/a42_finite_budget_design_results.json",
+    "source_or_derivation": "a42_finite_budget_design_results.json"
+  },
+  {
+    "repository_path": "results/a43_direct_q_minimax_design_results.json",
+    "source_or_derivation": "a43_direct_q_minimax_design_results.json"
+  },
+  {
+    "repository_path": "results/a44_continuous_parameter_results.json",
+    "source_or_derivation": "a44_continuous_parameter_results.json"
+  },
+  {
+    "repository_path": "results/a45_positive_noise_phase_diagram_results.json",
+    "source_or_derivation": "a45_positive_noise_phase_diagram_results.json"
+  },
+  {
+    "repository_path": "results/a46_noise_separation_boundary_layer_results.json",
+    "source_or_derivation": "a46_noise_separation_boundary_layer_results.json"
+  },
+  {
+    "repository_path": "results/a47_global_noise_separation_phase_diagram_results.json",
+    "source_or_derivation": "a47_global_noise_separation_phase_diagram_results.json"
+  },
+  {
+    "repository_path": "results/a48_target_inclusion_degeneracy_results.json",
+    "source_or_derivation": "a48_target_inclusion_degeneracy_results.json"
+  },
+  {
+    "repository_path": "results/a49_expanded_target_excluding_anchor_catalogue_results.json",
+    "source_or_derivation": "a49_expanded_target_excluding_anchor_catalogue_results.json"
+  },
+  {
+    "repository_path": "results/a50_continuous_first_anchor_results.json",
+    "source_or_derivation": "a50_continuous_first_anchor_results.json"
+  },
+  {
+    "repository_path": "results/a51_target_exclusion_distance_results.json",
+    "source_or_derivation": "a51_target_exclusion_distance_results.json"
+  },
+  {
+    "repository_path": "results/a52_continuous_second_anchor_results.json",
+    "source_or_derivation": "a52_continuous_second_anchor_results.json"
+  },
+  {
+    "repository_path": "results/a53_coupled_second_third_anchor_results.json",
+    "source_or_derivation": "a53_coupled_second_third_anchor_results.json"
+  },
+  {
+    "repository_path": "results/a54_universal_continuum_witness_results.json",
+    "source_or_derivation": "a54_universal_continuum_witness_results.json"
+  },
+  {
+    "repository_path": "results/a55_finite_cap_implementability_results.json",
+    "source_or_derivation": "a55_finite_cap_implementability_results.json"
+  },
+  {
+    "repository_path": "results/a56_cost_regularized_finite_cap_results.json",
+    "source_or_derivation": "a56_cost_regularized_finite_cap_results.json"
+  },
+  {
+    "repository_path": "results/a57_heteroscedastic_third_channel_results.json",
+    "source_or_derivation": "a57_heteroscedastic_third_channel_results.json"
+  },
+  {
+    "repository_path": "results/a58_independent_three_channel_error_results.json",
+    "source_or_derivation": "a58_independent_three_channel_error_results.json"
+  },
+  {
+    "repository_path": "results/a59_correlated_ellipsoidal_calibration_results.json",
+    "source_or_derivation": "a59_correlated_ellipsoidal_calibration_results.json"
+  },
+  {
+    "repository_path": "results/a60_general_covariance_matrix_results.json",
+    "source_or_derivation": "a60_general_covariance_matrix_results.json"
+  },
+  {
+    "repository_path": "results/a61_spectral_covariance_uncertainty_results.json",
+    "source_or_derivation": "a61_spectral_covariance_uncertainty_results.json"
+  },
+  {
+    "repository_path": "results/a62_bootstrap_spectral_protocol_results.json",
+    "source_or_derivation": "a62_bootstrap_spectral_protocol_results.json"
+  },
+  {
+    "repository_path": "results/a63_structural_generalization_results.json",
+    "source_or_derivation": "a63_structural_generalization_results.json"
+  },
+  {
+    "repository_path": "results/a64_scale_normalized_boundary_pair_results.json",
+    "source_or_derivation": "a64_scale_normalized_boundary_pair_results.json"
+  },
+  {
+    "repository_path": "results/a65_continuous_first_anchor_results.json",
+    "source_or_derivation": "a65_continuous_first_anchor_results.json"
+  },
+  {
+    "repository_path": "results/a65_continuous_first_anchor_summary.json",
+    "source_or_derivation": "a65_continuous_first_anchor_summary.json"
+  },
+  {
+    "repository_path": "results/a66_exact_global_phase_results.json",
+    "source_or_derivation": "a66_exact_global_phase_results.json"
+  },
+  {
+    "repository_path": "results/a66_exact_global_phase_summary.json",
+    "source_or_derivation": "a66_exact_global_phase_summary.json"
+  },
+  {
+    "repository_path": "results/a67_central_mean_support_family_results.json",
+    "source_or_derivation": "a67_central_mean_support_family_results.json"
+  },
+  {
+    "repository_path": "results/a67_central_mean_support_family_summary.json",
+    "source_or_derivation": "a67_central_mean_support_family_summary.json"
+  },
+  {
+    "repository_path": "results/a68_dual_envelope_channel_value_results.json",
+    "source_or_derivation": "a68_dual_envelope_channel_value_results.json"
+  },
+  {
+    "repository_path": "results/a68_dual_envelope_channel_value_summary.json",
+    "source_or_derivation": "a68_dual_envelope_channel_value_summary.json"
+  },
+  {
+    "repository_path": "results/a69_cramer_chebyshev_reduction_results.json",
+    "source_or_derivation": "a69_cramer_chebyshev_reduction_results.json"
+  },
+  {
+    "repository_path": "results/a69_cramer_chebyshev_reduction_summary.json",
+    "source_or_derivation": "a69_cramer_chebyshev_reduction_summary.json"
+  },
+  {
+    "repository_path": "results/a70_signed_q_schur_dominance_results.json",
+    "source_or_derivation": "a70_signed_q_schur_dominance_results.json"
+  },
+  {
+    "repository_path": "results/a70_signed_q_schur_dominance_summary.json",
+    "source_or_derivation": "a70_signed_q_schur_dominance_summary.json"
+  },
+  {
+    "repository_path": "results/a71_orientation_bifurcation_results.json",
+    "source_or_derivation": "a71_orientation_bifurcation_results.json"
+  },
+  {
+    "repository_path": "results/a71_orientation_bifurcation_summary.json",
+    "source_or_derivation": "a71_orientation_bifurcation_summary.json"
+  },
+  {
+    "repository_path": "templates/a60_covariance_input_template.json",
+    "source_or_derivation": "a60_covariance_input_template.json"
+  },
+  {
+    "repository_path": "templates/a61_covariance_confidence_set_template.json",
+    "source_or_derivation": "a61_covariance_confidence_set_template.json"
+  },
+  {
+    "repository_path": "templates/a62_bootstrap_protocol_template.json",
+    "source_or_derivation": "a62_bootstrap_protocol_template.json"
+  },
+  {
+    "source": "/mnt/data/MFRP_next_step_candidate_vs_actual_active_set.md",
+    "repository_path": "docs/technical_notes/MFRP_next_step_candidate_vs_actual_active_set.md",
+    "sha256": "19f41633d11f7c921241f770482b50f482dc209b79cbf0ad65bbbea6d1510817"
+  },
+  {
+    "source": "/mnt/data/MFRP_next_step_complete_one_pivot_neighborhood.md",
+    "repository_path": "docs/technical_notes/MFRP_next_step_complete_one_pivot_neighborhood.md",
+    "sha256": "583f88ad8200f84d917b0672f6ca37cbb86a3fc7f668216885ce6e0a4eaaf6ac"
+  },
+  {
+    "source": "/mnt/data/MFRP_next_step_fixed_family_contact_reset.md",
+    "repository_path": "docs/technical_notes/MFRP_next_step_fixed_family_contact_reset.md",
+    "sha256": "811f4598ebb1fc0e53a35910072680c015c62c39588d05eced5078c34823ea53"
+  },
+  {
+    "source": "/mnt/data/MFRP_next_step_interval_gamma_bifurcation.md",
+    "repository_path": "docs/technical_notes/MFRP_next_step_interval_gamma_bifurcation.md",
+    "sha256": "db54c64d2ab5b7b3b4f0b26f177c5bfd948ab187836f79c29cfa1fcd00c4caf4"
+  },
+  {
+    "source": "/mnt/data/MFRP_next_step_local_pivot_diamond.md",
+    "repository_path": "docs/technical_notes/MFRP_next_step_local_pivot_diamond.md",
+    "sha256": "1ca3809af5a63b8e694ed90f3b15ce8c2669fe5cbe4baf64a97c25e374baf984"
+  },
+  {
+    "source": "/mnt/data/MFRP_next_step_parity_double_bifurcation.md",
+    "repository_path": "docs/technical_notes/MFRP_next_step_parity_double_bifurcation.md",
+    "sha256": "acc9f0f7e753bf834d626fb342f7184208b7d70219c4a325d1dc4cc2e76bd3dc"
+  },
+  {
+    "source": "/mnt/data/a72_M10_M12_global_risk_curves.png",
+    "repository_path": "figures/a72_M10_M12_global_risk_curves.png",
+    "sha256": "fab946081ef0514e4ff167c3389f64e0defb389299cfa4116d1f185b205e42cf"
+  },
+  {
+    "source": "/mnt/data/a72_exact_catalogue_M11.json",
+    "repository_path": "results/a72_exact_catalogue_M11.json",
+    "sha256": "42486469b4e44bdd87d939567cf1fe1f9cfd6ec4ce27fa1bca8ab515828023aa"
+  },
+  {
+    "source": "/mnt/data/a72_exact_catalogue_M11_M12.png",
+    "repository_path": "figures/a72_exact_catalogue_M11_M12.png",
+    "sha256": "916ee369d8ffb7da03d79f9b8acb23b2c33c5aad4117b3f91486ecc1e0e3db50"
+  },
+  {
+    "source": "/mnt/data/a72_exact_catalogue_M12.json",
+    "repository_path": "results/a72_exact_catalogue_M12.json",
+    "sha256": "e487f930ec428731056f67699323c8c49b9638231b0653150994829c753cf2b1"
+  },
+  {
+    "source": "/mnt/data/a72_exact_catalogue_generator.py",
+    "repository_path": "audits/a72_exact_catalogue_generator.py",
+    "sha256": "9e9f6d07b63c7be555b4d1fd94d5464c23dd62d6b0d6381749096ea044ed7ccd"
+  },
+  {
+    "source": "/mnt/data/a72_exact_local_pivot_diamond.png",
+    "repository_path": "figures/a72_exact_local_pivot_diamond.png",
+    "sha256": "193ce73c8c6ff74e0d6685f221f9d39b4d75a2618e0fcf376d6fcc6dcdfc08e6"
+  },
+  {
+    "source": "/mnt/data/a72_exact_phase_generator.py",
+    "repository_path": "audits/a72_exact_phase_generator.py",
+    "sha256": "4d14c34a80aaa89818872676a81a4bc399880c9595e3888a5374042e824af28b"
+  },
+  {
+    "source": "/mnt/data/a72_exact_phases_M11.json",
+    "repository_path": "results/a72_exact_phases_M11.json",
+    "sha256": "0f572b057a5a88103dd0b71332a17d7c83b202fa1c91ed05f1f8f258e79b24d2"
+  },
+  {
+    "source": "/mnt/data/a72_exact_phases_M12.json",
+    "repository_path": "results/a72_exact_phases_M12.json",
+    "sha256": "1daff14f8fb119cf81627a7150e482096b52f5b75f227a50dde61672ada2e7b8"
+  },
+  {
+    "source": "/mnt/data/a72_local_pivot_diamond_audit.py",
+    "repository_path": "audits/a72_local_pivot_diamond_audit.py",
+    "sha256": "4367f3dfce42bc571d728c0c49d6a8577369b0fc1a27b52b9b311fbb3316cb23"
+  },
+  {
+    "source": "/mnt/data/a72_local_pivot_diamond_results.json",
+    "repository_path": "results/a72_local_pivot_diamond_results.json",
+    "sha256": "c17d6b90da9bf8c68beb850df82508a095b4c0cfa18fa63915646806243a44d1"
+  },
+  {
+    "source": "/mnt/data/a72_local_pivot_diamond_summary.json",
+    "repository_path": "results/a72_local_pivot_diamond_summary.json",
+    "sha256": "69559eae044f31bcae3f8bc7b29396cab88f8e15fd47c0f82871d5dd7ed4d9cc"
+  },
+  {
+    "source": "/mnt/data/a72_transition_map_M10_M12.png",
+    "repository_path": "figures/a72_transition_map_M10_M12.png",
+    "sha256": "ddb88c99f87222a59462d0992f6f023cd3850ec4f6874f4b3ffb3a1d06e29247"
+  },
+  {
+    "source": "/mnt/data/a73_M13_gamma_sign_selection.png",
+    "repository_path": "figures/a73_M13_gamma_sign_selection.png",
+    "sha256": "0e66e860f7b697bbc509818f12c0977f8fe33cb7da659f7205d9b2cba2724beb"
+  },
+  {
+    "source": "/mnt/data/a73_M13_global_risk_curve.png",
+    "repository_path": "figures/a73_M13_global_risk_curve.png",
+    "sha256": "10e2f8c25ec41ddea5492f14e8cdefa478005db7e70429de9304ce877e1665d4"
+  },
+  {
+    "source": "/mnt/data/a73_complete_one_pivot_neighborhood_audit.py",
+    "repository_path": "audits/a73_complete_one_pivot_neighborhood_audit.py",
+    "sha256": "d809a095d0a8cf81ac798d6c724cf33338093b15529e7524093c3c886929a58c"
+  },
+  {
+    "source": "/mnt/data/a73_complete_one_pivot_neighborhood_results.json",
+    "repository_path": "results/a73_complete_one_pivot_neighborhood_results.json",
+    "sha256": "ccf5979c6ff89ecafc7b143e12ab058ea2fe729aa1d42785ed71f8ea58dddd6e"
+  },
+  {
+    "source": "/mnt/data/a73_complete_one_pivot_neighborhood_summary.json",
+    "repository_path": "results/a73_complete_one_pivot_neighborhood_summary.json",
+    "sha256": "d55634dfc11fa4b11b75fdd6cbd3145c55629ce57eb3258cb09ea42949c1c9da"
+  },
+  {
+    "source": "/mnt/data/a73_exact_catalogue_M13.json",
+    "repository_path": "results/a73_exact_catalogue_M13.json",
+    "sha256": "03ad39a82da6fd7a82a35fec00184243343b7de3b92ffdc86ca2aa03583fda61"
+  },
+  {
+    "source": "/mnt/data/a73_exact_catalogue_generator.py",
+    "repository_path": "audits/a73_exact_catalogue_generator.py",
+    "sha256": "5e8e184eb93a395165c58515e9fb0dd8cf928b7c2a99e8ce7623a6869e01b132"
+  },
+  {
+    "source": "/mnt/data/a73_exact_phase_generator.py",
+    "repository_path": "audits/a73_exact_phase_generator.py",
+    "sha256": "0a1d8e4c4fef08ea0c3c1e1a9b36cc466ef294c253257d9d2b94102212eb24ee"
+  },
+  {
+    "source": "/mnt/data/a73_exact_phases_M13.json",
+    "repository_path": "results/a73_exact_phases_M13.json",
+    "sha256": "c3eedf4a1229a5d427685ccc1cd3724a0e5fe3604cceed855825a42af584be00"
+  },
+  {
+    "source": "/mnt/data/a73_neighbor_classification_by_pivot.png",
+    "repository_path": "figures/a73_neighbor_classification_by_pivot.png",
+    "sha256": "549ae1d7ccef017cba47ead6eb58b8cb179d1b5aaaeda82d104cf0b4bd0cc370"
+  },
+  {
+    "source": "/mnt/data/a73_neighbor_classification_by_support.png",
+    "repository_path": "figures/a73_neighbor_classification_by_support.png",
+    "sha256": "b74e02de402aaa57d8679a5a939233cc50f5631914ec71e71d207e605b88ee33"
+  },
+  {
+    "source": "/mnt/data/a74_M13_M14_phase_complexity.png",
+    "repository_path": "figures/a74_M13_M14_phase_complexity.png",
+    "sha256": "b7d19681c607c6b9b69d86486d2141e4ba6ac2f524af026d75d8a6c5cdb0cb8a"
+  },
+  {
+    "source": "/mnt/data/a74_M13_full_phase_gamma_multipliers.png",
+    "repository_path": "figures/a74_M13_full_phase_gamma_multipliers.png",
+    "sha256": "441e3af5f10a9c1d73c869de22ad50ad947dc26f994a1d7d115130ed1b35b956"
+  },
+  {
+    "source": "/mnt/data/a74_M14_global_risk_curve.png",
+    "repository_path": "figures/a74_M14_global_risk_curve.png",
+    "sha256": "b4eb1d687981bfc4debc34a8f3ccce8ad8253db7019f8cc0c957d09d28c81124"
+  },
+  {
+    "source": "/mnt/data/a74_M14_phase_discovery.json",
+    "repository_path": "results/a74_M14_phase_discovery.json",
+    "sha256": "b4f859a478bff820f23d464cdb703d9473b2305efe4f94a20edfb2a3f0c2d8cc"
+  },
+  {
+    "source": "/mnt/data/a74_M14_phase_discovery.py",
+    "repository_path": "audits/a74_M14_phase_discovery.py",
+    "sha256": "889175e42c6731966c1fcbee0722434592ba648a2fc0697c571aeb5fddab1725"
+  },
+  {
+    "source": "/mnt/data/a74_exact_catalogue_M14.json",
+    "repository_path": "results/a74_exact_catalogue_M14.json",
+    "sha256": "b73c3ae3c7580e5d8244e0d58f17c76d0a0e3af46fafbe52049f8a3a33369c16"
+  },
+  {
+    "source": "/mnt/data/a74_exact_catalogue_generator.py",
+    "repository_path": "audits/a74_exact_catalogue_generator.py",
+    "sha256": "2a54fbd5d1a82ee377bbaf8ae7c5de5f1d17749ac81ab40ef6479f9d3889b5d7"
+  },
+  {
+    "source": "/mnt/data/a74_exact_phase_generator.py",
+    "repository_path": "audits/a74_exact_phase_generator.py",
+    "sha256": "513633304b004c038a2c4e404c1fd675c138737f44c7fa4a30c5d30a64809381"
+  },
+  {
+    "source": "/mnt/data/a74_exact_phases_M14.json",
+    "repository_path": "results/a74_exact_phases_M14.json",
+    "sha256": "567d3ca2919448deeb3f70be2209e7713608461f30a758996d2e1bb5f4f6b73a"
+  },
+  {
+    "source": "/mnt/data/a74_gamma_multiplier_common_interval.png",
+    "repository_path": "figures/a74_gamma_multiplier_common_interval.png",
+    "sha256": "e21b48d35ca3347b51447817fdad8c9b673e53ebcd6e98187e23563026e1136a"
+  },
+  {
+    "source": "/mnt/data/a74_interval_gamma_bifurcation_audit.py",
+    "repository_path": "audits/a74_interval_gamma_bifurcation_audit.py",
+    "sha256": "149f5bb2248dd35b63d7820cf6675918d06b44b451526e206059dd178baeacc5"
+  },
+  {
+    "source": "/mnt/data/a74_interval_gamma_bifurcation_results.json",
+    "repository_path": "results/a74_interval_gamma_bifurcation_results.json",
+    "sha256": "a3f4314721a1f74b8329d5905d7866f95e86f9e874c41a24dc5045c0a926fe6c"
+  },
+  {
+    "source": "/mnt/data/a74_interval_gamma_bifurcation_summary.json",
+    "repository_path": "results/a74_interval_gamma_bifurcation_summary.json",
+    "sha256": "acf4fe1fc2d63666bce7747e7a74ded341e2f0cc3789073b423ad4c181bfba7a"
+  },
+  {
+    "source": "/mnt/data/a75_M15_M16_global_risk_curves.png",
+    "repository_path": "figures/a75_M15_M16_global_risk_curves.png",
+    "sha256": "e6f714a6c7ac766c9f5a7bab820db4e3dd24cfb2a2e1c9e51d3d191126918f23"
+  },
+  {
+    "source": "/mnt/data/a75_M15_M16_phase_discovery.json",
+    "repository_path": "results/a75_M15_M16_phase_discovery.json",
+    "sha256": "736afb5dadf9cea6fb6a560eaae068514daa83e902614908fd25d041767d7196"
+  },
+  {
+    "source": "/mnt/data/a75_M15_M16_phase_discovery.py",
+    "repository_path": "audits/a75_M15_M16_phase_discovery.py",
+    "sha256": "b595e76da67d5924c28fbc796e55b1552a35c5ef75da99ba6dec67b99e56c936"
+  },
+  {
+    "source": "/mnt/data/a75_M15_M16_transition_map.png",
+    "repository_path": "figures/a75_M15_M16_transition_map.png",
+    "sha256": "848943b183b519423f1f014db783edb30e12fb9b07a67d69109cf01f8274085c"
+  },
+  {
+    "source": "/mnt/data/a75_asymptotic_remainder_bounds.png",
+    "repository_path": "figures/a75_asymptotic_remainder_bounds.png",
+    "sha256": "3814095d8d3e99e78a00b21cd36e0c1c9b104889900aa7a504e459018d6df78d"
+  },
+  {
+    "source": "/mnt/data/a75_domain_restricted_phase_audit.py",
+    "repository_path": "audits/a75_domain_restricted_phase_audit.py",
+    "sha256": "13e4d97948bdd2cf3f28ea186f7b19b3897ec7e890f4df8ef332f87b4564c092"
+  },
+  {
+    "source": "/mnt/data/a75_exact_catalogue_M15.json",
+    "repository_path": "results/a75_exact_catalogue_M15.json",
+    "sha256": "7a1a71f1c73bb0536940ef1898f6e072c2c27b6eb957857349d0ba4f6b4cfc5d"
+  },
+  {
+    "source": "/mnt/data/a75_exact_catalogue_M16.json",
+    "repository_path": "results/a75_exact_catalogue_M16.json",
+    "sha256": "f63c16f48380f00e3d8bb70cbf364c58021356d4d17bd4091ce26772b3c2fe09"
+  },
+  {
+    "source": "/mnt/data/a75_exact_catalogue_generator.py",
+    "repository_path": "audits/a75_exact_catalogue_generator.py",
+    "sha256": "beccea2a68e14d2b6adf7e226a664b4feb5898c96a4e80e1c141fe6eb6007847"
+  },
+  {
+    "source": "/mnt/data/a75_exact_phase_generator.py",
+    "repository_path": "audits/a75_exact_phase_generator.py",
+    "sha256": "29be038f768cae06e16ee522fdb3782c4e571f8fbfc6c56518af246a13a6a13a"
+  },
+  {
+    "source": "/mnt/data/a75_exact_phases_M15.json",
+    "repository_path": "results/a75_exact_phases_M15.json",
+    "sha256": "42067eca1ada032221b5aeb996d0cd3a7cbc6fd86585e2c7c0cfc257c30eb144"
+  },
+  {
+    "source": "/mnt/data/a75_exact_phases_M16.json",
+    "repository_path": "results/a75_exact_phases_M16.json",
+    "sha256": "5d66dbe1009259dc5aef3081a0d9b4bc4e247f155662fb774041932cb59e56a0"
+  },
+  {
+    "source": "/mnt/data/a75_parity_formula_cache.json",
+    "repository_path": "results/a75_parity_formula_cache.json",
+    "sha256": "6f24a44ff10252020a8dcec80733cecb81924f0172cd97920d911d8e6d351bdf"
+  },
+  {
+    "source": "/mnt/data/a75_parity_orientation_audit.py",
+    "repository_path": "audits/a75_parity_orientation_audit.py",
+    "sha256": "9a520afb404717ae9c6a359b2b59f6fc6ce5b048e5ecc754fd1de1b8583e9a3d"
+  },
+  {
+    "source": "/mnt/data/a75_parity_orientation_results.json",
+    "repository_path": "results/a75_parity_orientation_results.json",
+    "sha256": "7043372fbc10e9742c0b30c47af57d605a9e02b986cb238ee00528831bb81987"
+  },
+  {
+    "source": "/mnt/data/a75_parity_orientation_summary.json",
+    "repository_path": "results/a75_parity_orientation_summary.json",
+    "sha256": "15ae9c57acb362193d374d0e240a91d6545e9c0d34ecb53a618d0982345b0417"
+  },
+  {
+    "source": "/mnt/data/a75_support_size_orientation_theorem.png",
+    "repository_path": "figures/a75_support_size_orientation_theorem.png",
+    "sha256": "3def4455c2f9fadef676bac3bb281bcc010aaacf781411e5c6b0ab45824c434d"
+  },
+  {
+    "source": "/mnt/data/a76_M21_M23_phase_discovery.json",
+    "repository_path": "results/a76_M21_M23_phase_discovery.json",
+    "sha256": "856cf4ca6cc4e9b5fa4c9f7042f79bb5080864b72ed17dc6a094455d82196e3a"
+  },
+  {
+    "source": "/mnt/data/a76_M21_M23_phase_discovery.py",
+    "repository_path": "audits/a76_M21_M23_phase_discovery.py",
+    "sha256": "4cdf04191d3b17de281ad73f17e0584826f992e750a6142168e6cab929cb6021"
+  },
+  {
+    "source": "/mnt/data/a76_active_reentry_audit.py",
+    "repository_path": "audits/a76_active_reentry_audit.py",
+    "sha256": "c436ffb5a291fe06ece301f3f4ca7638412c6091aafa9fc4ff732db691e17fea"
+  },
+  {
+    "source": "/mnt/data/a76_active_reentry_core.py",
+    "repository_path": "audits/a76_active_reentry_core.py",
+    "sha256": "772303df310d802d85bf0599da3912c58efe49becf0a28357f116f077cb08a58"
+  },
+  {
+    "source": "/mnt/data/a76_active_reentry_results.json",
+    "repository_path": "results/a76_active_reentry_results.json",
+    "sha256": "606e1972ede00a357b03a50077f87510270f3c2ca90c6683028048c13255eea8"
+  },
+  {
+    "source": "/mnt/data/a76_active_reentry_summary.json",
+    "repository_path": "results/a76_active_reentry_summary.json",
+    "sha256": "0eacb5841c25c56bab3e3a776ece6c687bb69dc65bc514e846155adcaf25e2c3"
+  },
+  {
+    "source": "/mnt/data/a76_actual_gamma_multiplier_interval.png",
+    "repository_path": "figures/a76_actual_gamma_multiplier_interval.png",
+    "sha256": "164ffc5146ee3da7206d6b6ec8273c31f79300fcfaafa6b1469a17c00eb9721b"
+  },
+  {
+    "source": "/mnt/data/a76_candidate_vs_actual_active_set_summary.json",
+    "repository_path": "results/a76_candidate_vs_actual_active_set_summary.json",
+    "sha256": "1142fbc3e3bab0197841bb026bc2fb0ea943fa116f793a481d712848f129fa78"
+  },
+  {
+    "source": "/mnt/data/a76_candidate_vs_actual_signs.png",
+    "repository_path": "figures/a76_candidate_vs_actual_signs.png",
+    "sha256": "dda892354b719a1aa24867f07510150f4b40ce8da9bfa14d7c3a5e76970245cb"
+  },
+  {
+    "source": "/mnt/data/a76_interval_certificate.py",
+    "repository_path": "audits/a76_interval_certificate.py",
+    "sha256": "47a726c12c9e05407608191a80ae6090b8b8655a60f183faa010d99f2bf7e00f"
+  },
+  {
+    "source": "/mnt/data/a76_interval_certificate_results.json",
+    "repository_path": "results/a76_interval_certificate_results.json",
+    "sha256": "fe3665754b61882905651a8fe2ff79fdb073bd868242f80c83c151d5d1a25ca3"
+  },
+  {
+    "source": "/mnt/data/a76_numerical_phase_transition_map.png",
+    "repository_path": "figures/a76_numerical_phase_transition_map.png",
+    "sha256": "0ac7a4d9ebfaecfcbbe3cfc9b17c4f6416d0d63b37d09c88cf2e281b1c214915"
+  },
+  {
+    "source": "/mnt/data/a76_one_pivot_failure_counts.png",
+    "repository_path": "figures/a76_one_pivot_failure_counts.png",
+    "sha256": "0b08c9bd48a8883bfc37d7822f14841390ad9f56b829976517847587ee561251"
+  },
+  {
+    "source": "/mnt/data/a76_one_pivot_neighborhood_certificate.py",
+    "repository_path": "audits/a76_one_pivot_neighborhood_certificate.py",
+    "sha256": "1beab884f9c1c9a7edee636b6a08f2b0a4ddcfe2c2807f823ea0c9d882cfd231"
+  },
+  {
+    "source": "/mnt/data/a76_one_pivot_neighborhood_results.json",
+    "repository_path": "results/a76_one_pivot_neighborhood_results.json",
+    "sha256": "e486c456b2395ad7460352ae9933e4a90bd3d5581aa9ccd932b23c5aab328dc4"
+  },
+  {
+    "source": "/mnt/data/a77_active_contact_reset_core.py",
+    "repository_path": "audits/a77_active_contact_reset_core.py",
+    "sha256": "9dd3a8ffd23a9c7f813b4161dcf7881a5b47567a302ea77fd0776eb2566eeabc"
+  },
+  {
+    "source": "/mnt/data/a77_actual_contact_gamma_reset.png",
+    "repository_path": "figures/a77_actual_contact_gamma_reset.png",
+    "sha256": "0b28fa101d26fe53c79d0d273c1fea63746f206491dccfc3cb66b559c1efe46f"
+  },
+  {
+    "source": "/mnt/data/a77_contact_family_reset_results.json",
+    "repository_path": "results/a77_contact_family_reset_results.json",
+    "sha256": "9d3bc899e58ff116acd896a94241380d564ab32d0cab3660748cda0e2933be0f"
+  },
+  {
+    "source": "/mnt/data/a77_contact_family_reset_summary.json",
+    "repository_path": "results/a77_contact_family_reset_summary.json",
+    "sha256": "88d70bb5005cff8861f3979814f70423e248244fd2f55e6f998e1317c11c9bcc"
+  },
+  {
+    "source": "/mnt/data/a77_fixed_family_double_bifurcation.png",
+    "repository_path": "figures/a77_fixed_family_double_bifurcation.png",
+    "sha256": "29e2f324f8c8322eabf4587278b86543a05611ade22249d30ac455514e495b7d"
+  },
+  {
+    "source": "/mnt/data/a77_fixed_family_parity_audit.py",
+    "repository_path": "audits/a77_fixed_family_parity_audit.py",
+    "sha256": "571ba2cacc6be38b661d29c0ff4c89dd2a6412112a6b97decab3f7f6fc3c9c8a"
+  },
+  {
+    "source": "/mnt/data/a77_fixed_family_parity_formula_cache.json",
+    "repository_path": "results/a77_fixed_family_parity_formula_cache.json",
+    "sha256": "e4234b7a4d2c45ff765589e48ad4c8879703a5d6284cb57fc20e3d6a5627b82b"
+  },
+  {
+    "source": "/mnt/data/a77_fixed_family_parity_results.json",
+    "repository_path": "results/a77_fixed_family_parity_results.json",
+    "sha256": "f039453fab28105e68eac93f7bf28dfa04d393b4707cd7c8a9978268968080ed"
+  },
+  {
+    "source": "/mnt/data/a77_interval_support_M23.json",
+    "repository_path": "results/a77_interval_support_M23.json",
+    "sha256": "7ca9400b237ff04b0dee3f7f698543548e379458d3be29f3ec1b7b9f584a5210"
+  },
+  {
+    "source": "/mnt/data/a77_interval_support_M24.json",
+    "repository_path": "results/a77_interval_support_M24.json",
+    "sha256": "d40ee914067b4fb986be0b772653142f0dc3cf1c8ad46a27b007b78ceab90675"
+  },
+  {
+    "source": "/mnt/data/a77_interval_support_M25.json",
+    "repository_path": "results/a77_interval_support_M25.json",
+    "sha256": "829541e2ca12ea4b7fba160364f94e004e1aecc7675ab1ac0998597e63bdae46"
+  },
+  {
+    "source": "/mnt/data/a77_one_pivot_contact_reset_certificate.py",
+    "repository_path": "audits/a77_one_pivot_contact_reset_certificate.py",
+    "sha256": "5c99b4275b0c97328aec40d1db2d0be5fa3ff3d8d9f84d6191c04fe626809804"
+  },
+  {
+    "source": "/mnt/data/a77_one_pivot_contact_reset_results.json",
+    "repository_path": "results/a77_one_pivot_contact_reset_results.json",
+    "sha256": "3060f2a83282614c401d5af6e570f25f573e8c1278e3221c442563f935e40688"
+  },
+  {
+    "source": "/mnt/data/a77_one_pivot_failure_counts.png",
+    "repository_path": "figures/a77_one_pivot_failure_counts.png",
+    "sha256": "aa666107425272cf177f7c74850dd120728dc98e59c47704b1e6e5ca9a4060ff"
+  },
+  {
+    "source": "/mnt/data/a77_reset_interval_gamma_multipliers.png",
+    "repository_path": "figures/a77_reset_interval_gamma_multipliers.png",
+    "sha256": "f7c45ca220971586ee2f0aedda6b3052b792fdee9081caac31e4a1df31b4d01f"
+  },
+  {
+    "source": "/mnt/data/a77_support_interval_certificate.py",
+    "repository_path": "audits/a77_support_interval_certificate.py",
+    "sha256": "a5f2b3ced062b8e6e147670d650cbb648449f0ee5ff801443bcd4bfc43953a24"
+  }
+]

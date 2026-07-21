@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using this metadata."
+title: "Informational Requirements for Pre-Categorical Relational Models: Computational Audits A39-A77"
+type: software
+authors:
+  - family-names: "Romero"
+    given-names: "Felipe Gianini"
+version: "0.1.0"
+date-released: "2026-07-21"
+repository-code: "https://github.com/DevHabito/precategorical-modal-field-framework/tree/main/MFRP_Informational_Requirements_A39-A77"
+abstract: "English computational audit archive for identifiability, minimax design, covariance uncertainty, bootstrap calibration, exact phase theorems, dual envelopes, Cramer orientation, signed q-Schur dominance, and active-set bifurcation."
+keywords:
+  - identifiability
+  - Laplace transform
+  - minimax design
+  - linear programming
+  - total positivity
+  - q-Vandermonde
+  - Schur polynomials
+license: "Apache-2.0 AND CC-BY-4.0"
